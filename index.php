@@ -5,14 +5,30 @@ require_once 'DataSource.php';
 $db = new DataSource();
 $conn = $db->getConnection();
 
-if (isset($_POST["import"])) {
+if (isset($_POST["import"]) || isset($_POST["importxml"])) {
     
+	// $importXML == TRUE  -> import from CSV to XML
+	// $importXML == FALSE -> import from CSV to DB
+	$importXML = isset($_POST["importxml"]) && !isset($_POST["import"]);
     $fileName = $_FILES["file"]["tmp_name"];
     
     if ($_FILES["file"]["size"] > 0) {
         
         $file = fopen($fileName, "r");        
-		$longestRow = 10000;
+		$longestRow = 10000;		
+		$xml = "";
+		
+		if (!$importXML) {
+			// DELETE old rows
+			// maybe it make sense to call UPDATE (row exists in CSV and DB), then CREATE (row exists in CSV and missing DB), then DELETE (row missing in CSV and exists DB)
+			$sqlDelete = "DELETE FROM products";
+			if ($conn->query($sqlDelete) === FALSE) {
+				$type = "error";
+				$message = "Problem in query 'DELETE FROM products'";
+			}
+		} else{
+			$xml = "<root_product>";
+		}
 		
         while (($column = fgetcsv($file, $longestRow, ";")) !== FALSE) {
             // ---- schema ----
@@ -124,42 +140,61 @@ if (isset($_POST["import"])) {
                 $categories = mysqli_real_escape_string($conn, $column[12]);
             }
             
-            $sqlInsert = "INSERT into products (productId,name,secondName,description,picture,available,price,secondPrice,productnumber,previewPicture,gallery0,gallery1,gallery2,vat,vatlevel,amountInStock,avaibilityId,ean,unsaleable,categories)
-                   values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-            $paramType = "issssiddsssssiiiisis";
-            $paramArray = array(
-                $productId,
-                $name,
-                $secondName,
-                $description,
-                $picture,
-				$available,
-				$price,
-				$secondPrice,
-				$productnumber,
-				$previewPicture,
-				$gallery0,
-				$gallery1,
-				$gallery2,
-				$vat,
-				$vatlevel,
-				$amountInStock,
-				$avaibilityId,
-				$ean,
-				$unsaleable,
-				$categories
-            );
-            $insertId = $db->insert($sqlInsert, $paramType, $paramArray);
-            
-            if (! empty($insertId)) {
-                $type = "success";
-                $message = "CSV Data Imported into the Database $insertId";
-            } else {
-                $type = "error";
-                $message = "Problem in Importing CSV Data";
-            }
+			if (!$importXML) {
+				$sqlInsert = "INSERT into products (productId,name,secondName,description,picture,available,price,secondPrice,productnumber,previewPicture,gallery0,gallery1,gallery2,vat,vatlevel,amountInStock,avaibilityId,ean,unsaleable,categories)
+					   values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+				$paramType = "issssiddsssssiiiisis";
+				$paramArray = array(
+					$productId,
+					$name,
+					$secondName,
+					$description,
+					$picture,
+					$available,
+					$price,
+					$secondPrice,
+					$productnumber,
+					$previewPicture,
+					$gallery0,
+					$gallery1,
+					$gallery2,
+					$vat,
+					$vatlevel,
+					$amountInStock,
+					$avaibilityId,
+					$ean,
+					$unsaleable,
+					$categories
+				);
+				$insertId = $db->insert($sqlInsert, $paramType, $paramArray);
+				
+				if (! empty($insertId)) {
+					$type = "success";
+					$message = "CSV Data Imported into the Database $insertId";
+				} else {
+					$type = "error";
+					$message = "Problem in Importing CSV Data";
+				}
+			} else {
+				//$xml .= '<product productId="'.$productId.'" name="'.$name.'" secondName="'.$secondName.' productnumber="'.$productnumber.'" ></product>';
+				$xml .= '<product productId="'.$productId.'" name="xxx" ></product>';
+			}
         }
-    }
+    
+		if ($importXML) {
+			$xml .= "</root_product>";
+			$sxe = new SimpleXMLElement($xml);
+			$dom = new DOMDocument('1,0');
+			$dom->preserveWhiteSpace = false;
+			$dom->formatOutput = true;
+			$dom->loadXML($sxe->asXML());			
+			
+			$dom->save('OutputXML/products.xml');			
+			
+			$type = "success";
+			$message = "XML was successfully created";
+		}
+	}
 }
 ?>
 <!DOCTYPE html>
@@ -271,8 +306,8 @@ $(document).ready(function() {
                     <label class="col-md-4 control-label">Choose CSV
                         File</label> <input type="file" name="file"
                         id="file" accept=".csv">
-                    <button type="submit" id="submit" name="import"
-                        class="btn-submit">Import</button>
+                    <button type="submit" id="submit" name="import" class="btn-submit">Import CSV->DB</button>
+					<button type="submit" id="submit" name="importxml" class="btn-submit">Import CSV->XML</button>
                     <br />
 
                 </div>
@@ -280,11 +315,13 @@ $(document).ready(function() {
             </form>
 
         </div>
+		<?php echo '<pre>', htmlentities($xml, ENT_XML1, "cp1252"), '</pre>'; ?>
                <?php
-            $sqlSelect = "SELECT id,productId,name,productnumber FROM products";
+            $sqlSelect = "SELECT id,productId,name,productnumber FROM products LIMIT 20";
             $result = $db->select($sqlSelect);
             if (! empty($result)) {
                 ?>
+			<span>First 20 rows from products table</span>
             <table id='userTable'>
             <thead>
                 <tr>
