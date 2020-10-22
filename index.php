@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=windows-1250");
 use Phppot\DataSource;
 
 require_once 'DataSource.php';
@@ -141,6 +142,7 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
             }
             
 			if (!$importXML) {
+				//import from CSV to DB
 				$sqlInsert = "INSERT into products (productId,name,secondName,description,picture,available,price,secondPrice,productnumber,previewPicture,gallery0,gallery1,gallery2,vat,vatlevel,amountInStock,avaibilityId,ean,unsaleable,categories)
 					   values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 				$paramType = "issssiddsssssiiiisis";
@@ -176,13 +178,14 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
 					$message = "Problem in Importing CSV Data";
 				}
 			} else {
-				//$xml .= '<product productId="'.$productId.'" name="'.$name.'" secondName="'.$secondName.' productnumber="'.$productnumber.'" ></product>';
-				$xml .= '<product productId="'.$productId.'" name="xxx" ></product>';
+				//import from CSV to XML
+				$xml .= '<product productId="'.$productId.'" name="'.$name.'" secondName="'.$secondName.'" available="'.$available.'" price="'.$price.'" productnumber="'.$productnumber.'" amountInStock="'.$amountInStock.'"></product>';
 			}
         }
     
 		if ($importXML) {
 			$xml .= "</root_product>";
+			$xml = iconv('WINDOWS-1250', 'UTF-8', $xml);
 			$sxe = new SimpleXMLElement($xml);
 			$dom = new DOMDocument('1,0');
 			$dom->preserveWhiteSpace = false;
@@ -201,6 +204,7 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
 <html>
 
 <head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1250" />
 <script src="jquery-3.2.1.min.js"></script>
 
 <style>
@@ -315,8 +319,13 @@ $(document).ready(function() {
             </form>
 
         </div>
-		<?php echo '<pre>', htmlentities($xml, ENT_XML1, "cp1252"), '</pre>'; ?>
-               <?php
+		
+		<?php 
+		if (!empty($xml)) { 
+			echo '<pre>', htmlentities($xml, ENT_XML1, "cp1252"), '</pre>'; }
+		?>
+		
+        <?php
             $sqlSelect = "SELECT id,productId,name,productnumber FROM products LIMIT 20";
             $result = $db->select($sqlSelect);
             if (! empty($result)) {

@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <root_product>
-  <product productId="7701" name="xxx"/>
-  <product productId="7711" name="xxx"/>
+  <product productId="7701" name="DTJ 54,9&#xB0; Z3+3 (D=50, I=30, S=25, LH)" secondName="DTJ 54,9&#xB0; Z3+3 (D=50, I=30, S=25, LH)" available="" price="26136.000" productnumber="&#x159;DTJ.50.030.25.1SL3" amountInStock="0.00"/>
+  <product productId="7711" name="DTJ.FrezDIA D=50 I=30 S=25 Z=4+4 LH" secondName="DTJ.FrezDIA D=50 I=30 S=25 Z=4+4 LH" available="" price="35640.000" productnumber="DTJ.50.030.25.1SL4" amountInStock="0.00"/>
 </root_product>
