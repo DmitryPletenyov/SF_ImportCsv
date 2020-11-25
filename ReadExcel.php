@@ -13,6 +13,32 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
 	
     if ($_FILES["file"]["size"] > 0) {
         
+		// rename to .xlsx because PHPExcel checks extention 
+		$res = rename ($fileName, $fileName.".xlsx");
+		if (!$res) {echo "Rename failed.";}
+		else {$fileName = $fileName.".xlsx";}
+		
+		// install external library C:\xampp\htdocs\SF_ImportCsv> composer require asan/phpexcel		
+		$reader = Asan\PHPExcel\Excel::load($fileName, function(Asan\PHPExcel\Reader\Xlsx $reader) {
+			// Set row limit
+			$reader->setRowLimit(13);
+
+			// Set column limit
+			$reader->setColumnLimit(10);
+
+			// Ignore emoty row
+			$reader->ignoreEmptyRow(true);
+
+			// Select sheet index
+			$reader->setSheetIndex(0);
+		});
+		
+		// Get row count
+		$count = $reader->count();
+		
+		echo 'Get row count: '.$count;
+		
+		
         $file = fopen($fileName, "r");        
 		$longestRow = 10000;		
 		$xml = "";
@@ -149,26 +175,8 @@ $(document).ready(function() {
 		
         <?php
 		
-		// install external library C:\xampp\htdocs\SF_ImportCsv> composer require asan/phpexcel
-		
-		$reader = Asan\PHPExcel\Excel::load('SF_ImportCsv/xlsx/Aparatea.xlsx', function(Asan\PHPExcel\Reader\Xlsx $reader) {
-			// Set row limit
-			$reader->setRowLimit(10);
 
-			// Set column limit
-			$reader->setColumnLimit(10);
-
-			// Ignore emoty row
-			$reader->ignoreEmptyRow(true);
-
-			// Select sheet index
-			$reader->setSheetIndex(0);
-		});
 		
-		// Get row count
-		$count = $reader->count();
-		
-		echo 'Get row count: '.$count;
 		/*
             $sqlSelect = "SELECT id,productId,name,productnumber FROM products LIMIT 20";
             $result = $db->select($sqlSelect);
