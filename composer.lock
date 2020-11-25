@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "4bd9d30daa79ae7348fb03f1f707bc94",
+    "packages": [
+        {
+            "name": "asan/phpexcel",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Janson-Leung/PHPExcel.git",
+                "reference": "07ddc15b44c1f3ee967ded35cffeab5fec49a215"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Janson-Leung/PHPExcel/zipball/07ddc15b44c1f3ee967ded35cffeab5fec49a215",
+                "reference": "07ddc15b44c1f3ee967ded35cffeab5fec49a215",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Asan\\PHPExcel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Janson Leung",
+                    "homepage": "https://github.com/Janson-Leung"
+                }
+            ],
+            "description": "A lightweight PHP library for reading spreadsheet files",
+            "homepage": "https://github.com/Janson-Leung/PHPExcel",
+            "support": {
+                "issues": "https://github.com/Janson-Leung/PHPExcel/issues",
+                "source": "https://github.com/Janson-Leung/PHPExcel/tree/master"
+            },
+            "time": "2018-07-23T01:42:26+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

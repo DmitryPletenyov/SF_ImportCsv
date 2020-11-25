@@ -1,6 +1,7 @@
 <?php
 header("Content-Type: text/html; charset=windows-1250");
 use Phppot\DataSource;
+include "vendor/autoload.php";
 
 require_once 'DataSource.php';
 $db = new DataSource();
@@ -148,7 +149,26 @@ $(document).ready(function() {
 		
         <?php
 		
-		echo 'DONE';
+		// install external library C:\xampp\htdocs\SF_ImportCsv> composer require asan/phpexcel
+		
+		$reader = Asan\PHPExcel\Excel::load('SF_ImportCsv/xlsx/Aparatea.xlsx', function(Asan\PHPExcel\Reader\Xlsx $reader) {
+			// Set row limit
+			$reader->setRowLimit(10);
+
+			// Set column limit
+			$reader->setColumnLimit(10);
+
+			// Ignore emoty row
+			$reader->ignoreEmptyRow(true);
+
+			// Select sheet index
+			$reader->setSheetIndex(0);
+		});
+		
+		// Get row count
+		$count = $reader->count();
+		
+		echo 'Get row count: '.$count;
 		/*
             $sqlSelect = "SELECT id,productId,name,productnumber FROM products LIMIT 20";
             $result = $db->select($sqlSelect);
