@@ -3,9 +3,28 @@ header("Content-Type: text/html; charset=windows-1250");
 use Phppot\DataSource;
 include "vendor/autoload.php";
 
+use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+use PhpOffice\PhpSpreadsheet\Reader\IReadFilter;
+
+include "help-functions.php";
+
 require_once 'DataSource.php';
 $db = new DataSource();
 $conn = $db->getConnection();
+
+class MyReadFilter implements IReadFilter
+{
+    public function readCell($column, $row, $worksheetName = '')
+    {
+        // Read all rows except header (index = 0) 
+        if ($row <= 1) {
+            return false;
+        }
+
+        return true;
+    }
+}
+$filterSubset = new MyReadFilter();
 
 if (isset($_POST["import"]) || isset($_POST["importxml"])) {
     
@@ -13,40 +32,39 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
 	
     if ($_FILES["file"]["size"] > 0) {
         
-		// rename to .xlsx because PHPExcel checks extention 
-		$res = rename ($fileName, $fileName.".xlsx");
-		if (!$res) {echo "Rename failed.";}
-		else {$fileName = $fileName.".xlsx";}
+		$inputFileName = $fileName;
+		$reader = new Xlsx();
+		$reader->setReadDataOnly(true);
+		$reader->setReadFilter($filterSubset);
+		$spreadsheet = $reader->load($inputFileName);		
+		$sheetData = $spreadsheet->getActiveSheet()->toArray(null, true, true, true);
 		
-		// install external library C:\xampp\htdocs\SF_ImportCsv> composer require asan/phpexcel		
-		$reader = Asan\PHPExcel\Excel::load($fileName, function(Asan\PHPExcel\Reader\Xlsx $reader) {
-			// Set row limit
-			$reader->setRowLimit(13);
-
-			// Set column limit
-			$reader->setColumnLimit(10);
-
-			// Ignore emoty row
-			$reader->ignoreEmptyRow(true);
-
-			// Select sheet index
-			$reader->setSheetIndex(0);
-		});
+		// test output
+		//foreach($sheetData as $arr){
+		//	echo ''.$arr['A'].'  '.$arr['B'].'  '.$arr['C'].'<br />';
+		//}
 		
-		// Get row count
-		$count = $reader->count();
-		
-		echo 'Get row count: '.$count;
-		
-		
-        $file = fopen($fileName, "r");        
-		$longestRow = 10000;		
-		$xml = "";
-		
+		foreach($sheetData as $arr){
+			$productId = $arr['A'];
+			$productCnt = $arr['B'];
+			// if $productId exists in db
+			//		if $productCnt differs from db cnt
+			//			update db cnt
+			//			run API UpdateProductCnt()
+			//		else
+			//			do nothing
+			//	else
+			//		add to db table MissingITAProducts id, cnt
+		}
 		
 
 	}
 }
+
+// call api
+//$id = 33;
+//getProductInfo($id);
+
 ?>
 <!DOCTYPE html>
 <html>

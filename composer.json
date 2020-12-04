@@ -1,5 +1,6 @@
 {
     "require": {
-        "asan/phpexcel": "^2.0"
+        "asan/phpexcel": "^2.0",
+        "phpoffice/phpspreadsheet": "^1.15"
     }
 }
