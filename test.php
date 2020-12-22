@@ -8,13 +8,38 @@ use Symfony\Component\DomCrawler\Crawler;
 
 $client = HttpClient::create();
 
-$response = $client->request('GET',     'https://b2b-itatools.pl/ProduktySzczegoly.aspx?id_artykulu=frYtxkWtdj7OVYk5F1v-4w',
+$catalogIndex = 'DTK.18.045.16.0SR';
+//$url = 'https://b2b-itatools.pl/ProduktySzczegoly.aspx?id_artykulu=frYtxkWtdj7OVYk5F1v-4w';
+$url = 'https://b2b-itatools.pl/ProduktyWyszukiwanie.aspx?search='.@catalogIndex;
+
+$url = 'https://b2b-itatools.pl/ProduktyWyszukiwanie.aspx?mikat=-2147483648&search=DTK.18.045.16.0SR';
+
+$cookieSearch = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.1883084225.1608639277; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1608639283858; _gat=1';
+
+$response = $client->request('GET',     $url,
     ['headers' => [
 		'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:83.0) Gecko/20100101 Firefox/83.0',
         'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-		'Cookie' => 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.1883084225.1608639277; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1608639283858; _gat=1']]);
+		'Accept-Encoding' => 'gzip, deflate, br',
+		'Host' =>	'b2b-itatools.pl',
+		'Upgrade-Insecure-Requests' => '1',
+		'Connection' => 'keep-alive',
+		//'Content-Type' => 'multipart/form-data; boundary=---------------------------35364124307512379322088837747',
+		//'Content-Length' => '2295',
+		'Origin' => 'https://b2b-itatools.pl',
+		'Referer' => $url,
+		'TE' => 'Trailers',
+		'Cookie' => $cookieSearch]]);
+
+
 
 $statusCode = $response->getStatusCode();
+
+echo $statusCode;
+
+if ($statusCode == 302) {
+	echo 'yes!!';
+}
 
 if ($statusCode == 200) {
 	$content = $response->getContent();
@@ -23,16 +48,20 @@ if ($statusCode == 200) {
 	if ($crawler->filter('input#ctl00_MainContent_tbLogin')->count() > 0) {
 		echo 'Need to log in. Possible Expired cookies.';
 	}
-	//var_dump($crawler->html());
+	var_dump($crawler->html());
+	
+	$kategory = $crawler->filter('body')->first();
+	
+	//var_dump($kategory->html());
 	
 	// ---- Net price (including discounts) ---- 
-	$price1html = $crawler->filter('div#szczegolyProduktu p.cena_netto')->first()->html('Missing price1', false);
+	//$price1html = $crawler->filter('div#szczegolyProduktu p.cena_netto')->first()->html('Missing price1', false);
 	
-	$price1 = substr($price1html, 0, strpos($price1html, '<'));
+	//$price1 = substr($price1html, 0, strpos($price1html, '<'));
 	//var_dump($price1);
 	
 	// ---- Items' count  ---- 
-	$cnt = $crawler->filter('div#daneDodatkowe p')->eq(2)->text();
+	//$cnt = $crawler->filter('div#daneDodatkowe p')->eq(2)->text();
 
 	// ---- Net price (before discount) ---
 	$price2 = '';
@@ -47,9 +76,9 @@ if ($statusCode == 200) {
 		
 	}
 	
-	echo 'Count: '.$cnt.'<br/>';
-	echo 'Net price (including discounts): '.$price1.'<br/>';
-	echo 'Net price (before discount): '.$price2.'<br/>';
+	//echo 'Count: '.$cnt.'<br/>';
+	//echo 'Net price (including discounts): '.$price1.'<br/>';
+	//echo 'Net price (before discount): '.$price2.'<br/>';
 	
 }
 
@@ -157,7 +186,7 @@ $(document).ready(function() {
 </head>
 
 <body>
-    <h2>Crawler test. Get single product. </h2>
+    <h2>Crawler test. Get ITA artikul id by catalog index. </h2>
 
     <div id="response"
         class="<?php if(!empty($type)) { echo $type . " display-block"; } ?>">
