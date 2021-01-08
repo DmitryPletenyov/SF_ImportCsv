@@ -107,12 +107,12 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 	return $artikulId;
 }
 
-$cookieSearch = 'ASP.NET_SessionId=raxb2yanq15ug1is5etvjwsk; mistral=md5=976C3B5336B4EC1F8207F9F0487BE3B6; _ga=GA1.2.1386337413.1609321364; _gid=GA1.2.2084395790.1609321364; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=c02edda4a204966c53f5f779d51b0bae; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1609321500298; _gat=1';
+$cookieSearch = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.350443083.1610096021; _gat=1; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1610096034045';
 
 $db = new DataSource();
 $conn = $db->getConnection();
 
-$top10Rows = "Select id, productnumber from products LIMIT 3";
+$top10Rows = "Select id, productnumber from products LIMIT 10";
 $result = $db->select($top10Rows);
 if (! empty($result)) {
 	foreach ($result as $row) {		

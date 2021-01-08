@@ -20,13 +20,14 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
 		$xml = "";
 		
 		if (!$importXML) {
+			// Delete old rows - it's bad idea as we have connected table by id. So use update instead.
 			// DELETE old rows
 			// maybe it make sense to call UPDATE (row exists in CSV and DB), then CREATE (row exists in CSV and missing DB), then DELETE (row missing in CSV and exists DB)
-			$sqlDelete = "DELETE FROM products";
-			if ($conn->query($sqlDelete) === FALSE) {
-				$type = "error";
-				$message = "Problem in query 'DELETE FROM products'";
-			}
+			//$sqlDelete = "DELETE FROM products";
+			//if ($conn->query($sqlDelete) === FALSE) {
+			//	$type = "error";
+			//	$message = "Problem in query 'DELETE FROM products'";
+			//}
 		} else{
 			$xml = "<root_product>";
 		}
@@ -116,7 +117,7 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
                 $gallery2 = mysqli_real_escape_string($conn, $column[18]);
             }
 			$vat = "21"; // by default 21 as vatlevel is 1 by default
-			$vatlevel = "";
+			$vatlevel = "1";
             if (isset($column[33])) {
                 $vatlevel = mysqli_real_escape_string($conn, $column[33]);
             }
@@ -142,40 +143,55 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
             }
             
 			if (!$importXML) {
-				//import from CSV to DB
-				$sqlInsert = "INSERT into products (productId,name,secondName,description,picture,available,price,secondPrice,productnumber,previewPicture,gallery0,gallery1,gallery2,vat,vatlevel,amountInStock,avaibilityId,ean,unsaleable,categories)
-					   values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
-				$paramType = "issssiddsssssiiiisis";
-				$paramArray = array(
-					$productId,
-					$name,
-					$secondName,
-					$description,
-					$picture,
-					$available,
-					$price,
-					$secondPrice,
-					$productnumber,
-					$previewPicture,
-					$gallery0,
-					$gallery1,
-					$gallery2,
-					$vat,
-					$vatlevel,
-					$amountInStock,
-					$avaibilityId,
-					$ean,
-					$unsaleable,
-					$categories
-				);
-				$insertId = $db->insert($sqlInsert, $paramType, $paramArray);
+				// check if such productId is new or already exists
+				$newProductIdInDB = true;
+				$sqlSelect = "SELECT COUNT(id) AS CountId FROM `products` WHERE productId = ".$productId;
+				$selected = $db->select($sqlSelect);
+				if (! empty($selected)) {
+					if ($selected[0]['CountId'] > 0) {
+						$newProductIdInDB = false;
+					}
+				}
 				
-				if (! empty($insertId)) {
-					$type = "success";
-					$message = "CSV Data Imported into the Database $insertId";
+				if ($newProductIdInDB) {
+					//import from CSV to DB
+					$sqlInsert = "INSERT into products (productId,name,secondName,description,picture,available,price,secondPrice,productnumber,previewPicture,gallery0,gallery1,gallery2,vat,vatlevel,amountInStock,avaibilityId,ean,unsaleable,categories,changedAt)
+						   values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,now())";
+					$paramType = "issssiddsssssiiiisis";
+					$paramArray = array(
+						$productId,
+						$name,
+						$secondName,
+						$description,
+						$picture,
+						$available,
+						$price,
+						$secondPrice,
+						$productnumber,
+						$previewPicture,
+						$gallery0,
+						$gallery1,
+						$gallery2,
+						$vat,
+						$vatlevel,
+						$amountInStock,
+						$avaibilityId,
+						$ean,
+						$unsaleable,
+						$categories
+					);
+					$insertId = $db->insert($sqlInsert, $paramType, $paramArray);
+					
+					if (! empty($insertId)) {
+						$type = "success";
+						$message = isset($message) ? $message."<br/>CSV Data Imported into the Database id = $insertId productId = $productId" : "CSV Data Imported into the Database id = $insertId productId = $productId";
+					} else {
+						$type = "error";
+						$message = isset($message) ? $message."<br/>Problem in Importing CSV Data" : "Problem in Importing CSV Data";
+					}
 				} else {
-					$type = "error";
-					$message = "Problem in Importing CSV Data";
+					$type = "success";
+					$message = isset($message) ? $message."<br/>Product (productId = $productId) already exists in Database" : "Product (productId = $productId) already exists in Database";
 				}
 			} else {
 				//import from CSV to XML
