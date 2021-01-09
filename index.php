@@ -155,8 +155,8 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
 				
 				if ($newProductIdInDB) {
 					//import from CSV to DB
-					$sqlInsert = "INSERT into products (productId,name,secondName,description,picture,available,price,secondPrice,productnumber,previewPicture,gallery0,gallery1,gallery2,vat,vatlevel,amountInStock,avaibilityId,ean,unsaleable,categories,changedAt)
-						   values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,now())";
+					$sqlInsert = "INSERT into products (productId,name,secondName,description,picture,available,price,secondPrice,productnumber,previewPicture,gallery0,gallery1,gallery2,vat,vatlevel,amountInStock,avaibilityId,ean,unsaleable,categories)
+						   values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 					$paramType = "issssiddsssssiiiisis";
 					$paramArray = array(
 						$productId,

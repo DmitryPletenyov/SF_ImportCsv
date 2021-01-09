@@ -28,7 +28,45 @@ function executeGet(string $url, string $cookie, object $client) {
   return $response;
 }
 
-
+function updateItaProductStatus (object $db, int $productId, int $status, string $artikul) {
+	$itaProductExists = false;
+	$selected = $db->select("SELECT 1 AS id FROM `ita_products` WHERE product_id =".$productId);
+	if (! empty($selected)) {
+		if ($selected[0]['id'] > 0) {
+			$itaProductExists = true;
+		}
+	}
+	
+	if ($itaProductExists)	{
+		$sql = "UPDATE `ita_products` SET status_id = $status, artikul ='$artikul' WHERE product_id = $productId";
+		$res = $db->execute($sql);
+		
+		// if works ok - return nothing
+		//if (! empty($res)) {
+		//	echo "Success update $res ";
+		//} else {
+		//	echo "Error in updateItaProductStatus $productId $status $artikul ";
+		//}
+		
+	} else {
+		$sqlInsert = "INSERT into ita_products (product_id, artikul, status_id)
+			   values (?,?,?)";
+		$paramType = "isi";
+		$paramArray = array(
+			$productId,
+			$artikul,
+			$status
+		);
+		$insertId = $db->insert($sqlInsert, $paramType, $paramArray);
+		
+		// if works ok - return nothing
+		//if (! empty($insertId)) {
+		//	echo "Success insert $insertId ";
+		//} else {
+		//	echo "Error in updateItaProductStatus $productId $status $artikul";
+		//}
+	}	
+}
 
 function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, object $client) {
 	$artikulId = "";
@@ -65,6 +103,7 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 				$catId = substr($href, 10, $end - 10);
 				
 				$url = 'https://b2b-itatools.pl/ProduktyWyszukiwanie.aspx?search=&mikat='.$catId;
+				
 				$response = executeGet($url, $cookieSearch, $client);
 				$statusCode = $response->getStatusCode();
 				if ($statusCode == 200) {
@@ -80,12 +119,25 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 						$rowNumber++;
 						if (str_contains ($domElement->nodeValue, 'Catalogue index:'.$catalogIndex)) {
 							$rowWasFound = true;
-							$href = $crawler->eq($rowNumber)->filter('td')->eq(1)->filter('div a')->first()->attr('href');
+							
+							// init default href to skip exception
+							$href ='id_artykulu=0';
+							
+							// Availability column is 5th from the end. 
+							$tdCount = $crawler->eq($rowNumber)->filter('td')->count();
+							if ($crawler->eq($rowNumber)->filter('td')->eq($tdCount - 5)->filter('a')->count() > 0) {
+								$href = $crawler->eq($rowNumber)->filter('td')->eq($tdCount - 5)->filter('a')->first()->attr('href');
+							}
+							else {
+								// If there is no "Planned deliveries", try to get href from picture column (2nd column)
+								if ($crawler->eq($rowNumber)->filter('td')->eq(1)->filter('div a')->count() > 0) {
+									$href = $crawler->eq($rowNumber)->filter('td')->eq(1)->filter('div a')->first()->attr('href');
+								}
+							}
 							
 							//ProduktySzczegoly.aspx?id_artykulu=rBv72rbPPyDT3sAt-rxLl
 							$start = strpos($href, 'id_artykulu=');
 							$artikulId = substr($href, $start + 12);
-							//echo ' '.$catalogIndex.' = '.$artikulId;
 							break;
 						}
 					}
@@ -107,26 +159,53 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 	return $artikulId;
 }
 
-$cookieSearch = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.350443083.1610096021; _gat=1; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1610096034045';
+$cookieSearch = 'mistral=md5=976C3B5336B4EC1F8207F9F0487BE3B6; _ga=GA1.2.1386337413.1609321364; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=c02edda4a204966c53f5f779d51b0bae; ASP.NET_SessionId=raxb2yanq15ug1is5etvjwsk; _gid=GA1.2.2044561183.1610191500; _gat=1; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1610191540164';
 
 $db = new DataSource();
 $conn = $db->getConnection();
 
-$top10Rows = "Select id, productnumber from products LIMIT 10";
+$top10Rows = 
+"Select p.id, p.productnumber, ip.status_id from products p
+	LEFT JOIN ita_products ip ON p.id = ip.product_id
+WHERE ip.status_id IS NULL or ip.status_id = 0
+ORDER BY id 
+LIMIT 60";
+
 $result = $db->select($top10Rows);
 if (! empty($result)) {
-	foreach ($result as $row) {		
+	foreach ($result as $row) {	
 		$catalogIndex = $row['productnumber'];
-		//echo "======= Start ".$catalogIndex." =======";
-		$artikulId = getArtikulIdByCatalogIndex($catalogIndex, $cookieSearch, $client);
 		
-		if ($artikulId != '') {
-			echo $catalogIndex.' = '.$artikulId.'<br>';
-		} else {
-			echo $catalogIndex.' - '."doesn't exist in ITA".'<br>';
+		//if code run in parallel (2 browser windows) we need to check if we start to process this ita product before
+		$itaProductWasRequestedBefore = false;
+		$selected = $db->select("SELECT 1 AS id FROM `ita_products` WHERE product_id =".$row['id']." AND status_id > 0");
+		if (! empty($selected)) {
+			if ($selected[0]['id'] > 0) {
+				$itaProductWasRequestedBefore = true;
+			}
 		}
-		
-		//echo "======= Finish ".$catalogIndex." =======";
+	
+		if (!$itaProductWasRequestedBefore) {
+			//echo "======= Start ".$catalogIndex." =======";
+			
+			// set ita status to ArtikulRequested
+			updateItaProductStatus($db, $row['id'], 1, "");
+
+			$artikulId = getArtikulIdByCatalogIndex($catalogIndex, $cookieSearch, $client);
+			
+			
+			if ($artikulId != '') {
+				// set ita status to ArtikulSuccess
+				updateItaProductStatus($db, $row['id'], 3, $artikulId);
+				echo $catalogIndex.' = '.$artikulId.'<br>';
+			} else {
+				// set ita status to ArtikulFailed
+				updateItaProductStatus($db, $row['id'], 2, "");
+				echo $catalogIndex.' - '."doesn't exist in ITA".'<br>';
+			}
+			
+			//echo "======= Finish ".$catalogIndex." =======";
+		}
 	}
 }
 
