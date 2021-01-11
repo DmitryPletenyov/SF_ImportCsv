@@ -28,7 +28,7 @@ function executeGet(string $url, string $cookie, object $client) {
   return $response;
 }
 
-function updateItaProductStatus (object $db, int $productId, int $status, string $artikul) {
+function updateItaProductStatus (object $db, int $productId, int $status, string $artikul, string $errorMsg) {
 	$itaProductExists = false;
 	$selected = $db->select("SELECT 1 AS id FROM `ita_products` WHERE product_id =".$productId);
 	if (! empty($selected)) {
@@ -38,7 +38,7 @@ function updateItaProductStatus (object $db, int $productId, int $status, string
 	}
 	
 	if ($itaProductExists)	{
-		$sql = "UPDATE `ita_products` SET status_id = $status, artikul ='$artikul' WHERE product_id = $productId";
+		$sql = "UPDATE `ita_products` SET status_id = $status, artikul ='$artikul', errorMsg = '$errorMsg' WHERE product_id = $productId";
 		$res = $db->execute($sql);
 		
 		// if works ok - return nothing
@@ -49,13 +49,14 @@ function updateItaProductStatus (object $db, int $productId, int $status, string
 		//}
 		
 	} else {
-		$sqlInsert = "INSERT into ita_products (product_id, artikul, status_id)
-			   values (?,?,?)";
-		$paramType = "isi";
+		$sqlInsert = "INSERT into ita_products (product_id, artikul, status_id, errorMsg)
+			   values (?,?,?,?)";
+		$paramType = "isis";
 		$paramArray = array(
 			$productId,
 			$artikul,
-			$status
+			$status,
+			$errorMsg
 		);
 		$insertId = $db->insert($sqlInsert, $paramType, $paramArray);
 		
@@ -68,7 +69,7 @@ function updateItaProductStatus (object $db, int $productId, int $status, string
 	}	
 }
 
-function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, object $client) {
+function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, object $client, string &$errorMsg) {
 	$artikulId = "";
 	
 	$url = 'https://b2b-itatools.pl/ProduktyWyszukiwanie.aspx?mikat=-2147483648&search='.$catalogIndex;
@@ -83,6 +84,7 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 		$crawler = new Crawler($content);
 		
 		if ($crawler->filter('input#ctl00_MainContent_tbLogin')->count() > 0) {
+			$errorMsg = 'Need to log in. Possible Expired cookies.';
 			echo 'Need to log in. Possible Expired cookies.'.'<br>';
 		}
 		//var_dump($crawler->html());
@@ -117,6 +119,9 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 					$rowWasFound = false;
 					foreach ($crawler as $domElement) {
 						$rowNumber++;
+						
+						//$t = $domElement->nodeValue;
+						//echo "row number $rowNumber : $t";
 						if (str_contains ($domElement->nodeValue, 'Catalogue index:'.$catalogIndex)) {
 							$rowWasFound = true;
 							
@@ -140,26 +145,31 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 							$artikulId = substr($href, $start + 12);
 							break;
 						}
+						//echo " <br/>";
 					}
 					
 					if ($rowWasFound == false) {
-						echo "Row for ".$catalogIndex." wasn't wound".'<br>';
+						$errorMsg = "Row for ".$catalogIndex." was not found";
+						echo "Row for ".$catalogIndex." was not found".'<br>';
 					}
 				}else {
+					$errorMsg ="PN = $catalogIndex Status code =".$statusCode.' for '.$url;
 					echo 'Status code ='.$statusCode.' for '.$url.'<br>';
 				}
 			}
 		} else {
+			$errorMsg ="Nothing was found by $catalogIndex";
 			//echo 'Nothing was found'.'<br>';
 		}	
 	} else {
+		$errorMsg ="PN = $catalogIndex Status code =".$statusCode.' for '.$url;
 		echo 'Status code ='.$statusCode.' for '.$url.'<br>';
 	}
 	
 	return $artikulId;
 }
 
-$cookieSearch = 'mistral=md5=976C3B5336B4EC1F8207F9F0487BE3B6; _ga=GA1.2.1386337413.1609321364; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=c02edda4a204966c53f5f779d51b0bae; ASP.NET_SessionId=raxb2yanq15ug1is5etvjwsk; _gid=GA1.2.2044561183.1610191500; _gat=1; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1610191540164';
+$cookieSearch = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.811893367.1610288911; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1610290552695';
 
 $db = new DataSource();
 $conn = $db->getConnection();
@@ -169,7 +179,7 @@ $top10Rows =
 	LEFT JOIN ita_products ip ON p.id = ip.product_id
 WHERE ip.status_id IS NULL or ip.status_id = 0
 ORDER BY id 
-LIMIT 60";
+LIMIT 100";
 
 $result = $db->select($top10Rows);
 if (! empty($result)) {
@@ -189,39 +199,26 @@ if (! empty($result)) {
 			//echo "======= Start ".$catalogIndex." =======";
 			
 			// set ita status to ArtikulRequested
-			updateItaProductStatus($db, $row['id'], 1, "");
+			updateItaProductStatus($db, $row['id'], 1, "", "");
 
-			$artikulId = getArtikulIdByCatalogIndex($catalogIndex, $cookieSearch, $client);
+			$errorMsg = '';
+			$artikulId = getArtikulIdByCatalogIndex($catalogIndex, $cookieSearch, $client, $errorMsg);
 			
 			
 			if ($artikulId != '') {
 				// set ita status to ArtikulSuccess
-				updateItaProductStatus($db, $row['id'], 3, $artikulId);
+				updateItaProductStatus($db, $row['id'], 3, $artikulId, $errorMsg);
 				echo $catalogIndex.' = '.$artikulId.'<br>';
 			} else {
 				// set ita status to ArtikulFailed
-				updateItaProductStatus($db, $row['id'], 2, "");
-				echo $catalogIndex.' - '."doesn't exist in ITA".'<br>';
+				updateItaProductStatus($db, $row['id'], 2, "", $errorMsg);
+				echo $catalogIndex.' - '."doesn't exist in ITA. $errorMsg".'<br>';
 			}
 			
 			//echo "======= Finish ".$catalogIndex." =======";
 		}
 	}
 }
-
-// Limit of 120 sec. It takes 10 sec to process each record. 
-// maybe add query string parameter (1-9, 10-19, 20-29, ...) and run in parallel? DB lock?
-// Add db table with ITA internal id (artikulId)
-
-			
-/*
-$catalogIndex = 'DTK.18.045.16.0SR';
-$artikulId = getArtikulIdByCatalogIndex($catalogIndex, $cookieSearch, $client);
-$catalogIndex = 'EVLC Jig1';
-$artikulId = getArtikulIdByCatalogIndex($catalogIndex, $cookieSearch, $client);
-$catalogIndex = '193.12.032.090.12Ra';
-$artikulId = getArtikulIdByCatalogIndex($catalogIndex, $cookieSearch, $client);
-*/
 
 
 
