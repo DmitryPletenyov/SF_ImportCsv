@@ -92,6 +92,8 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 		// href="javascript:__doPostBack('ctl00$MainContent$miMistralKategorie','kategoria_32362')"
 		$foundItem = $crawler->filter('div.kafelek');
 		
+		//echo "Found count ".$foundItem->count()."<br>";
+		
 		// 26 found items means nothing was found
 		if ($foundItem->count() > 0 && $foundItem->count() < 26) {
 			// something was found
@@ -169,7 +171,7 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 	return $artikulId;
 }
 
-$cookieSearch = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.811893367.1610288911; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1610290552695';
+$cookieSearch = 'md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; _gid=GA1.2.672693058.1610546222; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; czater__teaser_shown=1610635423101; _gat=1';
 
 $db = new DataSource();
 $conn = $db->getConnection();
@@ -180,6 +182,13 @@ $top10Rows =
 WHERE ip.status_id IS NULL or ip.status_id = 0
 ORDER BY id 
 LIMIT 100";
+/*
+"Select p.id, p.productnumber, ip.status_id from products p
+	LEFT JOIN ita_products ip ON p.id = ip.product_id
+WHERE ip.status_id IS NULL or ip.status_id = 0
+ORDER BY id 
+LIMIT 100";
+*/
 
 $result = $db->select($top10Rows);
 if (! empty($result)) {
