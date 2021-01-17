@@ -86,6 +86,7 @@ function getArtikulIdByCatalogIndex(string $catalogIndex, string $cookieSearch, 
 		if ($crawler->filter('input#ctl00_MainContent_tbLogin')->count() > 0) {
 			$errorMsg = 'Need to log in. Possible Expired cookies.';
 			echo 'Need to log in. Possible Expired cookies.'.'<br>';
+			return $artikulId;
 		}
 		//var_dump($crawler->html());
 		
@@ -231,18 +232,6 @@ if (! empty($result)) {
 
 
 
-if (isset($_POST["import"]) || isset($_POST["importxml"])) {
-    
-	$fileName = $_FILES["file"]["tmp_name"];
-	
-    if ($_FILES["file"]["size"] > 0) {
-        
-
-		
-
-	}
-}
-
 
 ?>
 <!DOCTYPE html>
@@ -326,7 +315,7 @@ $(document).ready(function() {
 </head>
 
 <body>
-    <h2>Crawler test. Get ITA artikul id by catalog index. </h2>
+    <h2>Import ITA artikul id by catalog index. </h2>
 
     <div id="response"
         class="<?php if(!empty($type)) { echo $type . " display-block"; } ?>">
@@ -335,26 +324,9 @@ $(document).ready(function() {
     <div class="outer-scontainer">
         <div class="row">
 
-            <form class="form-horizontal" action="" method="post"
-                name="frmExcelImport" id="frmExcelImport"
-                enctype="multipart/form-data">
-                <div class="input-row">
-                    <label class="col-md-4 control-label">Choose .xlsx
-                        File</label> <input type="file" name="file"
-                        id="file" accept=".xlsx">
-                    <button type="submit" id="submit" name="import" class="btn-submit">Read .xlsx file</button>
-                    <br />
-
-                </div>
-
-            </form>
 
         </div>
 		
-		<?php 
-		if (!empty($xml)) { 
-			echo '<pre>', htmlentities($xml, ENT_XML1, "cp1252"), '</pre>'; }
-		?>
 		
 
 
