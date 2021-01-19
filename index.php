@@ -214,7 +214,44 @@ if (isset($_POST["import"]) || isset($_POST["importxml"])) {
 			$message = "XML was successfully created";
 		}
 	}
+} else if (isset($_POST["db_eshop"])) {
+	// TODO: call update api for all ita products (as all other should be the same)
+	
+	// Generally, everyday task should contain subtasks
+	// 0. get actual ITA info for ita products
+	// 1. call update api for all ita products (as all other should be the same)
+	//    if 1.step is too long - maybe filter some ita products
+	// 2. pull CSV from eshop with current product info
+	// 3. import CSV -> db
+	// 4. import db -> XML (feed for all products)
+	
+} else if (isset($_POST["ita_db_xml"])) {
+	// import all ita products
+	
+	// TODO: select all ita ptoducts from db
+	// or
+	// select all products from products table ?
+	
+	/*
+	$xml = "";
+
+	$xml = "<root_product>";
+		
+	$xml .= "</root_product>";
+	$xml = iconv('WINDOWS-1250', 'UTF-8', $xml);
+	$sxe = new SimpleXMLElement($xml);
+	$dom = new DOMDocument('1,0');
+	$dom->preserveWhiteSpace = false;
+	$dom->formatOutput = true;
+	$dom->loadXML($sxe->asXML());			
+	
+	$dom->save('OutputXML/products.xml');			
+	
+	$type = "success";
+	$message = "XML was successfully created";	
+	*/
 }
+	
 ?>
 <!DOCTYPE html>
 <html>
@@ -328,6 +365,8 @@ $(document).ready(function() {
                         id="file" accept=".csv">
                     <button type="submit" id="submit" name="import" class="btn-submit">Import CSV->DB</button>
 					<button type="submit" id="submit" name="importxml" class="btn-submit">Import CSV->XML</button>
+					<button type="submit" id="submit" name="db_eshop" class="btn-submit">All products: DB->EShop</button>
+					<button type="submit" id="submit" name="ita_db_xml" class="btn-submit">ITA products DB->XML</button>
                     <br />
 
                 </div>
