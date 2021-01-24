@@ -28,6 +28,22 @@ function executeGet(string $url, string $cookie, object $client) {
   return $response;
 }
 
+function convertToDecimal (string $num) {
+    $dotPos = strrpos($num, '.');
+    $commaPos = strrpos($num, ',');
+    $sep = (($dotPos > $commaPos) && $dotPos) ? $dotPos :
+        ((($commaPos > $dotPos) && $commaPos) ? $commaPos : false);
+  
+    if (!$sep) {
+        return floatval(preg_replace("/[^0-9]/", "", $num));
+    }
+
+    return floatval(
+        preg_replace("/[^0-9]/", "", substr($num, 0, $sep)) . '.' .
+        preg_replace("/[^0-9]/", "", substr($num, $sep+1, strlen($num)))
+    );
+}
+
 function updateItaInfoStatus (object $db, int $productId, int $status, string $cnt, string $price1, string $price2, string $errorMsg) {
 	$itaProductExists = false;
 	$selected = $db->select("SELECT 1 AS id FROM `ita_products` WHERE product_id =".$productId);
@@ -39,7 +55,9 @@ function updateItaInfoStatus (object $db, int $productId, int $status, string $c
 	
 	if ($itaProductExists)	{
 		if (strlen($cnt) > 0 || strlen($price1) > 0 || strlen($price2) > 0) {
-			$sql = "UPDATE `ita_products` SET itaInfoStatus_id = $status, availability ='$cnt', price1='$price1', price2='$price2', errorMsgItaInfo = '$errorMsg' WHERE product_id = $productId"; }
+			$price1d = convertToDecimal($price1);
+			$price2d = convertToDecimal($price2);
+			$sql = "UPDATE `ita_products` SET itaInfoStatus_id = $status, availability ='$cnt', price1=$price1d, price2=$price2d, errorMsgItaInfo = '$errorMsg' WHERE product_id = $productId"; }
 		else {
 			$sql = "UPDATE `ita_products` SET itaInfoStatus_id = $status,  errorMsgItaInfo = '$errorMsg' WHERE product_id = $productId"; 
 		}
@@ -95,7 +113,9 @@ function getItaInfo(string $artikul, string $cookieSearch, object $client, strin
 }
 
 
-$cookie = 'md5=976C3B5336B4EC1F8207F9F0487BE3B6; _ga=GA1.2.1386337413.1609321364; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=c02edda4a204966c53f5f779d51b0bae; ASP.NET_SessionId=raxb2yanq15ug1is5etvjwsk; _gid=GA1.2.2115415070.1611087710; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1611087752406; _gat=1';
+$cookie = 'mistral=md5=976C3B5336B4EC1F8207F9F0487BE3B6; _ga=GA1.2.1386337413.1609321364; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=c02edda4a204966c53f5f779d51b0bae; ASP.NET_SessionId=raxb2yanq15ug1is5etvjwsk; _gid=GA1.2.1487875871.1611505952; czater__open2_63d2198880f9ca34993a3cc417bc1912fd5fb897=0; czater__teaser_shown=1611506019566; _gat=1';
+
+
 
 $db = new DataSource();
 $conn = $db->getConnection();
