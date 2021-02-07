@@ -6,6 +6,9 @@ function pr($dump) {
 	*/
     echo "<pre>";
     var_dump($dump);
+	//$p = $dump->price->value;
+	//$a = $dump->amountInStock;
+	echo "$p </br>$a </br>";
     echo "</pre>";
 }
 
@@ -135,6 +138,56 @@ function editProduct($id, $produkt) {
 	* $produkt - upravene parametry v produktu 
 	*/
 	// DODĚLAT!!!!
+}
+
+function updatePropertyMultiple() {
+	$all = createCurlConnection();
+	$token = $all[0];
+	$jsonResponse = $all[1];
+	$apiServer = $all[2];
+	$apiKey = $all[3];
+	$curl = curl_init();
+	
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => "https://$apiServer/product/8888",
+        CURLOPT_RETURNTRANSFER => TRUE,
+        CURLOPT_HEADER => FALSE,
+        CURLOPT_CUSTOMREQUEST => "PUT",
+		CURLOPT_POSTFIELDS => "{\"amountInStock\": 1}",
+        CURLOPT_HTTPHEADER => array(
+            "Authorization: Bearer $jsonResponse->token",
+            "X-Wa-api-token: $apiKey"
+        ),
+    ));
+	
+    //curl_setopt_array($curl, array(
+    //    CURLOPT_URL => "https://$apiServer/product/mass",
+    //    CURLOPT_RETURNTRANSFER => TRUE,
+    //    CURLOPT_HEADER => FALSE,
+	//	CURLOPT_POST => FALSE,
+    //    CURLOPT_CUSTOMREQUEST => "PUT",
+	//	CURLOPT_POSTFIELDS => "[{ \"id\": 8888,  \"amountInStock\": 3}]",
+    //    CURLOPT_HTTPHEADER => array(
+    //        "Authorization: Bearer $jsonResponse->token",
+    //        "X-Wa-api-token: $apiKey"
+    //    ),
+    //));
+	
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
+	
+	$dump = json_decode($response);
+	var_dump($dump);
+	//$m= $dump->message;
+	//echo "$m </br>";
+    //pr(json_decode($response)); // debug
+
+    curl_close($curl);
+    $response = null;
+    $err = null; 
+    $curl = null; 
+    $produkt = null;
+	
 }
 
 function getProductInfo($id) {
