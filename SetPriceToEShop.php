@@ -63,20 +63,26 @@ where ip.itaInfoStatus_id = 3
 		curl_close($curl);
 	}	
 } else if (isset($_POST["ita_db_xml"])) {
-	$sqlSelect = "SELECT (ip.availability * 1) AS amount, ROUND(ip.webprice, 2) as price, p.id, p.productId, p.productnumber
+	$sqlSelect = "SELECT (ip.availability * 1) AS amount, ROUND(ip.webprice, 2) as webprice, ROUND(ip.webprice /0.9, 2) as sellprice, p.id, p.productId, p.productnumber, p.name, p.picture, p.description
 FROM `products` as p 
 	join ita_products as ip on ip.product_id = p.id
 where ip.itaInfoStatus_id = 3 and ip.webprice > 0";
 	$result = $db->select($sqlSelect);
     if (! empty($result)) {
-		$xml = "<root_product>";
+		$xml = '<root_product pictureUrlStarts="https://www.stopkovefrezy.cz/fotky101456/fotos/">';
 		
 		foreach ($result as $row) {
-			$xml .= '<product productnumber="'.$row['productnumber'].'" amountInStock="'.$row['amount'].'" price="'.$row['price'].'"></product>';
+			$xml .= '<product productnumber="'.$row['productnumber'].'" amount="'.$row['amount'].'" webPrice="'.$row['webprice'].
+			'" sellPrice="'.$row['sellprice'].'" pic="'.$row['picture'].'" productId="'.$row['productId'].'">'.
+			'<name>'.$row['name'].'</name>'.
+			'<description><![CDATA['.$row['description'].']]></description>'.
+			'</product>';
 		}
 			
 		$xml .= "</root_product>";
-		$xml = iconv('WINDOWS-1250', 'UTF-8', $xml);
+		//setlocale(LC_CTYPE, 'cs_CZ.UTF-8');
+		$xml = iconv('WINDOWS-1250', 'ASCII//TRANSLIT', $xml);		
+
 		//echo '<pre>', htmlentities($xml, ENT_XML1, "cp1252"), '</pre>';
 		$sxe = new SimpleXMLElement($xml);
 		$dom = new DOMDocument('1,0');
@@ -87,6 +93,7 @@ where ip.itaInfoStatus_id = 3 and ip.webprice > 0";
 		$dom->save('OutputXML/products.xml');				
 	}	
 }
+
 	
 ?>
 <!DOCTYPE html>
