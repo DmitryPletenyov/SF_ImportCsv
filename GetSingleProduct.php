@@ -44,12 +44,24 @@ function convertToDecimal (string $num) {
     );
 }
 
-function evaluateWebPrice (object $db, int $productId, float $price1) {
+function evaluateWebPrice (object $db, int $productId, float $price1, float &$sellPrice) {
 	$sql = "SELECT pe.overwriteCW, pe.overwritePC, pe.NC, pe.PC, pe.CW FROM price_evaluation as pe
 	join products p on pe.productnumber = p.productnumber
 WHERE p.id = $productId";
 	$result = $db->select($sql);
 	if (! empty($result)) {
+		
+		// sell price
+		if ($result[0]['overwritePC'] === null){
+			if ($result[0]['NC'] !== null && $result[0]['PC'] !== null) {
+				$sellPrice = ($price1 * $result[0]['NC'] / $result[0]['PC']);
+			}			
+		}
+		else {
+			$sellPrice = $result[0]['overwritePC'];
+		}
+		
+		//web price
 		if ($result[0]['overwriteCW'] === null){
 			if ($result[0]['NC'] === null || $result[0]['PC'] === null || $result[0]['CW'] === null) {
 				return 0;
@@ -71,7 +83,7 @@ WHERE p.id = $productId";
 	*/
 }
 
-function updateItaInfoStatus (object $db, int $productId, int $status, string $cnt, float $price1, float $price2, float $webprice, string $errorMsg) {
+function updateItaInfoStatus (object $db, int $productId, int $status, string $cnt, float $price1, float $price2, float $webprice, float $sellprice, string $errorMsg) {
 	$itaProductExists = false;
 	$selected = $db->select("SELECT 1 AS id FROM `ita_products` WHERE product_id =".$productId);
 	if (! empty($selected)) {
@@ -82,7 +94,7 @@ function updateItaInfoStatus (object $db, int $productId, int $status, string $c
 	
 	if ($itaProductExists)	{
 		if (strlen($cnt) > 0) {
-			$sql = "UPDATE `ita_products` SET itaInfoStatus_id = $status, availability ='$cnt', price1=$price1, price2=$price2, webprice=$webprice, errorMsgItaInfo = '$errorMsg' WHERE product_id = $productId"; }
+			$sql = "UPDATE `ita_products` SET itaInfoStatus_id = $status, availability ='$cnt', price1=$price1, price2=$price2, webprice=$webprice, sellprice=$sellprice, errorMsgItaInfo = '$errorMsg' WHERE product_id = $productId"; }
 		else {
 			$sql = "UPDATE `ita_products` SET itaInfoStatus_id = $status,  errorMsgItaInfo = '$errorMsg' WHERE product_id = $productId"; 
 		}
@@ -138,7 +150,7 @@ function getItaInfo(string $artikul, string $cookieSearch, object $client, strin
 }
 
 
-$cookie = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.578422681.1612176783; _gat=1';
+$cookie = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.836612375.1616099412; _gat=1';
 
 
 
@@ -171,7 +183,7 @@ if (! empty($result)) {
 			//echo "======= Start $catalogIndex $artikul =======<br/>";
 			
 			// set ita status to Requested			
-			updateItaInfoStatus($db, $row['id'], 1, "", 0, 0, 0, "");
+			updateItaInfoStatus($db, $row['id'], 1, "", 0, 0, 0, 0, "");
 
 			$errorMsg = '';
 			$cnt = '';
@@ -184,14 +196,15 @@ if (! empty($result)) {
 			if ($cnt != '' && $price1 != '' && $price2 != '') {
 				$price1d = convertToDecimal($price1);
 				$price2d = convertToDecimal($price2);
-				$webprice = evaluateWebPrice($db, $row['id'], $price1d);
+				$sellPrice = 0;
+				$webprice = evaluateWebPrice($db, $row['id'], $price1d, $sellPrice);
 				
 				// set ita status to ArtikulSuccess
-				updateItaInfoStatus($db, $row['id'], 3, $cnt, $price1d, $price2d, $webprice, $errorMsg);
-				echo "$catalogIndex   Count: $cnt   discount price: $price1 EUR   price: $price2 EUR web price $webprice CZK:<br/>";
+				updateItaInfoStatus($db, $row['id'], 3, $cnt, $price1d, $price2d, $webprice, $sellPrice, $errorMsg);
+				echo "$catalogIndex   Count: $cnt   discount price: $price1 EUR   price: $price2 EUR web price: $webprice CZK<br/>";
 			} else {
 				// set ita status to ArtikulFailed
-				updateItaInfoStatus($db, $row['id'], 2, $cnt, 0, 0, 0, $errorMsg);
+				updateItaInfoStatus($db, $row['id'], 2, $cnt, 0, 0, 0, 0, $errorMsg);
 				echo "$catalogIndex   ErrorMsg $errorMsg<br/>";
 			}
 			

@@ -18,8 +18,10 @@ function createCurlConnection(){
 	*/
 	$apiServer = 'api.webareal.cz';
 	$apiKey = 'ae33538bd9a94d659c95471cda11e480f458432a41de6db0e8d70cc3c5309720';
-	$username = 'david.elis@seznam.cz';
-	$password = 'io2WJDAs';
+	$username = 'dpletenyov@gmail.com';
+	$password = 'suua7eOz';
+	//$username = 'david.elis@seznam.cz';
+	//$password = 'io2WJDAs';
 
 	$curl = curl_init();
 
@@ -45,6 +47,8 @@ function createCurlConnection(){
     if ($err) {
         echo "cURL Error #:" . $err;
     }
+	//var_dump($response);
+	
 	$jsonResponse = json_decode($response);
 	$token = $jsonResponse->token;
 	$all[0] = $token;
@@ -140,46 +144,28 @@ function editProduct($id, $produkt) {
 	// DODĚLAT!!!!
 }
 
-function updatePropertyMultiple() {
-	$all = createCurlConnection();
-	$token = $all[0];
-	$jsonResponse = $all[1];
-	$apiServer = $all[2];
-	$apiKey = $all[3];
+function updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $id, $amountInStock, $webPrice, $sellPrice, $productnumber) {
 	$curl = curl_init();
 	
     curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://$apiServer/product/8888",
+        CURLOPT_URL => "https://$apiServer/product/$id",
         CURLOPT_RETURNTRANSFER => TRUE,
         CURLOPT_HEADER => FALSE,
         CURLOPT_CUSTOMREQUEST => "PUT",
-		CURLOPT_POSTFIELDS => "{\"amountInStock\": 1}",
+		CURLOPT_POSTFIELDS => "{\"amountInStock\": $amountInStock, \"secondPrice\":$sellPrice ,  \"price\": $webPrice}",
         CURLOPT_HTTPHEADER => array(
-            "Authorization: Bearer $jsonResponse->token",
+            "Authorization: Bearer $token",
             "X-Wa-api-token: $apiKey"
         ),
     ));
-	
-    //curl_setopt_array($curl, array(
-    //    CURLOPT_URL => "https://$apiServer/product/mass",
-    //    CURLOPT_RETURNTRANSFER => TRUE,
-    //    CURLOPT_HEADER => FALSE,
-	//	CURLOPT_POST => FALSE,
-    //    CURLOPT_CUSTOMREQUEST => "PUT",
-	//	CURLOPT_POSTFIELDS => "[{ \"id\": 8888,  \"amountInStock\": 3}]",
-    //    CURLOPT_HTTPHEADER => array(
-    //        "Authorization: Bearer $jsonResponse->token",
-    //        "X-Wa-api-token: $apiKey"
-    //    ),
-    //));
-	
+		
     $response = curl_exec($curl);
     $err = curl_error($curl);
 	
 	$dump = json_decode($response);
-	var_dump($dump);
-	//$m= $dump->message;
-	//echo "$m </br>";
+	//var_dump($dump);
+	$m= $dump->message;
+	echo " $m ";
     //pr(json_decode($response)); // debug
 
     curl_close($curl);
@@ -188,6 +174,45 @@ function updatePropertyMultiple() {
     $curl = null; 
     $produkt = null;
 	
+}
+
+function createSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $name, $secondName, $amountInStock, $webPrice, $sellPrice, $productnumber, $hidden, $cateshop) {
+	$curl = curl_init();
+	
+	$cateshoppart = "";
+	if (isset($cateshop) && trim($cateshop) !== '') {
+		$cateshoppart = ", \"categories\": [\"$cateshop\"]";
+	}
+	
+	$hiddenpart = $hidden ? "true" : "false";		
+	
+	$fields = "{\"name\": \"$name\", \"secondName\": \"$name\", \"amountInStock\": $amountInStock, \"secondPrice\":$sellPrice , \"price\": $webPrice, \"productNumber\": \"$productnumber\", \"hidden\": $hiddenpart $cateshoppart }";	
+	
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => "https://$apiServer/product",
+        CURLOPT_RETURNTRANSFER => TRUE,
+        CURLOPT_HEADER => FALSE,
+        CURLOPT_CUSTOMREQUEST => "POST",
+		CURLOPT_POSTFIELDS => $fields,
+        CURLOPT_HTTPHEADER => array(
+            "Authorization: Bearer $token",
+            "X-Wa-api-token: $apiKey"
+        ),
+    ));
+		
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
+	
+	$dump = json_decode($response);
+	//var_dump($dump->message);
+		
+    curl_close($curl);
+    $response = null;
+    $err = null; 
+    $curl = null; 
+    $produkt = null;
+
+	return ($dump->message === "Product was created");
 }
 
 function getProductInfo($id) {

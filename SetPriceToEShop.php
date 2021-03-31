@@ -13,7 +13,34 @@ function setWebShopUpdated (object $db, int $productId) {
 	$res = $db->execute($sql);
 }
 
+$sqlSelect = "SELECT p.amountInStock as AmountOld, (ip.availability * 1) AS AmountNew, p.price as PriceOld, ip.webprice as webPriceNew, ip.sellprice as sellPriceNew, p.id, p.productId, p.productnumber 
+FROM `products` as p 
+	join ita_products as ip on ip.product_id = p.id
+    join price_evaluation as pe on p.productnumber = pe.productnumber
+where ip.itaInfoStatus_id = 3 	
+    and ip.webprice > 0
+    and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null) 
+	and pe.category_id = 63		
+	";
+	
 if (isset($_POST["db_eshop"])) {
+
+	/*
+	('193.160.11XTR', 		
+'193.120.11XTR', 		
+'195.120.11XTR', 		
+'195.121.11XTR', 		
+'195.161.11XTR', 		
+'195.160.11XTR', 		
+'195.165.11XTR', 		
+'195.200.11XTR', 		
+'195.201.11XTR', 		
+'195.164.11XTR', 		
+'DTM.12.019.12.1DRN', 	
+'195.100.11XTR') 
+
+	'DTE.10.022.12.0DL' - failed
+	
 	$sqlSelect = "SELECT p.amountInStock as AmountOld, (ip.availability * 1) AS AmountNew, p.price as PriceOld, ip.webprice as PriceNew, p.id, p.productId, p.productnumber 
 FROM `products` as p 
 	join ita_products as ip on ip.product_id = p.id
@@ -22,6 +49,7 @@ where ip.itaInfoStatus_id = 3
     and ip.webprice > 0
     and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null) 
 	LIMIT 2";
+	*/
 	$result = $db->select($sqlSelect);
     if (! empty($result)) {
 		$all = createCurlConnection();
@@ -29,41 +57,23 @@ where ip.itaInfoStatus_id = 3
 		$jsonResponse = $all[1];
 		$apiServer = $all[2];
 		$apiKey = $all[3];
-		$curl = curl_init();
+		/*$curl = curl_init();*/
 		
+		$i = 1;
 		foreach ($result as $row) {
+			echo "$i   :   ".$row['productnumber']."   :   ";
+			updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $row['productId'], $row['AmountNew'], $row['webPriceNew'], $row['sellPriceNew'], $row['productnumber']);
+			echo "</br>";
+			$i++;
 			//echo $row['productnumber']." ".$row['productId']." ".$row['AmountNew']." ".$row['PriceNew']." </br>"; 
 			
-			$productId = $row['productId'];
-			curl_setopt_array($curl, array(
-				CURLOPT_URL => "https://$apiServer/product/$productId",
-				CURLOPT_RETURNTRANSFER => TRUE,
-				CURLOPT_HEADER => FALSE,
-				CURLOPT_CUSTOMREQUEST => "PUT",
-				CURLOPT_POSTFIELDS => "{\"amountInStock\": ".$row['AmountNew'].", \"price\": ".$row['PriceNew']."}",
-				CURLOPT_HTTPHEADER => array(
-					"Authorization: Bearer $jsonResponse->token",
-					"X-Wa-api-token: $apiKey"
-				),				
-			));
-			
-			$response = curl_exec($curl);
-			$err = curl_error($curl);
-			
-			$dump = json_decode($response);
-			//var_dump($dump);
-			if ($dump->message == "Product was updated") {
-				setWebShopUpdated($db, $row['id']); // use our db id !
-				echo $row['productnumber']." ok</br>";
-			} else {
-				echo "Error: ".$row['productnumber']." ($productId) was not updated";
-			}
+
 		}
 		
-		curl_close($curl);
+		//curl_close($curl);
 	}	
 } else if (isset($_POST["ita_db_xml"])) {
-	$sqlSelect = "SELECT (ip.availability * 1) AS amount, ROUND(ip.webprice, 2) as webprice, ROUND(ip.webprice /0.9, 2) as sellprice, p.id, p.productId, p.productnumber, p.name, p.picture, p.description
+	$sqlSelect = "SELECT (ip.availability * 1) AS amount, ROUND(ip.webprice, 2) as webprice, ROUND(ip.sellprice, 2) as sellprice, p.id, p.productId, p.productnumber, p.name, p.picture, p.description
 FROM `products` as p 
 	join ita_products as ip on ip.product_id = p.id
 where ip.itaInfoStatus_id = 3 and ip.webprice > 0";
@@ -197,13 +207,16 @@ div#response.display-block {
         </div>
 		
         <?php
+		/*
             $sqlSelect = "SELECT p.amountInStock as AmountOld, (ip.availability * 1) AS AmountNew, p.price as PriceOld, ip.webprice as PriceNew, p.id, p.productId, p.productnumber 
 FROM `products` as p 
 	join ita_products as ip on ip.product_id = p.id
 where ip.itaInfoStatus_id = 3 
 	and (p.amountInStock = (ip.availability * 1) or ABS(ip.webprice - p.price) < 1)
     and ip.webprice > 0
-    and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null)";
+    and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null)
+ORDER BY ip.dt desc";
+*/
             $result = $db->select($sqlSelect);
             if (! empty($result)) {
                 ?>
@@ -215,7 +228,8 @@ where ip.itaInfoStatus_id = 3
 						<th>AmountOld</th>
 						<th>AmountNew</th>
 						<th>PriceOld</th>
-						<th>PriceNew</th>
+						<th>webPriceNew</th>
+						<th>sellPriceNew</th>
 					</tr>
 				</thead>
 				<tbody>
@@ -225,7 +239,8 @@ where ip.itaInfoStatus_id = 3
 						<td><?php  echo $row['AmountOld']; ?></td>
 						<td><?php  echo $row['AmountNew']; ?></td>
 						<td><?php  echo $row['PriceOld']; ?></td>
-						<td><?php  echo $row['PriceNew']; ?></td>
+						<td><?php  echo $row['webPriceNew']; ?></td>
+						<td><?php  echo $row['sellPriceNew']; ?></td>
 					</tr>
 				<?php } ?>
 				</tbody>
