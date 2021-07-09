@@ -13,14 +13,15 @@ function setWebShopUpdated (object $db, int $productId) {
 	$res = $db->execute($sql);
 }
 
-$sqlSelect = "SELECT p.amountInStock as AmountOld, (ip.availability * 1) AS AmountNew, p.price as PriceOld, ip.webprice as webPriceNew, ip.sellprice as sellPriceNew, p.id, p.productId, p.productnumber 
+$sqlSelect = "SELECT p.amountInStock as AmountOld, (ip.availability * 1) AS AmountNew, p.price as PriceOld, ip.webprice as webPriceNew, ip.sellprice as sellPriceNew, p.id as Id, p.productId, p.productnumber 
 FROM `products` as p 
 	join ita_products as ip on ip.product_id = p.id
     join price_evaluation as pe on p.productnumber = pe.productnumber
 where ip.itaInfoStatus_id = 3 	
-    and ip.webprice > 0
-    and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null) 
-	and pe.category_id = 63		
+    /*and ip.webprice > 0*/
+    /*and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null) */
+	and pe.category_id = 134	
+	
 	";
 	
 if (isset($_POST["db_eshop"])) {
@@ -59,10 +60,13 @@ where ip.itaInfoStatus_id = 3
 		$apiKey = $all[3];
 		/*$curl = curl_init();*/
 		
+		/*var_dump($all);*/
+		
 		$i = 1;
 		foreach ($result as $row) {
 			echo "$i   :   ".$row['productnumber']."   :   ";
-			updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $row['productId'], $row['AmountNew'], $row['webPriceNew'], $row['sellPriceNew'], $row['productnumber']);
+			updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $row['productId'], $row['AmountNew'], $row['webPriceNew'], $row['sellPriceNew'], $row['productnumber'], true ); /* hidden product*/
+			setWebShopUpdated($db, $row['Id']);
 			echo "</br>";
 			$i++;
 			//echo $row['productnumber']." ".$row['productId']." ".$row['AmountNew']." ".$row['PriceNew']." </br>"; 

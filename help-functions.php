@@ -144,9 +144,43 @@ function editProduct($id, $produkt) {
 	// DODĚLAT!!!!
 }
 
-function updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $id, $amountInStock, $webPrice, $sellPrice, $productnumber) {
+function updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $id, $amountInStock, $webPrice, $sellPrice, $productnumber, $hidden) {
 	$curl = curl_init();
 	
+	$hiddenpart = $hidden ? "true" : "false";
+	
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => "https://$apiServer/product/$id",
+        CURLOPT_RETURNTRANSFER => TRUE,
+        CURLOPT_HEADER => FALSE,
+        CURLOPT_CUSTOMREQUEST => "PUT",
+		CURLOPT_POSTFIELDS => "{\"amountInStock\": $amountInStock, \"secondPrice\":$sellPrice ,  \"price\": $webPrice, \"hidden\": $hiddenpart}",
+        CURLOPT_HTTPHEADER => array(
+            "Authorization: Bearer $token",
+            "X-Wa-api-token: $apiKey"
+        ),
+    ));
+		
+    $response = curl_exec($curl);
+    $err = curl_error($curl);
+	
+	$dump = json_decode($response);
+	//var_dump($dump);
+	$m= $dump->message;
+	echo " $m ";
+    //pr(json_decode($response)); // debug
+
+    curl_close($curl);
+    $response = null;
+    $err = null; 
+    $curl = null; 
+    $produkt = null;
+	
+}
+
+function updateSingleProductDontHide($token, $jsonResponse, $apiServer, $apiKey, $id, $amountInStock, $webPrice, $sellPrice, $productnumber) {
+	$curl = curl_init();
+		
     curl_setopt_array($curl, array(
         CURLOPT_URL => "https://$apiServer/product/$id",
         CURLOPT_RETURNTRANSFER => TRUE,
@@ -158,6 +192,8 @@ function updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $id, $a
             "X-Wa-api-token: $apiKey"
         ),
     ));
+		
+		//echo "https://$apiServer/product/$id"." - "."{\"amountInStock\": $amountInStock, \"secondPrice\":$sellPrice ,  \"price\": $webPrice}";
 		
     $response = curl_exec($curl);
     $err = curl_error($curl);

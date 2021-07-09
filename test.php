@@ -278,6 +278,21 @@ function importOneProduct (object $db, string $cookie, object $client,
 		//$header = str_replace("\r", '', $header);
 		//$header = str_replace("\n", '', $header);
 		
+		// dummy translation
+		$pos = strpos($header, "Frez");
+		if ($pos !== false ) {
+			$header = str_replace("Frez", "Fréza", $header);
+		}
+		//Łożysko
+		$pos = strpos($header, "Łożysko");
+		if ($pos !== false ) {
+			$header = str_replace("Łożysko", "Ložisko", $header);
+		}
+		$pos = strpos($header, "łożysko");
+		if ($pos !== false ) {
+			$header = str_replace("łożysko", "ložisko", $header);
+		}
+		
 		$cnt = $crawler->filter('div#daneDodatkowe p')->eq(2)->text();
 		$productnumber = $crawler->filter('div#daneDodatkowe p')->eq(4)->text();
 		// Catalogue index: 112.030.11
@@ -316,7 +331,7 @@ function importOneProduct (object $db, string $cookie, object $client,
 
 		if ($pic !== "") {
 			$picurl = "https://b2b-itatools.pl/".$pic;
-			echo " try to save $picurl to /importpics/$productnumber.bmp";
+			//echo " try to save $picurl to /importpics/$productnumber.bmp";
 			//echo __DIR__;			
 			
 			$ch = curl_init($picurl);
@@ -336,8 +351,7 @@ function importOneProduct (object $db, string $cookie, object $client,
 			
 			$cntint = (strlen($cnt) > 2 ) ? 10 : intval($cnt);
 			
-			echo " --- pn: $productnumber p1: $price1 p2: $price2 h: $header  cnt: $cntint cat: $cateshop ---"; 
-			
+			//echo " --- pn: $productnumber p1: $price1 p2: $price2 h: $header  cnt: $cntint cat: $cateshop ---"; 			
 			
 			$r = createSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $header, $header, $cntint, tofloat($price1), tofloat($price2), $productnumber, true, $cateshop);
 			//INSERT INTO `import_cat`(`cat`, `cateshop`, `eshopname`) VALUES ('20112','33-953-954-0','')
@@ -349,7 +363,7 @@ function importOneProduct (object $db, string $cookie, object $client,
 			} else {
 				echo "-- $productnumber: NOT OK --";
 				updateImportPlanRowStatus($db, $id, 2, $productnumber);
-			}
+			}			
 		}
 	
 	} else {
@@ -362,7 +376,7 @@ function  importProducts (object $db, string $cookie, object $client) {
 	$sqlSelect = "SELECT ip.Id, ip.artikul, ip.cat, ip.subcat, ip.itaInfoStatus_id, ic.cateshop 
 FROM import_plan as ip 
 LEFT JOIN import_cat as ic on ic.cat = ip.subcat
-WHERE ip.itaInfoStatus_id =0 and ip.subcat=20121
+WHERE ip.itaInfoStatus_id =0 and ip.subcat=36612
 ORDER by ip.Id LIMIT 100 ";
 	$result = $db->select($sqlSelect);
     if (! empty($result)) {
@@ -391,14 +405,14 @@ ORDER by ip.Id LIMIT 100 ";
 }
 
 
-$cookie = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.927750015.1617223665';
+$cookie = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.589065378.1625689549; _gat=1';
 
 $db = new DataSource();
 $conn = $db->getConnection();
 
 // get all products from all subcategories from category and write them to import plan
 /*
-$mikat ='12639';
+$mikat ='12126';
 $errorMsg = '';
 $price = getItaCategory($db, $mikat, $cookie, $client, $errorMsg);
 */
