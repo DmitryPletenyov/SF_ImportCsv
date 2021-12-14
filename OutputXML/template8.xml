@@ -1,0 +1,964 @@
+<?xml version="1.0"?>
+<root_product>
+  <product ean="141.060.61" amount="9" aid="gwy0I5zgq3TxFm6BLUdQIw" cid="17332" wp="1870.29" catn="PCD router bits Z1, series DT1"/>
+  <product ean="141.080.61" amount="4" aid="FXfCI8AfK48wgRM87hzW-A" cid="17332" wp="2272.05" catn="PCD router bits Z1, series DT1"/>
+  <product ean="141.101.61" amount="10+" aid="HFXtdeoeoRZcRs0pB2eFgg" cid="17332" wp="2910.33" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.04.007.06.0MR" amount="0" aid="R8r2oGWqKqQlTS06IV7O7Q" cid="17332" wp="3936.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.04.010.04.0SR" amount="0" aid="0f-orBr6S_o1LlW6C3mMhQ" cid="17332" wp="3207.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.04.010.06.0MR" amount="0" aid="xjWePilgVgkP9cHERkyu3g" cid="17332" wp="2770.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.04.012.06.0MR" amount="4" aid="ZjfWkTpbZQ9e6DSsSPmQEQ" cid="17332" wp="2770.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.05.008.10.0MR" amount="0" aid="_doPostBack('__Page','drukuj_341084')" cid="17332" wp="3353.4" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.05.008.12.0MR" amount="0" aid="1hHlfdCP2IKPU_YGPCkoAw" cid="17332" wp="5832" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.05.010.06.0MR" amount="0" aid="RdOoZCQKrAKHxBn_oY0QLQ" cid="17332" wp="2478.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.05.020.06.0MR" amount="6" aid="AFgR76xIVxhkT89pT7fo1g" cid="17332" wp="2012.04" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.05.020.08.0MR" amount="10+" aid="8oPDfW-WT7iltiWFbvqZPQ" cid="17332" wp="2770.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.008.12.0MR" amount="0" aid="0F4aAnu0SekgwU4aNUfrGA" cid="17332" wp="2770.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.012.06.0MR" amount="10+" aid="7ppIxqix_SbM-S9w5HVXVQ" cid="17332" wp="1895.4" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.012.08.0MR" amount="10+" aid="WXVJI2h_jE9wtF9U9e7uTQ" cid="17332" wp="2187" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.012.10.0MR" amount="10+" aid="jA479LNZeTfSHB4ngqG4aQ" cid="17332" wp="2478.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.012.12.0MR" amount="0" aid="IpAeXSIsnFVZoCxlIfKavg" cid="17332" wp="3499.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.015.12.0MR" amount="0" aid="dpkuevKkmmPN0ylcjxCrBQ" cid="17332" wp="2770.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.020.06.0MR" amount="7" aid="KsdSBPqu4zMofpJEEDgWuA" cid="17332" wp="2478.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.020.08.0ML" amount="0" aid="w0t-shkSSuC1rLYgFa9x5w" cid="17332" wp="4957.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.020.08.0MR" amount="0" aid="_doPostBack('__Page','drukuj_764324')" cid="17332" wp="4957.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.022.06.0MR" amount="4" aid="HMJ9ulg4H7zNh1aPOJzdUw" cid="17332" wp="3353.4" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.022.12.0MR" amount="10+" aid="BtVX30QP3uY5aLuh-2PPDw" cid="17332" wp="3645" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.022.25.0SR" amount="0" aid="X6CQhPj5N-wotj2ua5fLDA" cid="17332" wp="4957.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.06.025.06.0MR" amount="0" aid="QttqSuTNrwkVvCkYpry4tw" cid="17332" wp="3645" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.07.010.08.1MR" amount="0" aid="sDIKMRjbtE47X9QrE-UaNQ" cid="17332" wp="4374" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.07.012.08.0MR" amount="0" aid="miAaOkDn1VWkBRh2FqJwUA" cid="17332" wp="3645" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.07.012.10.0MR" amount="0" aid="_E5_7Zj-kGphMFutgVuM3g" cid="17332" wp="3499.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.07.012.12.0MR" amount="0" aid="CAxxYINDCTZx8kibJHmWLQ" cid="17332" wp="3790.8" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.08.014.08.0MR" amount="0" aid="cLugpYYQRqfd-DLTrKFHOQ" cid="17332" wp="2332.8" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.08.015.10.0MR" amount="4" aid="ZX6fvLxxI-dG6fvlAhbHGQ" cid="17332" wp="2187" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.08.016.08.0MR" amount="0" aid="_doPostBack('__Page','drukuj_341332')" cid="17332" wp="3936.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.08.018.08.0MR" amount="0" aid="yBV-x3CQ3uZ_MoeN7JLNmQ" cid="17332" wp="4228.2" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.08.023.12.0MR" amount="7" aid="Hw8rMilh5wLnHQh-LGcBew" cid="17332" wp="3061.8" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.08.025.08.0MR" amount="0" aid="Lca9xw9T39ovKcgxXkEOFg" cid="17332" wp="3207.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.08.025.25.0XR" amount="0" aid="wl-50fIXVnbzIlLz3FGHug" cid="17332" wp="5540.4" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.09.014.10.0MR" amount="0" aid="vudNf1kSRk6fX1707vb-7Q" cid="17332" wp="2624.4" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.10.016.10.0MR" amount="0" aid="3YHUtkytflrddM8nTQ777g" cid="17332" wp="3645" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.10.025.10.0MR" amount="0" aid="rElkABLnxY6ulvX6GO4FBw" cid="17332" wp="3207.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.12.016.12.0MR" amount="0" aid="Nb2xMYCxhUUz7F59GC8FpQ" cid="17332" wp="2857.68" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.12.025.12.0MR" amount="0" aid="n2-VJ-36O2q_wHusghEF4A" cid="17332" wp="3207.6" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.54.010.25.0MR" amount="2" aid="Mw9LUBhiKB2X7tto1ply6A" cid="17332" wp="3353.4" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.55.008.10.0MR" amount="0" aid="jkdfbS9H8qxs4XeY57klNQ" cid="17332" wp="2916" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT1.55.008.12.0MR" amount="0" aid="7Voo0_GkCFiyqv3aEzCa0g" cid="17332" wp="4082.4" catn="PCD router bits Z1, series DT1"/>
+  <product ean="DT2.06.010.12.0MR" amount="10+" aid="wsnYHu6sz_hcJkKoY4r1rA" cid="17341" wp="3353.4" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.08.015.08.0MR" amount="10+" aid="JsANF1AIZeSPs2mz36cU0g" cid="17341" wp="3353.4" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.08.015.10.0MR" amount="2" aid="onZtUE6RahkGG9LyPkcJlA" cid="17341" wp="3037.5" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.08.015.12.0MR" amount="0" aid="J5fdqfbvVJHA_3nyU4b8PA" cid="17341" wp="3353.4" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.08.020.08.0MR" amount="0" aid="ToIcBXiikkpPgHT9ISCHMQ" cid="17341" wp="5394.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.08.022.12.0MR" amount="10+" aid="DK0mYcfV1WDhBC52MN93gA" cid="17341" wp="4957.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.08.025.12.0SR" amount="4" aid="wQLYdOpNRxb87T69YOB8Kg" cid="17341" wp="4665.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.08.030.12.0DR" amount="1" aid="9bKKU99IBgu2ia8hgyYNig" cid="17341" wp="7435.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.09.015.10.0MR" amount="0" aid="0-0T12LAdK9ouSGV7ozhVw" cid="17341" wp="5103" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.09.015.12.0MR" amount="0" aid="PosNdylnbGHJwaz6_BTIvA" cid="17341" wp="4374" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.09.020.10.0MR" amount="5" aid="56CsoJZ3TBWOv8Syxrkc8A" cid="17341" wp="5686.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.010.10.1SR" amount="0" aid="_doPostBack('__Page','drukuj_1017874')" cid="17341" wp="4694.76" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.010.12.0MR" amount="10+" aid="y96e8XUXIx8s3cYT0l_4zg" cid="17341" wp="2566.08" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.015.08.0MR" amount="4" aid="CdVaW98T9c7y5VEcwJWSPw" cid="17341" wp="3207.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.015.10.0MR" amount="10+" aid="n9F6FhgSOuIO5asp5KzX-g" cid="17341" wp="3061.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.022.10.0MR" amount="10+" aid="tAClCzHBVJsMH_K9itmB-Q" cid="17341" wp="3790.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.022.12.0ML" amount="1" aid="EICJlniB-H6goyY-CsrV4Q" cid="17341" wp="3790.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.022.12.0MR" amount="10+" aid="UZwcO8Ml6U56g-XznTJMdw" cid="17341" wp="4689.09" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.022.12.0SR" amount="0" aid="dzVU5hINIcPAAUAyD6kx1A" cid="17341" wp="4957.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.022.12.1MR" amount="10+" aid="e3ieGGPc87J3n4Wrro9CrQ" cid="17341" wp="2082.105" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.10.025.12.0DR" amount="0" aid="_doPostBack('__Page','drukuj_564619')" cid="17341" wp="7581.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.105.015.10.0MR" amount="0" aid="JM2xxGU8Aia3wdZyUVPg8w" cid="17341" wp="3790.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.105.015.12.0MR" amount="0" aid="nKLKnXxW5a3oPm6FaO5EnQ" cid="17341" wp="3790.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.010.12.0MR" amount="0" aid="shj1DIp_ixQntqGY43AiFg" cid="17341" wp="3207.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.015.12.0MR" amount="5" aid="8ojLtFWr6T8IQvfjPmQBKw" cid="17341" wp="3207.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.015.12.2MR" amount="0" aid="OovASz77jxD4n_cB-eghSw" cid="17341" wp="4957.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.020.12.0MR" amount="10+" aid="_Bty1R0roUk7e5047vb7ng" cid="17341" wp="5248.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.020.12.2MR" amount="0" aid="T1Eh725CGzJM83KPp5uwSQ" cid="17341" wp="7144.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.025.12.0MR" amount="0" aid="xFb-K74euePCXYTTh79Lrw" cid="17341" wp="5103" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.035.12.1MR" amount="5" aid="PNQsnBtK8hl13crg1uiWgw" cid="17341" wp="7873.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.12.045.12.0DR" amount="0" aid="3LXLXWxhNaR5jM7k3YYYQg" cid="17341" wp="11226.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.14.025.16.0SL" amount="0" aid="zczqchps9EAUSD_-5oTPYQ" cid="17341" wp="7581.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.14.025.16.0SR" amount="0" aid="_doPostBack('__Page','drukuj_1015211')" cid="17341" wp="7581.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.16.010.08.0SR" amount="0" aid="DxaQIQC_ehIbXcuVTkN_nw" cid="17341" wp="4957.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.16.015.12.0SR" amount="0" aid="_EccnIxyjPyIqDSExI7Biw" cid="17341" wp="4957.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.16.025.16.0SR" amount="0" aid="M-lMuZpuS2jz4saqrrckoQ" cid="17341" wp="3645" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.16.030.16.0MR" amount="0" aid="rGvzRxdXgVJBqUIjjEJsOw" cid="17341" wp="12247.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.16.035.20.0SR" amount="0" aid="0ZgP9GTZ3wwcff71-JpfJg" cid="17341" wp="5394.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.16.035.20.1SR" amount="0" aid="_doPostBack('__Page','drukuj_430954')" cid="17341" wp="6561" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.16.036.20.1SR" amount="1" aid="bsG3LdIkZZi-0IJf2T0cRA" cid="17341" wp="8893.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.18.010.08.0SR" amount="0" aid="AUiLYhOK37MaJ1XUMXjjrg" cid="17341" wp="3936.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.18.010.12.0SR" amount="0" aid="7kzRl-vOOFt-55SzWVTBaA" cid="17341" wp="3936.6" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.18.020.20.0SR" amount="0" aid="zVS02leCl1VyRAVHz_53kA" cid="17341" wp="5686.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.20.015.20.0DR" amount="0" aid="FIYEVI3eCpieMnUPOERkNQ" cid="17341" wp="6561" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.20.025.20.0SR" amount="0" aid="qklBnPhSTnjZm8SNGBkfIw" cid="17341" wp="5686.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.20.025.25.0SR" amount="0" aid="_doPostBack('__Page','drukuj_341604')" cid="17341" wp="5686.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.20.035.20.1MR" amount="0" aid="1oSLZAyQXj0sZF4ySHaeLg" cid="17341" wp="10351.8" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.20.035.20.4SR" amount="0" aid="TIoRWfo8LOmK_LZu7CSOXw" cid="17341" wp="9331.2" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.20.035.20.5SR" amount="1" aid="R8b99_BMc7ngR0GEZ-Vesg" cid="17341" wp="8748" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT2.20.035.25.0SR" amount="0" aid="4K9qTkcx4lAtrm38xTJt9A" cid="17341" wp="6269.4" catn="PCD router bits Z2, series DT2"/>
+  <product ean="DT3.15.022.12.0SR" amount="0" aid="iD_kL6LDpJuMEIRnIiMQbw" cid="42850" wp="6488.1" catn="PCD router bits Z3, series DT3"/>
+  <product ean="DT2.20.035.20.0MR" amount="0" aid="_doPostBack('__Page','drukuj_871042')" cid="32245" wp="9039.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.07.012.08.0MR" amount="0" aid="p1SGW6P-MOay6S4yXqu1xg" cid="32245" wp="3645" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.012.12.0DR" amount="0" aid="KyLAkrdvjU1vfDphD3BIWw" cid="32245" wp="5977.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.015.12.0DL" amount="0" aid="0eOD6t6xdNNz7MNa8h3Jmw" cid="32245" wp="3936.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.015.12.0DR" amount="10+" aid="xgOONeNTDw3EFfeFALpy2w" cid="32245" wp="4957.2" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.020.08.0DR" amount="0" aid="QWWNoG7eIfrCou1FgY1KWw" cid="32245" wp="6561" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.020.12.0DL" amount="0" aid="w-JWkHgUgd4w7iYzZAGPNw" cid="32245" wp="5540.4" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.020.12.0DR" amount="0" aid="XaE1IDfB-6-O-e1xvv8QtA" cid="32245" wp="6998.4" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.020.12.0MR" amount="0" aid="45oCAlBaDR2x_omP-TxILw" cid="32245" wp="6561" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.036.08.0DL" amount="0" aid="pyL2p8pgH_t_x1Rni2cFLQ" cid="32245" wp="6036.12" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.08.036.08.0DR" amount="0" aid="bbG_EOvfsRbBOPM66W4sDw" cid="32245" wp="5540.4" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.012.12.0DR" amount="0" aid="3VibruzBpZ-LMFkkJ_nOsg" cid="32245" wp="4374" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.015.12.0DL" amount="0" aid="g2dAfoLy7eR7cpt_1p_SMg" cid="32245" wp="5394.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.015.12.0DR" amount="10+" aid="AyZrB2kq6VilJ523UzRU6g" cid="32245" wp="5394.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.015.12.0MR" amount="0" aid="Rn6RzGhDYnTrZSA-oiiqyQ" cid="32245" wp="4374" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.020.12.0DL" amount="0" aid="hrNuH9JO5jNTc3uoYEtVpQ" cid="32245" wp="5103" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.020.12.0DR" amount="10+" aid="FMpDl6OaqdS28PAqhByjOw" cid="32245" wp="6561" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.025.12.0DL" amount="0" aid="tEIu7bi4DNQZkmeHsZBa4g" cid="32245" wp="6123.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.10.025.12.0DR" amount="0" aid="HLPgyVFLOj_ZhK0a13d4CA" cid="32245" wp="7581.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.012.12.0SR" amount="0" aid="CXGmZn1k_DJPXc9_P7noaw" cid="32245" wp="3645" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.012.12.1MR" amount="0" aid="OySvra1oOSLRuwCx-E4FYw" cid="32245" wp="4228.2" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.015.12.0DL" amount="0" aid="azBxnVyhJS9GJenHG4mkSA" cid="32245" wp="4374" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.015.12.0DR" amount="10+" aid="9DFXRcddPdpfFDKlMZ1QVA" cid="32245" wp="4957.2" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.015.12.0SL" amount="0" aid="l4O8CPG1kWCnjmwobOTD2Q" cid="32245" wp="4374" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.015.12.0SR" amount="0" aid="tdf-d0YNSFay7E_uElLCZA" cid="32245" wp="4374" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.020.12.0DL" amount="0" aid="FE7gRu-hZAK-ncLjBRkbaQ" cid="32245" wp="5977.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.020.12.0DR" amount="10+" aid="zmTHnS7cPtS39Q6zbiRb4A" cid="32245" wp="6561" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.020.12.0SL" amount="0" aid="C68TOALsNetA8PaEgLicBw" cid="32245" wp="5248.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.020.12.0SR" amount="0" aid="eKxUZamicFmjV_B5h4gKQg" cid="32245" wp="5248.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.022.12.0DR" amount="0" aid="GteE44snLvVLh5FC7h7dpg" cid="32245" wp="7581.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.025.12.0DL" amount="0" aid="s5mKJZsqAiHKOgB06A8-Zg" cid="32245" wp="6269.4" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.025.12.0DR" amount="10+" aid="3KdNDm5kFz2efMf5LDKB_w" cid="32245" wp="7581.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.025.12.0SL" amount="0" aid="fphYJfhTLKaQFOqJd8zhJA" cid="32245" wp="5248.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.025.12.0SR" amount="0" aid="EbLMJs4yNkASPuCIG2FThA" cid="32245" wp="5248.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.030.12.0DL" amount="0" aid="bIOOF01QwRqryWq0YsRUpw" cid="32245" wp="6852.6" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.030.12.0DR" amount="0" aid="cRxF0W3084rUh_UBIPDXAQ" cid="32245" wp="8602.2" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.030.12.0SL" amount="0" aid="z_DtdD22GBgi0jcT8PTdqw" cid="32245" wp="7290" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.12.030.12.0SR" amount="0" aid="ee-6KvxE-rfp-qOKRHqXJA" cid="32245" wp="7290" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.015.12.0DL" amount="0" aid="dFetDTKArsnCzlVwhnlaJg" cid="32245" wp="5977.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.015.12.0DR" amount="0" aid="dLPB_7rVKKOvcEkqKgt9Sw" cid="32245" wp="5977.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.015.12.0SL" amount="0" aid="IUStZdi7kvr-pkOuS9BDTw" cid="32245" wp="5103" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.015.12.0SR" amount="0" aid="kQKMZ8VuaPSWDeS954aEiQ" cid="32245" wp="5103" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.020.12.0DL" amount="0" aid="FSZ5PIW52mKLBT2ErYgVyA" cid="32245" wp="6706.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.020.12.0DR" amount="0" aid="Ypqd_0ascSf86sRWZo0hsg" cid="32245" wp="6706.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.020.12.0SL" amount="0" aid="MTkNYrAxAsUjs1vZc5khzw" cid="32245" wp="5103" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.020.12.0SR" amount="0" aid="jIpOeTQ4t5aOjyp0dvbiCQ" cid="32245" wp="5103" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.025.12.0DL" amount="0" aid="bX6cMZroijqSjWbqL6nqXw" cid="32245" wp="7290" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.025.12.0DR" amount="0" aid="FoSikWapZq013-Ub0cjAkA" cid="32245" wp="7290" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.025.12.0SL" amount="0" aid="TM3kN64wpu0ZKf4_3Ykpog" cid="32245" wp="5248.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTS.14.025.12.0SR" amount="0" aid="v7ACyA4JlBuUFUObQZOv_w" cid="32245" wp="5248.8" catn="PCD router bits Z2+1, series DTS"/>
+  <product ean="DTR.12.019.12.1DR" amount="0" aid="1MJQSWaKs9YBifnxTA9A-w" cid="43963" wp="12247.2" catn="DTR Frezy proste Z4+1 z lamaczem wi'ora"/>
+  <product ean="DTA.08.021.08.0MR" amount="10+" aid="c8yREiZNHzzPDt4oiIAQ4Q" cid="17350" wp="1516.32" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.08.021.12.0MR" amount="10+" aid="uAOP85XDb9cw8SftaH1TIg" cid="17350" wp="3353.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.08.021.12.0SR" amount="0" aid="63Uuf-Q4BquB_YaJUovM1Q" cid="17350" wp="1166.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.08.027.08.0ML" amount="6" aid="du6xHkYK7XpR8O82VoJoeQ" cid="17350" wp="2770.2" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.08.027.08.0MR" amount="10+" aid="gY8CidMJxUI1V5uCY0xLBQ" cid="17350" wp="2770.2" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.08.036.08.0ML" amount="0" aid="JUhKqQHqhqrkxNoctIcsBA" cid="17350" wp="4403.16" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.08.036.08.0MR" amount="10+" aid="M_dHoUEvF51HgQnMjCoGAw" cid="17350" wp="3869.775" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.015.10.0SR" amount="0" aid="LhtySqdK9EmIxCWrA5e22w" cid="17350" wp="787.32" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.015.12.0SR" amount="9" aid="4Bh24d_E6zg3fULwJTe5dQ" cid="17350" wp="787.32" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.021.12.0SR" amount="10+" aid="fUJ7Aw_5mNVf6tu13ielGg" cid="17350" wp="1166.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.08.0SR" amount="4" aid="C3biBkTBKPwh7HGDf5Ubpg" cid="17350" wp="1253.88" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.10.0SL" amount="0" aid="OS9GLNaK-l_JRCNlkeh-pg" cid="17350" wp="1312.2" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.10.0SR" amount="0" aid="-d6ovAgKeWqXSqbx1n1HqQ" cid="17350" wp="1093.5" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.12.0SL" amount="7" aid="zcqQGIIigddo3StX-7BB2Q" cid="17350" wp="1093.5" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.12.0SR" amount="10+" aid="9Wr66eTrLILFp9S0ocYXSg" cid="17350" wp="1093.5" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.12.2SR" amount="0" aid="qmBlp-iJmN5Vyil40zNVMA" cid="17350" wp="1749.6" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.12.3SR" amount="0" aid="SL7hT2Tj2rO9aHZznl2mgA" cid="17350" wp="1603.8" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.12.4SR" amount="0" aid="Vnv2y_WIEjWWKW26l4vvKA" cid="17350" wp="2041.2" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.20.0SR" amount="10+" aid="ZBrrfmodVsi4th7Ds9AsWw" cid="17350" wp="3688.335" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.25.0SL" amount="2" aid="USY7PxLM25fFw2J_OSb8Pw" cid="17350" wp="1603.8" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.025.25.0SR" amount="10+" aid="sna9v-_8ZGg6WHoA98Vmew" cid="17350" wp="1458" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.027.10.0MR" amount="10+" aid="2Oxy4Vh0cpd3f7ALqLPGwg" cid="17350" wp="2274.48" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.035.10.0SL" amount="0" aid="b22-5k8O1LAnAyhHndWpWQ" cid="17350" wp="2478.6" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.035.10.0SR" amount="10+" aid="zkDQQA238lpDkq4sePsl-A" cid="17350" wp="2187" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.035.12.0SL" amount="10+" aid="ND6StJ7VZX2dOWD2PigFmQ" cid="17350" wp="1458" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.035.12.0SR" amount="10+" aid="wlPjR_h6cps-WYp3bg45SA" cid="17350" wp="1458" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.10.045.10.0SR" amount="0" aid="X_SBPtc_8-J2bv5TsC2DYA" cid="17350" wp="2624.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.11.025.12.0SR" amount="5" aid="ILhcHNt1iral_tJOBUWrcw" cid="17350" wp="711.99" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.021.12.0SR" amount="10+" aid="OVlZS6LJnak97TrKWG7tGQ" cid="17350" wp="1166.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.025.12.0SL" amount="10+" aid="Ux7o4PxlB37tiVBHevSbaw" cid="17350" wp="1093.5" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.025.12.0SR" amount="10+" aid="3OEwbIzIf43rS76GJaJI_w" cid="17350" wp="1093.5" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.025.12.5SR" amount="10+" aid="BNmuUWCZQVEfxq8UdHPlUg" cid="17350" wp="1749.6" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.025.12.SSR-A" amount="10+" aid="gaHJljo_JSOMBAjKM34OwQ" cid="17350" wp="1166.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.025.25.0SL" amount="2" aid="8xbD5mvNTyGwD4H6jWY3CQ" cid="17350" wp="1093.5" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.025.25.0SR" amount="10+" aid="cW2rJQwk26iE382kdwXJmw" cid="17350" wp="1312.2" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.027.12.0ML" amount="0" aid="jWEi3j9vP73tf04HFEJcNA" cid="17350" wp="2799.36" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.027.12.0MR" amount="10+" aid="yoOUO8xKlOnbos7wa8ocRQ" cid="17350" wp="2624.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.035.10.0SL" amount="0" aid="qlGER60B8Ztz99-mcIPizA" cid="17350" wp="1749.6" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.035.10.0SR" amount="0" aid="S4wXU4Gy6StyhrBeVeaPCQ" cid="17350" wp="1749.6" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.035.12.0SL" amount="10+" aid="T7PXcZ3xfn4gJWivaY1ZcA" cid="17350" wp="1458" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.035.12.0SR" amount="10+" aid="i-XA2b_d2rxZv44SrdYPVw" cid="17350" wp="1458" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.035.12.5SR" amount="10+" aid="dkeVFD_OuMo9d07Sjj1CBw" cid="17350" wp="2187" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.035.20.0SR" amount="10+" aid="7jxZYdR-MammASqI216eqg" cid="17350" wp="3688.335" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.035.25.0SR" amount="10+" aid="3Y3M08mXGfADwn0fRZyDgw" cid="17350" wp="1458" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.045.12.0SL" amount="10+" aid="uOXY3lZaeDbNZkDZ2lJ-Kw" cid="17350" wp="1820.88" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.045.12.0SR" amount="10+" aid="VYzukUg1TqpEKK4xQZofuQ" cid="17350" wp="1820.88" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.045.12.1DR" amount="0" aid="hfwsqfy4X7xAHuWYqGcV1A" cid="17350" wp="4665.6" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.12.055.16.0SR" amount="0" aid="_doPostBack('__Page','drukuj_163925')" cid="17350" wp="1968.705" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.13.025.20.0SR" amount="0" aid="GfpF2M7atiJrwqIDYAPqUA" cid="17350" wp="3353.4" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.13.045.20.0SR" amount="2" aid="tVEAJn_1vz7fn-ZqbccbtA" cid="17350" wp="3061.8" catn="PCD router bits Z1+1 HM, series DTA"/>
+  <product ean="DTA.08.020.12.VSR" amount="0" aid="ez3gd96iseUkEbDuv-BO8w" cid="17359" wp="2624.4" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.10.027.12.VSR" amount="10+" aid="6uLwjiyoivU8ylj9pTSNug" cid="17359" wp="2799.36" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.10.045.10.VSR" amount="0" aid="W-ttmpbwARQ_txV9UKKOiA" cid="17359" wp="4665.6" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.12.025.12.VSR" amount="8" aid="JOduOg7iXE-oDMv_anU48w" cid="17359" wp="5103" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.12.027.12.VSR" amount="10+" aid="4W8WClI-wwrIVILd5ctOpw" cid="17359" wp="2799.36" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.12.036.12.VSR" amount="10+" aid="DFjcfzaMikEG-s_jkL2wYA" cid="17359" wp="2916" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.12.036.20.VSR" amount="0" aid="ig0aKVfj_B_JZjV3PbExuA" cid="17359" wp="2916" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.12.045.12.VSR" amount="0" aid="ur3901bPQJ6Emho0RfnawA" cid="17359" wp="4665.6" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.14.050.12.VSR" amount="0" aid="Q6BNZmlCKRB83Y1wIi0c1g" cid="17359" wp="5977.8" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.16.027.16.VSR" amount="0" aid="CoI8kfcL5adCX3MihUVD5g" cid="17359" wp="2799.36" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.16.036.16.VSR" amount="10+" aid="sxAhsPMSyo1sD84ONG-ysQ" cid="17359" wp="2916" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.16.045.16.VSR" amount="10+" aid="LbtrXLdqOsTLILivYw5EPw" cid="17359" wp="2183.76" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.16.045.25.VSL" amount="0" aid="_doPostBack('__Page','drukuj_1064831')" cid="17359" wp="3936.6" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.16.045.25.VSR" amount="0" aid="-1UnVjBz1e3cRLTgt-5o-A" cid="17359" wp="3936.6" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.16.085.16.VSR" amount="0" aid="xH8i451M2RTxI8ViLaVaiw" cid="17359" wp="8019" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.18.045.25.VSL" amount="0" aid="rQSvBtdp5TD8c9LGOMe50A" cid="17359" wp="4665.6" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.18.045.25.VSR" amount="0" aid="6CAv2ZAHRalaA-F7AIHabA" cid="17359" wp="4665.6" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.20.036.20.VSR" amount="0" aid="X3atbSGGckIKGpZWTkS1aw" cid="17359" wp="2916" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.20.045.20.VSR" amount="0" aid="JE3u4Tt9BwScL9ilKxVleg" cid="17359" wp="4665.6" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.20.054.20.VSR" amount="0" aid="hq8IRuPKxcO7i4mpWUD5hQ" cid="17359" wp="3965.76" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.25.054.25.VSR" amount="2" aid="-FKBJRwqiRBO5NhZjTjboQ" cid="17359" wp="3965.76" catn="PCD router bits Z1+1 DIA angle 90, series DTA"/>
+  <product ean="DTA.12.027.08.BSR" amount="0" aid="sVuoEjigDgBQYldVzBjf3Q" cid="17368" wp="2041.2" catn="PCD router bits Z1 with bearing, series DTA"/>
+  <product ean="DTA.12.027.12.BSL" amount="0" aid="_doPostBack('__Page','drukuj_162200')" cid="17368" wp="1895.4" catn="PCD router bits Z1 with bearing, series DTA"/>
+  <product ean="DTA.12.027.12.BSR" amount="6" aid="tzUc9ucgSRik2-QkdoY9MA" cid="17368" wp="1895.4" catn="PCD router bits Z1 with bearing, series DTA"/>
+  <product ean="DTA.12.036.12.BSL" amount="0" aid="QrKibWLVN5cog0n-L_x91w" cid="17368" wp="2274.48" catn="PCD router bits Z1 with bearing, series DTA"/>
+  <product ean="DTA.12.036.12.BSR" amount="10+" aid="VYqtjK0fKFrlIeEykJk8xQ" cid="17368" wp="1924.56" catn="PCD router bits Z1 with bearing, series DTA"/>
+  <product ean="DTA.12.044.12.BSL" amount="0" aid="_doPostBack('__Page','drukuj_162204')" cid="17368" wp="4374" catn="PCD router bits Z1 with bearing, series DTA"/>
+  <product ean="DTA.12.044.12.BSR" amount="10+" aid="TBHkT3b5xDg3JM0o5or0qw" cid="17368" wp="2187" catn="PCD router bits Z1 with bearing, series DTA"/>
+  <product ean="DTN.12.035.12.0DR" amount="6" aid="R43gLgkIzxijnYn35TTlow" cid="37437" wp="4592.7" catn="PCD router bits Z2 Nesting, series DTN"/>
+  <product ean="DTN.10.020.12.0DR" amount="0" aid="WMSDDnU18kZxufrTDpnbaw" cid="17377" wp="5686.2" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.12.0SL" amount="10+" aid="JFlCGGvSxAQxcNBZVNygug" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.12.0SR" amount="3" aid="EjlJf3OLQnxDwEA5r3B2qQ" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.16.0SL" amount="1" aid="lnq9d7KDgnoR0LQYvtClww" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.16.0SR" amount="10+" aid="SVgVIBkpYtPjTp-ZE_Gmlw" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.20.0SL" amount="0" aid="QB8oXtpzuSvYBnb1K0CA-Q" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.20.0SR" amount="10+" aid="_KpXBiNACxxliH62hyQxwQ" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.20.1SR" amount="10+" aid="NRAQ3IlCSS8_ufr1D0ubzQ" cid="17377" wp="2332.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.20.2SR" amount="10+" aid="BDjwMG8MS7tMdM9ApHDWFQ" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.25.0SL" amount="7" aid="BP_EkjR8GvyzS6yVpBMY7Q" cid="17377" wp="2434.86" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.025.25.0SR" amount="10+" aid="HHvpgPnqiaC2KAeT4PnbEw" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.027.16.WSR" amount="0" aid="zOkrg9D2tpNbS3zajv38gg" cid="17377" wp="3499.2" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.035.12.0SR" amount="10+" aid="QqdptMKEfSeGD8MydC9UKg" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.035.20.0SL" amount="3" aid="rkw97EVBXya5M038bn8oDg" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.035.20.0SR" amount="10+" aid="o7RRvGRN6TkNRDJdCdnKEQ" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.035.25.0SL" amount="0" aid="ftQE1K9UjDOIzf7E_lsV6A" cid="17377" wp="3061.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.035.25.0SR" amount="0" aid="1oH7CABOnjoVtxvSKeYDqQ" cid="17377" wp="3061.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.045.12.0SR" amount="0" aid="qPXgFMCWILf4r6omR6kkfA" cid="17377" wp="4082.4" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.12.050.12.0DR" amount="0" aid="_doPostBack('__Page','drukuj_995710')" cid="17377" wp="9039.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.14.035.16.0SR" amount="10+" aid="CirvLIxNrsxN1Oq5qlr0Pw" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.14.055.16.0SR" amount="0" aid="_doPostBack('__Page','drukuj_1081361')" cid="17377" wp="5977.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.025.16.0SL" amount="10+" aid="SOyM1YtnbFzIKl6tO2F4Cg" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.025.16.0SR" amount="10+" aid="Ai48_9NnLYNbwr-eAS-Jdg" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.025.16.2SR" amount="0" aid="yt63MBIJnjVfmK6-sTNGsQ" cid="17377" wp="6269.4" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.025.20.0SL" amount="0" aid="CMoZWIyshGXiJoG-omzWtQ" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.025.20.0SR" amount="10+" aid="k5XeAQDukTN4nQ1xjjeMLw" cid="17377" wp="2187" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.025.25.0SL" amount="0" aid="9EDtH4vugukjqjtJsh1bBQ" cid="17377" wp="3061.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.025.25.0SR" amount="0" aid="_doPostBack('__Page','drukuj_113699')" cid="17377" wp="3061.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.16.0SL" amount="10+" aid="Dp6gc5C9SNUnmp8l4WVFmw" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.16.0SR" amount="10+" aid="3Oatrtlb7mg2uomTZb3yjg" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.16.1SR" amount="0" aid="_doPostBack('__Page','drukuj_1061822')" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.20.0SL" amount="10+" aid="XxqnhosC861kLEqMnr4rrg" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.20.0SR" amount="10+" aid="hv-iInn_cQfqiQYAWytufQ" cid="17377" wp="2870.64" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.25.0SL" amount="0" aid="Tj1uZvkvnwmjk7Q5JeK2Ug" cid="17377" wp="3061.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.25.0SR" amount="10+" aid="3JsSFtEWEwj5STgeAqT7Xw" cid="17377" wp="3061.8" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.035.25.1SR" amount="0" aid="K134lV-owgVbRoC-45CCOg" cid="17377" wp="7581.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.036.16.4SR" amount="10+" aid="bW8-kiiebE5bWFqAHp9Yhg" cid="17377" wp="4665.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.16.0DL" amount="0" aid="ujdR41UJNY8Cm6ukf7U77A" cid="17377" wp="8310.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.16.0DR" amount="0" aid="eY33Nwza2SbEMSYg5ANmQw" cid="17377" wp="8310.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.16.0SL" amount="10+" aid="Tt7eFKuNtsBr-2iVF4wPFg" cid="17377" wp="3615.84" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.16.0SR" amount="10+" aid="ltXoN28RwtQeJrG8BhSPYA" cid="17377" wp="3615.84" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.16.VSR" amount="0" aid="gFhIUZcfz9yr94KS0sdg8g" cid="17377" wp="0" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.20.0SL" amount="0" aid="7lo0U_RbA65ghY-3TSm2WQ" cid="17377" wp="3615.84" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.20.0SR" amount="10+" aid="8IZxG0Ty3GriMqGafNXg-A" cid="17377" wp="3615.84" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.045.25.0SR" amount="10+" aid="AfMXoVtndL7J_IxcG0IZvg" cid="17377" wp="3936.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.050.16.0DL" amount="0" aid="vuC6sOfu7fQE2i-Bm92yMQ" cid="17377" wp="8748" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.050.16.0DR" amount="0" aid="EgKB77okY-U4Fni8hlSYSw" cid="17377" wp="8748" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.055.16.0SL" amount="0" aid="8gNB1zowoN3ZK9gxJcGe7Q" cid="17377" wp="4665.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.055.16.0SR" amount="10+" aid="ojrOD7Tp1DWOEXFa4c6EcQ" cid="17377" wp="4665.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTN.16.055.20.0SL" amount="0" aid="P25t_USo3qQFxOGZjiclOw" cid="17377" wp="4665.6" catn="PCD router bits Z2+1 Nesting, series DTN"/>
+  <product ean="DTC.18.025.20.0SR" amount="0" aid="5TXks6941o8hiZ9rxKYEXw" cid="32353" wp="5437.53" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.18.031.20.0SR" amount="0" aid="zQ4mqtYHszJI-5AWFgd02A" cid="32353" wp="6662.25" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.18.036.20.0SR" amount="0" aid="hA3BIQxdKD2F3ucJUeyryw" cid="32353" wp="7654.5" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.18.041.20.0SR" amount="0" aid="YNbwsEbKc3QrnhRc0Lg0fw" cid="32353" wp="8741.925" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.18.047.20.0SR" amount="0" aid="rYQz8J10x8XC1CAKLRTnRA" cid="32353" wp="9213.75" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.025.20.0SR" amount="0" aid="Dc1dZD437vOzrG5UgA1nFw" cid="32353" wp="5437.53" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.031.20.0SR" amount="0" aid="ZV5d8qsxhg199TyF2lpReQ" cid="32353" wp="6662.25" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.036.20.0SR" amount="0" aid="kDIN-s-zXN_i3zxJGifOYA" cid="32353" wp="7654.5" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.041.20.0SR" amount="0" aid="3I9eFmuMexALjQFozuKpDw" cid="32353" wp="8741.925" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.044.20.1SR" amount="0" aid="Gi8x2dCRpJGBeNRMfcXz8Q" cid="32353" wp="6662.25" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.047.20.0SR" amount="0" aid="PIATmv47VPgxQ5PPGF8bXw" cid="32353" wp="9213.75" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.053.20.0SR" amount="0" aid="n0c-g4atS0u2Ks08EJpuPw" cid="32353" wp="7654.5" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.057.20.0SR" amount="0" aid="AeQiUXv1jKYajartQjjsmQ" cid="32353" wp="12299.85" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.063.20.0SR" amount="0" aid="_G8tWHkasoXtFgOwyV6Blw" cid="32353" wp="13466.25" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.20.068.20.0SR" amount="0" aid="hcDVQuQXeWUI-imVmTSdGQ" cid="32353" wp="14423.265" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.025.25.0SR" amount="0" aid="EbqHgUZ_rtaIwHAclTTCdw" cid="32353" wp="5437.53" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.031.25.0SR" amount="0" aid="iZzrmZouZTY7hUc5JXxqvQ" cid="32353" wp="6662.25" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.036.25.0SR" amount="0" aid="5fA2zSsBO41_QzE78xw_eg" cid="32353" wp="7654.5" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.043.25.0SR" amount="0" aid="XIqGcn0EPsFTRtsgoTaN0g" cid="32353" wp="9355.5" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.047.25.0SR" amount="0" aid="St5kOx2GDtr0rZfatXdZSg" cid="32353" wp="9922.5" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.052.25.0SR" amount="0" aid="0wZFsN_aMvvpqYXJuF2fMA" cid="32353" wp="11107.53" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.057.25.0SR" amount="0" aid="OO-Ur7XUcEa2bgtxMkWTrw" cid="32353" wp="12299.85" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.063.25.0SR" amount="0" aid="Z0rZYpa0ltamCzrfYjfhAw" cid="32353" wp="13466.25" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTC.25.068.25.0SR" amount="0" aid="dBI3J7JRuB3xMkE4ukHKlg" cid="32353" wp="14423.265" catn="PCD router bits Z2+1, series DTC"/>
+  <product ean="DTK.16.045.16.0SR" amount="0" aid="7TpEKEf0VPzxp8bGVrNZgw" cid="32362" wp="6095.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.18.043.16.1SR" amount="0" aid="8ORtUBvdy3O7HbRXNifAtg" cid="32362" wp="7796.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.18.045.16.0SR" amount="0" aid="o-NDYM-MHkw30LtqQYvDqw" cid="32362" wp="4961.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.024.20.1SR" amount="0" aid="iQcxXCa7cwKPTGBFXnyYCQ" cid="32362" wp="6095.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.024.25.1SR" amount="0" aid="v5lij8Gd5LIZAQxOSfit7A" cid="32362" wp="6095.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.025.20.1SR" amount="0" aid="JXWoCVMDlZcqKXMMyj1dig" cid="32362" wp="7796.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.028.20.1SR" amount="0" aid="Vjpe85s1kcVR4eI33SMLxg" cid="32362" wp="7229.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.028.25.1SR" amount="0" aid="HXhiodLL-s8lWDQow-Q7qQ" cid="32362" wp="7229.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.036.20.2SR" amount="0" aid="hPsam0Jku30M7y_I7__atA" cid="32362" wp="8505" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.036.25.1SR" amount="0" aid="FQcMesvy-4Oekkz9Lguqgg" cid="32362" wp="8505" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.045.20.1SR" amount="0" aid="SMQHecU2DqRe1gnwOvMNSw" cid="32362" wp="9072" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.048.25.1SR" amount="0" aid="7aqp03jq_FJVgik1LXjeBA" cid="32362" wp="10631.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.20.055.20.1SR" amount="0" aid="qPEkXbGBjh1wFTcy9PKs3A" cid="32362" wp="15592.5" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.026.25.1SR" amount="0" aid="k1reY20Rt0BiluUL78t5zA" cid="32362" wp="6095.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.028.20.1SR" amount="0" aid="F4gVQT-6qwTI5dhRr4wcww" cid="32362" wp="7229.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.028.25.1SR" amount="0" aid="5S0YGwFYng4JKDiJ6ri-ow" cid="32362" wp="7229.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.036.20.1SR" amount="0" aid="oI_nhfDl1ESWA9O_Q6lkXg" cid="32362" wp="8505" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.036.25.1SR" amount="0" aid="uuVxODiQJrikw55zr9AhIA" cid="32362" wp="8505" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.045.25.1SR" amount="0" aid="Az_HXmAtX-gLSOEHqYHysQ" cid="32362" wp="14742" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.048.20.1SR" amount="0" aid="WhDMDxjvECLE6NJJgHJd9A" cid="32362" wp="10631.25" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.055.20.1SR" amount="0" aid="aPriKY25rGC7mqVgzCEqEg" cid="32362" wp="11850.3" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.055.25.1SR" amount="0" aid="pwEjKcOxakvkghUCkA_oXw" cid="32362" wp="11850.3" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.068.20.2SR" amount="0" aid="_doPostBack('__Page','drukuj_468046')" cid="32362" wp="16159.5" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.068.25.1SR" amount="0" aid="rM9MVvgrDy9XEh5X_5tIgQ" cid="32362" wp="13990.725" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.086.20.1SR" amount="0" aid="TXYSEDWCzu6dPfLr4xf4Pw" cid="32362" wp="17293.5" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTK.25.086.25.1SR" amount="0" aid="MPTp1VXAddYhMIgjRKmiWw" cid="32362" wp="17293.5" catn="PCD router bits Z2+2, series DTK"/>
+  <product ean="DTE.10.022.10.0DR" amount="0" aid="XaeKHzrmMhsR3bfLZZkvyQ" cid="17386" wp="7796.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.10.022.12.0DR" amount="3" aid="ktgD2HVugPHaOrb8ygnEXg" cid="17386" wp="5244.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.12.020.12.0DR" amount="10+" aid="fdhvljvMB-aG5vcgyxfngA" cid="17386" wp="5670" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.12.022.12.0DL" amount="0" aid="SSCoJ01kOoYj2-fZSeUzig" cid="17386" wp="7796.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.12.022.12.0DR" amount="8" aid="3vmDYPkK78WFQlOvgp4ZGA" cid="17386" wp="5244.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.12.027.12.0DL" amount="0" aid="Zc8r4iJytQHtZKw6m2oP2w" cid="17386" wp="6520.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.12.027.12.0DR" amount="10+" aid="Idznk1HEy6YgNh6Ob78DPQ" cid="17386" wp="6520.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.12.035.12.0DR" amount="3" aid="P-KKYnOOW8Ob_HvxPgVCrw" cid="17386" wp="8363.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.020.16.0SL" amount="0" aid="PR-UyIzM3wL6-eHPJHJeRg" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.020.16.0SR" amount="0" aid="nUqHmLeS2KLKnxCrYD78zw" cid="17386" wp="3685.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.020.16.1SR" amount="5" aid="_doPostBack('__Page','drukuj_1049889')" cid="17386" wp="4394.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.020.20.0SL" amount="0" aid="xG71LnIZPA5nlIIdNf-vsA" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.020.20.0SR" amount="9" aid="EBkGXoR8DfeI9sX4WuTU7A" cid="17386" wp="3847.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.025.16.0SL" amount="0" aid="nJvlC9AO40fOxc3A_aKvxw" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.025.16.0SR" amount="1" aid="cbDnSLd0EudY5ETrjxHL_w" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.025.20.0SL" amount="0" aid="pF2mXy6_xC3_fg_p71x6wg" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.025.20.0SR" amount="10+" aid="ifHhxkyBcGWLrMPTrDU6nQ" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.030.16.0SL" amount="0" aid="sX0AdoTTzAnh8e4cGpJdGQ" cid="17386" wp="5103" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.030.16.0SR" amount="8" aid="8bXuUfXqgD1NSaw7M707sw" cid="17386" wp="5103" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.030.16.1SL" amount="0" aid="sS32d1pXOo2HuqAA2L0h3g" cid="17386" wp="8363.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.030.16.1SR" amount="0" aid="vuteuwztnLOOGMUDi9JgyQ" cid="17386" wp="8363.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.035.16.0SL" amount="0" aid="GmKDhyQy-KsUiU8HyTJ1ZA" cid="17386" wp="6378.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.035.16.0SR" amount="2" aid="n8uge6vBA3UEJbtBgWEBzw" cid="17386" wp="6378.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.035.20.0SL" amount="0" aid="SXZuzTLPAF4CZAF8B7vlJQ" cid="17386" wp="6378.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.035.20.0SR" amount="10+" aid="un9uCtCOL9st4MZiNufaAg" cid="17386" wp="6378.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.040.16.0SL" amount="0" aid="6NkuWz5fIh-s89dvn9913w" cid="17386" wp="7654.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.040.16.0SR" amount="4" aid="IPeC0sPP7U1_nxxMEtd07A" cid="17386" wp="7654.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.040.16.1SR" amount="0" aid="DbSrydDoKVUtfJacHSIexg" cid="17386" wp="11623.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.050.16.0SR" amount="1" aid="GMZycamGXAlcm0KDPaNtmA" cid="17386" wp="9780.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.055.16.0SL" amount="0" aid="Ih7ULdRqauH4Tr1_6YXbxA" cid="17386" wp="10206" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.055.16.0SR" amount="0" aid="-jx6dRsNCcLJkiJY4t8_xw" cid="17386" wp="11198.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.025.20.0SL" amount="0" aid="qVWc3zKpObCZQN9PcbAR_Q" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.025.20.0SR" amount="10+" aid="votSMn3qGFRekwaLJMXThw" cid="17386" wp="3969" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.030.20.0SL" amount="0" aid="_-gW_2sGG_lX6Ebg0wzkXg" cid="17386" wp="5103" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.030.20.0SR" amount="10+" aid="rDkErm_ptdaB8yVA5x5q8Q" cid="17386" wp="5103" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.035.20.0SL" amount="0" aid="KFENRtz7sNPrbc_Sg7SSiQ" cid="17386" wp="6378.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.035.20.0SR" amount="0" aid="vkF2VfVpT2n3GtRp46jJ3Q" cid="17386" wp="6378.75" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.035.25.0SL" amount="0" aid="aQr30eR_euB3MngvFzFLwQ" cid="17386" wp="7087.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.035.25.0SR" amount="1" aid="5ZAgwYeZSUAFAIdFtKzfcA" cid="17386" wp="7087.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.040.20.0SL" amount="0" aid="2libNtAkWl6Lh7NchcpriQ" cid="17386" wp="7654.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.040.20.0SR" amount="2" aid="G-G2ycCsWPfp1IwJ-43PGw" cid="17386" wp="7654.5" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.045.20.0SL" amount="0" aid="6fEIbBkJqlhUxARFTFZ9tA" cid="17386" wp="8505" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.045.20.0SR" amount="5" aid="bJuw3RC9J8Vbu4UDw624Eg" cid="17386" wp="8505" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.050.20.0SL" amount="0" aid="P_sO0ZckclyI7jQDfMD08A" cid="17386" wp="8930.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.18.050.20.0SR" amount="0" aid="HJu7mCKpu6VtGOpUqrbWOw" cid="17386" wp="8930.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.20.025.16.0SL" amount="0" aid="gfHp-iU8LxCGA5axuRbVeQ" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.20.025.16.0SR" amount="0" aid="0TsU7F2Dm0CNX_Sy2VG30w" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.20.025.20.0SL" amount="0" aid="9rTDwwN9bfr8ZfzjDQ4Hsw" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.20.025.20.0SR" amount="10+" aid="BR1pjCpqnO-NkLa6Qu6Zwg" cid="17386" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.20.025.25.0SL" amount="0" aid="43cUbQAFOix9b4WH40c4tw" cid="17386" wp="4394.25" catn="PCD router bits Z3+1 TURBO, series DTE"/>
+  <product ean="DTE.16.020.16.NSL" amount="0" aid="aZgqCGv_ervcFKDT3OTvpg" cid="35571" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE NES"/>
+  <product ean="DTE.16.020.16.NSR" amount="1" aid="44yjf9Tknj5DE6YaxkYNHw" cid="35571" wp="3827.25" catn="PCD router bits Z3+1 TURBO, series DTE NES"/>
+  <product ean="DTE.16.020.20.NSR" amount="10+" aid="jeBKSeeRiEIP3X8iB-qL1g" cid="35571" wp="4394.25" catn="PCD router bits Z3+1 TURBO, series DTE NES"/>
+  <product ean="DTE.16.025.16.NSR" amount="0" aid="x7fHxT-S6msG3vf-FcY26A" cid="35571" wp="4394.25" catn="PCD router bits Z3+1 TURBO, series DTE NES"/>
+  <product ean="DTE.16.035.16.NSL" amount="0" aid="LaLKt3kBnjCSCCf654HbJA" cid="35571" wp="6378.75" catn="PCD router bits Z3+1 TURBO, series DTE NES"/>
+  <product ean="DTE.16.035.16.NSR" amount="10+" aid="xlay1eKwPEMaO4-QDTrqbw" cid="35571" wp="7087.5" catn="PCD router bits Z3+1 TURBO, series DTE NES"/>
+  <product ean="DTI.10.015.12.0DR" amount="0" aid="4CjFcGqUgDZK9X7-7WcLlQ" cid="17395" wp="9922.5" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTI.12.025.12.0DL" amount="0" aid="ghH5UmGZaU3NZguHMm5a5w" cid="17395" wp="8646.75" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTI.20.025.20.0SL" amount="0" aid="h20d2yBmv3Qj3cahEC8joA" cid="17395" wp="3685.5" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTI.20.025.20.0SR" amount="0" aid="hPotcsFaulFEvTK0tHAleQ" cid="17395" wp="4252.5" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTI.20.035.20.0SL" amount="0" aid="dDAR7pfP539DjqW36BoE7Q" cid="17395" wp="2551.5" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTI.20.035.20.0SR" amount="0" aid="FpeyV4IapzFuAmqr0E7oAg" cid="17395" wp="6804" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTI.20.045.20.0SL" amount="0" aid="V-wlkiOGurnhBr5p2A1ebQ" cid="17395" wp="6095.25" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTI.20.045.20.0SR" amount="0" aid="uKbptZkVFiBCk_L8A8pouw" cid="17395" wp="6095.25" catn="PCD router bits Z1+1 45^0, series DTI"/>
+  <product ean="DTD.18.025.20.0SR" amount="0" aid="mrjq0xyJhg6aWFd0lYN97A" cid="37365" wp="6662.25" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.18.031.20.0SR" amount="0" aid="SZyRZoseQFCU0QSgD3tk9w" cid="37365" wp="7654.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.18.036.20.0SR" amount="0" aid="4uageNnskuzLx1caqCkVpQ" cid="37365" wp="8788.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.18.041.20.0SR" amount="0" aid="ZsrPYX2hUsreoRrj7jj5OA" cid="37365" wp="9922.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.18.047.20.0SR" amount="0" aid="bRKIKUdb2pq_hrpDUGr9fA" cid="37365" wp="11113.2" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.026.20.0SR" amount="0" aid="2VbWHdFX2z6ImIWPG9236w" cid="37365" wp="6945.75" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.031.20.0SR" amount="0" aid="FTBV_sgPQpnYhV16_gkkdg" cid="37365" wp="8788.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.035.20.0SR" amount="0" aid="wvQfhjo9peqHZZrxfZkZEg" cid="37365" wp="9497.25" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.041.20.0SR" amount="0" aid="lrmMofEAeOiWL-BTRGnXUA" cid="37365" wp="9922.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.047.20.0SR" amount="0" aid="gKhXLgTaeeGU3L1uxfxdVA" cid="37365" wp="11107.53" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.057.20.0SR" amount="0" aid="V5Evs3rYeWGlGqI-lShbfA" cid="37365" wp="13466.25" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.063.20.0SR" amount="0" aid="JQWNO8Y3vfkwqzuvVu7IBw" cid="37365" wp="14458.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.20.068.20.0SR" amount="0" aid="2pXG00GveEXqN_0UuQAYVg" cid="37365" wp="15592.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.025.25.0SR" amount="0" aid="GcoiZpPX4gc6ywJeE4N0gQ" cid="37365" wp="6662.25" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.031.25.0SR" amount="0" aid="0IOn4qvE4fb9KqFNsCyU9Q" cid="37365" wp="7654.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.035.25.0SR" amount="0" aid="fMlBZkvXS_1O6AkPUjbYtg" cid="37365" wp="9497.25" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.036.25.0SR" amount="0" aid="aL7JIDK8x8lrCi5lLWlgpg" cid="37365" wp="8788.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.041.25.0SR" amount="0" aid="HqBtLbs846xHEFcrlYx4fg" cid="37365" wp="9922.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.047.25.0SR" amount="0" aid="mH4eifIBZXiYPPKRibS3oA" cid="37365" wp="11113.2" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.052.25.0SR" amount="0" aid="D3e3dwsDvrcr2zzB4DXcQg" cid="37365" wp="12332.25" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.057.25.0SR" amount="0" aid="ujWlR-v8Odi-gZn7ie4dRg" cid="37365" wp="13466.25" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.062.25.0SR" amount="0" aid="umtYD-ztqCGFkJT7DJY8yQ" cid="37365" wp="16726.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.065.20.0SR" amount="0" aid="ZwoOPTVqnwEZGKRh4xu6CQ" cid="37365" wp="17010" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTD.25.068.25.0SR" amount="0" aid="Ml-hd1xd-cHBMTAHb2ljeQ" cid="37365" wp="15592.5" catn="PCD router bits Z2+1 45^0, series DTD"/>
+  <product ean="DTI.14.019.16.3DL" amount="0" aid="Ql5LWUnOZBBmBiLjTyDpSg" cid="37374" wp="7597.8" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.019.16.3DR" amount="0" aid="KmtlZqDaHBzwXWcvm22NzQ" cid="37374" wp="7597.8" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.019.16.3SL" amount="0" aid="GyVcy1mlYd7ZUM9wfmSQKA" cid="37374" wp="5244.75" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.019.16.3SR" amount="0" aid="tVlk3H9JJDaAP5E0RhbSsw" cid="37374" wp="5244.75" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.024.16.3DL" amount="0" aid="UfWS__Svh0A9SIzDz9iU2w" cid="37374" wp="8505" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.024.16.3DR" amount="0" aid="LXBwL_Ur6nWvrnFxrv9MWQ" cid="37374" wp="9114.525" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.024.16.3SL" amount="0" aid="tzQhPbiZ1cJUGOyqQIAd_A" cid="37374" wp="6180.3" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.024.16.3SR" amount="0" aid="OR0sfy0F3Qc3lxJm_pEK4A" cid="37374" wp="6582.87" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.028.16.3DL" amount="0" aid="xG-M7GJG3689kriFk7VOzw" cid="37374" wp="9497.25" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.028.16.3DR" amount="0" aid="oS1_x_o4qelq_vfA9tmDIw" cid="37374" wp="9497.25" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.028.16.3SL" amount="0" aid="VEwil7Sp2t-2bnGZpn4Dhw" cid="37374" wp="7087.5" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.14.028.16.3SR" amount="0" aid="QRNpK7y4f3A-3yYGJnS_pg" cid="37374" wp="7087.5" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.019.16.3DL" amount="0" aid="EG_8U-mWbnHQcwRlHXhOBw" cid="37374" wp="8278.2" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.019.16.3DR" amount="0" aid="7QMAwtSNn6V34aZzionKsQ" cid="37374" wp="8363.25" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.019.16.3SL" amount="0" aid="9XsVWupGKHQaQ0IXJArAWQ" cid="37374" wp="5244.75" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.019.16.3SR" amount="0" aid="_doPostBack('__Page','drukuj_579661')" cid="37374" wp="5244.75" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.024.16.3DL" amount="0" aid="pPFGtmRNQjwD0WF5q0izgQ" cid="37374" wp="9213.75" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.024.16.3DR" amount="0" aid="GF0ocrGVVzLEauZUO4vRqg" cid="37374" wp="9922.5" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.024.16.3SL" amount="0" aid="P0SyRKA1IGAY6FBs1ROBzg" cid="37374" wp="6180.3" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.024.16.3SR" amount="0" aid="slkkpjubwzn5FjXcC5Pc1g" cid="37374" wp="6945.75" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.028.16.3DL" amount="0" aid="p5sJ_SbcKcgfZl9LyfY-4Q" cid="37374" wp="10631.25" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.028.16.3DR" amount="0" aid="9ywE3-QLHGPrxF8-_vMCzg" cid="37374" wp="10631.25" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.028.16.3SL" amount="0" aid="McrlkvY29rDhyIJbxQdGqQ" cid="37374" wp="7087.5" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.028.16.3SR" amount="0" aid="_doPostBack('__Page','drukuj_579733')" cid="37374" wp="7087.5" catn="PCD router bits Z3+1 45^0, series DTI"/>
+  <product ean="DTI.16.030.16.0SNL" amount="0" aid="QX0GSyxl1nH14AC-imA3cw" cid="37392" wp="17577" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.16.030.16.0SNR" amount="0" aid="ZTVuRkBZjmfaHMWGnLkZxQ" cid="37392" wp="17577" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.020.20.2SL" amount="0" aid="SD_wG2gnwiYEJUPPa9pyrQ" cid="37392" wp="9922.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.020.20.2SR" amount="0" aid="ADaidi8hTgSJRLhqiiMs6Q" cid="37392" wp="9922.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.025.20.2SL" amount="0" aid="ZtoYbV0PVDiLRJ7ShZNupg" cid="37392" wp="11481.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.025.20.2SR" amount="0" aid="Xrtq7AKFdCJr0jKQCO49zQ" cid="37392" wp="10914.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.030.20.2SL" amount="0" aid="pAKNroXYHAknbFWkNMafQA" cid="37392" wp="13551.3" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.030.20.2SR" amount="0" aid="popcUDnX5QcNejXsmNCNYw" cid="37392" wp="13466.25" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.035.20.2SL" amount="0" aid="NHwT4Kz51qGRMy7MsC2K-w" cid="37392" wp="15592.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.035.20.2SR" amount="0" aid="_doPostBack('__Page','drukuj_579778')" cid="37392" wp="14458.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.040.20.2SL" amount="0" aid="KelXMmT6-RWAN71IX-IhXg" cid="37392" wp="17718.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.040.20.2SR" amount="0" aid="lfTfKVaVBhibEVQtWwJtjw" cid="37392" wp="17718.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.045.20.2SL" amount="0" aid="71z5rpuKgKHbySBwHsIrrg" cid="37392" wp="19845" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.045.20.2SR" amount="0" aid="6IIkam_GIH4dTNycQzv4mQ" cid="37392" wp="17435.25" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.050.20.2SL" amount="0" aid="geNSQ6SK-8L6gk2iCVHFvw" cid="37392" wp="21829.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.050.20.2SR" amount="0" aid="NIvtuVxiSHwNItGLAhQiDw" cid="37392" wp="18852.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.055.20.2SL" amount="0" aid="zaaXGzIwaP9J6itffihj9g" cid="37392" wp="23955.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.055.20.2SR" amount="0" aid="0pK7uQ79DpYow7QrtuvG9w" cid="37392" wp="23955.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.060.20.2SL" amount="0" aid="Yrn0V1gij2mXbRkbKKEOSA" cid="37392" wp="26025.3" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.060.20.2SR" amount="0" aid="fTdZ1CCHGfVpEX2Md8a6jA" cid="37392" wp="26025.3" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.065.20.2SL" amount="0" aid="AiKglsZ9FHVePilvKWwpRw" cid="37392" wp="28066.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.20.065.20.2SR" amount="0" aid="9SZ07vPTEFmAncgXK6ODwQ" cid="37392" wp="28066.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.020.25.2SL" amount="0" aid="fx6Y6esy_-W7Zvn6bMxdiw" cid="37392" wp="11481.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.020.25.2SR" amount="0" aid="_doPostBack('__Page','drukuj_579868')" cid="37392" wp="11481.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.025.25.2SL" amount="0" aid="GVMMTnSj_1unGrt6Oslj0A" cid="37392" wp="11481.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.025.25.2SR" amount="0" aid="UzObyGs67dfacDUcpFVTNw" cid="37392" wp="9639" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.030.25.2SL" amount="0" aid="94tS3zrjyM6aNh5y6cNyqw" cid="37392" wp="11481.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.030.25.2SR" amount="0" aid="Py0zPbMI8nN8fCobS0qiWg" cid="37392" wp="11481.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.035.25.2SL" amount="0" aid="r8okI0OvxqfWJkGtW-4rZg" cid="37392" wp="15592.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.035.25.2SR" amount="0" aid="zCBgChF2sXNuEPmKFIxsXw" cid="37392" wp="13466.25" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.040.25.2SL" amount="0" aid="y8B7YEwXdOv0e2d8fHW_hQ" cid="37392" wp="17718.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.040.25.2SR" amount="0" aid="VkAEmksglL5XuSsQV0aKZw" cid="37392" wp="15847.65" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.045.25.2SL" amount="0" aid="dNVZXZ8MqfEgWBFdE4sUxQ" cid="37392" wp="17435.25" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.045.25.2SR" amount="0" aid="eTzmmY0hHLICMPc5Tvzf8w" cid="37392" wp="18994.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.050.25.2SL" amount="0" aid="rgS1jXRzo3bJSoZ5Z0eljQ" cid="37392" wp="21829.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.050.25.2SR" amount="0" aid="n1gBVEe1ZF0xMyWmM_KJ6w" cid="37392" wp="19845" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.055.25.2SL" amount="0" aid="Spic7ZxB5o_gmwMo7IpF-A" cid="37392" wp="23955.75" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.055.25.2SR" amount="0" aid="rxTna4atiyr3wXkPmBzLaQ" cid="37392" wp="27216" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.060.25.2SL" amount="0" aid="vKXnIUd0jUwr2Z9xaRuKkQ" cid="37392" wp="26025.3" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.060.25.2SR" amount="0" aid="PK-q6XNX1ghuBUDRI2-8dg" cid="37392" wp="26025.3" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.065.25.2SL" amount="0" aid="MDxdwunfLVprkcNfHDjgOQ" cid="37392" wp="28066.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTI.25.065.25.2SR" amount="0" aid="YK2E6kx93xvJQUkLOxww5A" cid="37392" wp="28066.5" catn="PCD router bits Z2+2 54,9^0, series DTI"/>
+  <product ean="DTJ.40.020.16.0SR4" amount="0" aid="q6pLcDiE8gb08VTRYCkGJg" cid="17404" wp="11907" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.023.25.0SL3" amount="0" aid="NLP5V7y_lGlXVBhRiEmT-w" cid="17404" wp="10206" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.023.25.0SL4" amount="0" aid="mR8geJbgp4y4hJVHQNKQ5g" cid="17404" wp="12190.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.023.25.0SR3" amount="0" aid="Ab9JhFY0GivTvCY0_pjQUA" cid="17404" wp="8164.8" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.023.25.0SR4" amount="0" aid="bcxxmK_7GmxBOQIwgczpTw" cid="17404" wp="12190.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.028.25.0SL3" amount="0" aid="1s74poMtVpH5h7whYekZoA" cid="17404" wp="11623.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.028.25.0SL4" amount="0" aid="6Je1tzopBpLivjgRckfDoQ" cid="17404" wp="14175" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.028.25.0SR3" amount="0" aid="KbvVGYe5IBZVa5zbCLY5pQ" cid="17404" wp="11623.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.028.25.0SR4" amount="0" aid="qU6VwgiSzBF5xniXt2wrLw" cid="17404" wp="400.14" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.028.25.WSL3" amount="0" aid="u_dwL71TF3b5vBH1e4VwJg" cid="17404" wp="13182.75" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.038.25.0SL3" amount="0" aid="Q7_TrQ5yWXUq6aNJ55v2Vg" cid="17404" wp="18852.75" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.038.25.0SL4" amount="0" aid="S-gL17waH1iJsSQVUh_p6w" cid="17404" wp="25089.75" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.038.25.0SR3" amount="0" aid="-87WfY5n44jNcLI7QY5NAA" cid="17404" wp="17293.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.038.25.0SR4" amount="0" aid="P_KVO7NJG2NEHJTPE04tJQ" cid="17404" wp="25089.75" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.040.20.1SR4" amount="0" aid="iHkvFr5HAIQk3nA9o9Rvtg" cid="17404" wp="27074.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.045.25.0SL4" amount="0" aid="WyXLoSyhceVXocKRQi9gaw" cid="17404" wp="21262.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.045.25.0SR4" amount="0" aid="7Ru--Mw25ew-CFHDUtW08g" cid="17404" wp="21262.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.048.25.1SL4" amount="0" aid="K8Dar6CGk-cxIh4lVtlvEw" cid="17404" wp="25373.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.048.25.1SL6" amount="0" aid="r2jmr1sRhZ-MXhBqSPRJpg" cid="17404" wp="30334.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.048.25.1SR4" amount="0" aid="zD8GuRF4uO8CmzoyPxD2bg" cid="17404" wp="25373.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.048.25.1SR6" amount="0" aid="0_2Vwbr_p-bdFQ8GbPF9aw" cid="17404" wp="30334.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.023.25.0SL3" amount="0" aid="15CMDwzvbSuJ359XDNDkYw" cid="17404" wp="10631.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.023.25.0SL4" amount="0" aid="I57zdUjebvRklRpNENYS1g" cid="17404" wp="12899.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.023.25.0SR3" amount="0" aid="q6s4LiAi4LS0KcmQeSrK9g" cid="17404" wp="10631.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.023.25.0SR4" amount="0" aid="GPEbNo0n2pkZ-VjerJ6U4Q" cid="17404" wp="14033.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.028.25.0SL3" amount="0" aid="XTURKw6BwQRl7ZGv2UI7bQ" cid="17404" wp="12332.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.028.25.0SL4" amount="0" aid="LJ5ZDAloFECMriyBNwveag" cid="17404" wp="14968.8" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.028.25.0SR3" amount="0" aid="Cfg4PrfItT3AhTLXHeCwyQ" cid="17404" wp="12332.25" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.028.25.0SR4" amount="0" aid="PnqIPrhqydJX_jjavNnJsg" cid="17404" wp="14968.8" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.038.25.0SL3" amount="0" aid="9pBeNIzoS4A65sPDQn5z0g" cid="17404" wp="15479.1" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.038.25.0SL4" amount="0" aid="xgaROO4T5gjJTV8wyHou7g" cid="17404" wp="19157.715" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.038.25.0SR3" amount="0" aid="6DKmm7UCSKpeIhJyISW4tQ" cid="17404" wp="15479.1" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.038.25.0SR4" amount="0" aid="Ir6-VwFACQZG9aAMNWsXFQ" cid="17404" wp="19157.715" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.045.25.0SL4" amount="0" aid="aPHWDeHli_WxYCROLzUWuw" cid="17404" wp="21262.5" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.60.045.25.0SR4" amount="0" aid="u-A3j8GfJt3hnRpOWQyG-w" cid="17404" wp="18937.8" catn="PCD router bits Z3+3 | Z4+4 40^0, series DTJ"/>
+  <product ean="DTJ.50.030.25.1SL3" amount="0" aid="pDKWYNrcbaihs7vRun9z-w" cid="37401" wp="17151.75" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.50.030.25.1SL4" amount="0" aid="-CDWCZ-JHzV357OQbACf5A" cid="37401" wp="23388.75" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.50.030.25.1SR3" amount="0" aid="4qhNiGmtUWc8uvdb-ilGzQ" cid="37401" wp="17151.75" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.50.030.25.1SR4" amount="0" aid="iNZFdcca68IeVJ5-gquchw" cid="37401" wp="23388.75" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.50.050.25.1SL3" amount="0" aid="premIVI1e27wbxiIVzyanQ" cid="37401" wp="26932.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.50.050.25.1SL4" amount="0" aid="84HZV_b6cYsJx4hdlORk7A" cid="37401" wp="37705.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.50.050.25.1SR3" amount="0" aid="p2w1pKVUna-g9WT4a1OQ5g" cid="37401" wp="35437.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.50.050.25.1SR4" amount="0" aid="Zp4lRoT6hUYCRSIS_yDKeA" cid="37401" wp="54122.58" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.050.20.W2SR" amount="0" aid="Yi3VK8okJhfYnK_SfBhBLA" cid="37401" wp="26790.75" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.050.25.1SL3" amount="0" aid="IrBQ4edBlN2NkmKmyvnkrg" cid="37401" wp="26932.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.050.25.1SL4" amount="0" aid="9EqViVte-EwArjz2m-zz3w" cid="37401" wp="37705.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.050.25.1SR3" amount="0" aid="KsP8fpMS0qJ55jz1TEpNuA" cid="37401" wp="26932.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.050.25.1SR4" amount="0" aid="SV-gd10SPvienCJFSg42oA" cid="37401" wp="37705.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.060.25.1SL3" amount="0" aid="kC9lYnX-kkIcwNIdr88L_A" cid="37401" wp="32319" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.060.25.1SL4" amount="0" aid="uOWpF0qHkRhp_ctWQxs2qA" cid="37401" wp="44934.75" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.060.25.1SR3" amount="0" aid="ZMlnOJ2Rwr4WF7NMAekrRQ" cid="37401" wp="32319" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.060.25.1SR4" amount="0" aid="TVUqXc3mjIHt2qc_W9zKOA" cid="37401" wp="44934.75" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.065.25.1SL3" amount="0" aid="gfgbtzIfJmghsj34D3tPmA" cid="37401" wp="35012.25" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.065.25.1SL4" amount="0" aid="h72o1WFUmrrE5WKovdTL5w" cid="37401" wp="48478.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.065.25.1SR3" amount="0" aid="aIFM9melfzPnTBY5FNTLFQ" cid="37401" wp="35012.25" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTJ.80.065.25.1SR4" amount="0" aid="zKTky0sILQjrH_8LtIowHw" cid="37401" wp="48478.5" catn="PCD router bits Z3+3 | Z4+4 54,9^0, series DTJ"/>
+  <product ean="DTM.12.019.12.0DRN" amount="0" aid="D2EIkILNxomGH3QId9BMAw" cid="37419" wp="7796.25" catn="PCD router bits Z3+1 Nesting, series DTM"/>
+  <product ean="DTM.12.019.12.0DRP" amount="0" aid="VAapZysHIzm9Vn7wxPxC2w" cid="37419" wp="7512.75" catn="PCD router bits Z3+1 Nesting, series DTM"/>
+  <product ean="DTM.12.024.12.0DRP" amount="0" aid="DkwTdxGWeEyGKz7y2NwYcw" cid="37419" wp="8930.25" catn="PCD router bits Z3+1 Nesting, series DTM"/>
+  <product ean="DTM.16.024.16.0SRN" amount="0" aid="PIS7Y-3pXH2AILdJ1lQ0cw" cid="37419" wp="6945.75" catn="PCD router bits Z3+1 Nesting, series DTM"/>
+  <product ean="DTM.16.024.16.0SRP" amount="0" aid="tfbGTDNTLBUw68DWwBL_6g" cid="37419" wp="6945.75" catn="PCD router bits Z3+1 Nesting, series DTM"/>
+  <product ean="DTM.16.030.16.0SRP" amount="0" aid="9HBjGq5mIEcNa9P26XrUMg" cid="37419" wp="7087.5" catn="PCD router bits Z3+1 Nesting, series DTM"/>
+  <product ean="DTM.16.035.16.0SRP" amount="0" aid="c3kIcwjnjr1gYLCfOAE_aA" cid="37419" wp="8079.75" catn="PCD router bits Z3+1 Nesting, series DTM"/>
+  <product ean="DTE.16.027.16.0DRP" amount="0" aid="yFyQQzm0AmAVUj46hHTf1A" cid="35580" wp="7512.75" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.019.12.1DRN" amount="10+" aid="ljMQpa4VPwr23vED20u7XQ" cid="35580" wp="6804" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.019.12.1DRP" amount="10+" aid="F8gt1iC5c_YZ8eGGcbho-w" cid="35580" wp="6816.96" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.021.12.1DRN" amount="10+" aid="YSeUoNrN7Fku4d1fiakstw" cid="35580" wp="8363.25" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.021.12.1DRP" amount="10+" aid="hoirHXN1eJe2zluoPw0bdw" cid="35580" wp="8363.25" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.024.12.1DRN" amount="10+" aid="tixoE_-gZ2-on1r7AGwthw" cid="35580" wp="8788.5" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.024.12.1DRP" amount="10+" aid="Y9f9a-9S1XEN-MdGO3LTPg" cid="35580" wp="8788.5" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.024.12.1SRP" amount="0" aid="V8YjpMHipKJrDAjskjm03Q" cid="35580" wp="6582.87" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.028.12.1DRP" amount="0" aid="_doPostBack('__Page','drukuj_491594')" cid="35580" wp="11198.25" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.12.032.12.0DRN" amount="0" aid="radDaNc3qnP7Td-vyicnQQ" cid="35580" wp="9497.25" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.16.025.16.1DRN" amount="0" aid="Nh1ZvGEy60r3Ic4v4KXr6A" cid="35580" wp="11340" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.16.025.16.1SRN" amount="0" aid="E2ndT928XV7ax8zFRHkeKA" cid="35580" wp="9639" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.16.035.16.1DRN" amount="2" aid="VmVY1aG6wB5QujTWt2Wi8Q" cid="35580" wp="14742" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.16.035.16.1DRP" amount="0" aid="_C8VUCL1AORd_HNXFmO2dg" cid="35580" wp="14458.5" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.16.035.16.1SRN" amount="0" aid="w1GA0XUl40AapRUOcCL3wg" cid="35580" wp="9639" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="DTM.16.035.16.2SRP" amount="0" aid="qyL78H9XQ54Os3rDIxssHg" cid="35580" wp="10064.25" catn="PCD router bits Z3+3 Nesting, series DTM"/>
+  <product ean="FSP.25.012.12.B0R" amount="0" aid="UDXancPNQl1Z0P5ozisElw" cid="38241" wp="5540.4" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.25.012.12.B1R" amount="0" aid="P7HyFHFXkfa_9f3SRmFV2w" cid="38241" wp="4936.95" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.011.16.D0R" amount="0" aid="cBwRfr15kuI-qhk0lW9X3g" cid="38241" wp="6998.4" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.012.12.D0R" amount="0" aid="_6Y1lEzke88SJFlJQyedig" cid="38241" wp="5832" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.012.12.E0R" amount="0" aid="juooPqots-LQRgNxFnFRlQ" cid="38241" wp="4700.43" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.012.12.E1R" amount="0" aid="AkyZYzS-PPXwN68_KH5gYw" cid="38241" wp="4936.95" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.013.08.D0R" amount="0" aid="_doPostBack('__Page','drukuj_606820')" cid="38241" wp="6998.4" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.013.16.C1R" amount="0" aid="ncdKOVM-c3csSBRJn-9fUg" cid="38241" wp="5540.4" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.015.12.D0R" amount="0" aid="eHNTO4CsYQZ-bfVUgQq7CQ" cid="38241" wp="6770.79" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.144.12.C0R" amount="0" aid="hzfgTN_1XGAgbBXhI_R8ng" cid="38241" wp="4700.43" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.144.12.C1R" amount="0" aid="p5vt8QnM_lrkTRrSNa48hg" cid="38241" wp="4936.95" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.155.12.D1R" amount="0" aid="n7gd9_6vR_AQMiSysC0Kog" cid="38241" wp="5567.13" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.155.12.E0R" amount="0" aid="izFnfRYvTTvyVuJl6qW83A" cid="38241" wp="4700.43" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.155.12.E1R" amount="0" aid="7RUtEgxpnXXCd0g_E0hvZw" cid="38241" wp="6998.4" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.165.12.C0R" amount="0" aid="46y8hIB8SNRbzu1nhxkq5g" cid="38241" wp="5207.895" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.27.165.16.C0R" amount="0" aid="OqBQqktQDtNW2t-LiMH-oA" cid="38241" wp="5686.2" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.28.013.16.C0R" amount="0" aid="59xc_WQ4c0XXy_EagcGOsQ" cid="38241" wp="5686.2" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.28.015.20.C1R" amount="0" aid="P8xOihk22FpSChPHlrSUwg" cid="38241" wp="5540.4" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.28.135.12.C0R" amount="0" aid="9nFLU5KPrVHmJhzufVheTQ" cid="38241" wp="5207.895" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.28.135.12.C1R" amount="0" aid="uAwYohsONOXYcVZXRZAubA" cid="38241" wp="5686.2" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.28.155.12.C1R" amount="0" aid="h7WEipzSHddSFelZd7JFGQ" cid="38241" wp="5832" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.28.165.20.C1R" amount="0" aid="DMFb-9u4jEuhOFdpKuZXCQ" cid="38241" wp="5103" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.30.175.12.C0R" amount="0" aid="IU5ZE6PJHo0pB7XRDtTbiA" cid="38241" wp="4700.43" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.31.135.12.B0R" amount="0" aid="lmkJM46sjc4bGXiLHow7Tw" cid="38241" wp="4700.43" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.31.135.12.D0R" amount="0" aid="_doPostBack('__Page','drukuj_581890')" cid="38241" wp="7144.2" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.31.155.12.B0R" amount="0" aid="PXD5VYlJDG_Hdcyqfr3coQ" cid="38241" wp="5540.4" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.31.155.12.B1R" amount="0" aid="-RWGO-8Ph6sN-9jOKbYvDA" cid="38241" wp="5686.2" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.32.020.12.A0R" amount="0" aid="e9gJQ7zcrcCCnqgJE820UA" cid="38241" wp="5394.6" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.32.020.12.A1R" amount="0" aid="rcIzCpnrZNQsJBW7qRmRCA" cid="38241" wp="4936.95" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.34.222.12.B0R" amount="0" aid="thob0UJdsset3vssuRmr8w" cid="38241" wp="5394.6" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.34.222.12.B1R" amount="0" aid="iOD3qK3AGgHLmBXLH_yP8w" cid="38241" wp="4936.95" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.35.018.20.0SR" amount="0" aid="kur_wgCi7cSmfJpYEoMTRA" cid="38241" wp="5686.2" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.36.017.12.C0R" amount="0" aid="nQQ8_Op0k3wE8kktrTY3Yw" cid="38241" wp="4700.43" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.36.017.12.C1R" amount="0" aid="Ibtr0D4PaZw9vGLDI3Hd7Q" cid="38241" wp="4936.95" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.37.025.16.B0R" amount="0" aid="N17Kc9te6fwRhfEAGQQkaQ" cid="38241" wp="8334.09" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FSP.52.014.20.C0R" amount="0" aid="eUH07zCtN38pLv_YWRAoZg" cid="38241" wp="6852.6" catn="PCD router bits T-Slot, series FSP"/>
+  <product ean="FDT.12.004.08.1SR" amount="0" aid="TOAIz1428W7Upd_zYK7Hbw" cid="37447" wp="5686.2" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.14.012.20.0SR" amount="0" aid="e6qjcnWdY6s4H6uuKn2cXA" cid="37447" wp="7581.6" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.16.017.12.0SR" amount="0" aid="_doPostBack('__Page','drukuj_133010')" cid="37447" wp="8893.8" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.20.017.16.0SR" amount="0" aid="iZtNSoHXAptvok8AlVThiw" cid="37447" wp="8852.895" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.22.017.16.0SR" amount="10+" aid="cpU6DPuD9YhyS0gT9sptfw" cid="37447" wp="7435.8" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.22.019.16.0SR" amount="0" aid="XUQUKIIuc1LaiPn_aY8MFA" cid="37447" wp="7727.4" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.26.017.20.0SR" amount="0" aid="-gFVHwsrPeMiAXtiQ-GJgA" cid="37447" wp="7873.2" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.26.020.16.0SR" amount="0" aid="wwkEaQ7e6-MHNCE2MgEt8A" cid="37447" wp="8852.895" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.28.017.20.0SR" amount="0" aid="7BleTCJA9_G9owJioBrmFA" cid="37447" wp="8602.2" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.28.024.20.00R" amount="0" aid="00iW0lPyWfm_6weSK90h5A" cid="37447" wp="7406.64" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.28.024.25.00R" amount="0" aid="IljVL8UKykoUY_fIJn9DJA" cid="37447" wp="7406.64" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.28.031.20.00R" amount="0" aid="gIoV7fNFgdZXlZtvJwpd6w" cid="37447" wp="8342.595" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.28.031.25.00R" amount="0" aid="cF1XjUZuq7wOHrZG6mMsuw" cid="37447" wp="8342.595" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.30.018.20.0SR" amount="1" aid="9FoagPVxI-VO8EOUTYklsg" cid="37447" wp="8456.4" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.30.030.20.0SR" amount="0" aid="Xp6qYqM-6KOwjUaESVXrNw" cid="37447" wp="8602.2" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.31.006.06.0BR" amount="0" aid="Ad1SEjxONv3nhCY-gPY6Wg" cid="37447" wp="7290" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.32.025.20.0SR" amount="0" aid="RArByPttjtAQNwj8k-MRJw" cid="37447" wp="8748" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.33.019.20.0SR" amount="0" aid="k_qrkXOFCK-iHzj_Kta19A" cid="37447" wp="10643.4" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.58.022.20.0SR" amount="0" aid="sgdIxi207Q9tofVPulwKpA" cid="37447" wp="11809.8" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDT.60.041.20.0SR" amount="0" aid="FS0a5Q62mVZ16lU46hjliA" cid="37447" wp="10363.545" catn="PCD router cutter with top chamfer 45^0, series FDT"/>
+  <product ean="FDV.30.024.20.00R" amount="0" aid="R4V0b1BtzWf75YGFUXlmdw" cid="37465" wp="6983.82" catn="PCD router cutter with down chamfer 45^0, series FDV"/>
+  <product ean="FDV.30.024.25.00R" amount="0" aid="fS8RJqX2Yp_39l5tQkhmzQ" cid="37465" wp="6983.82" catn="PCD router cutter with down chamfer 45^0, series FDV"/>
+  <product ean="FDV.30.031.20.00R" amount="0" aid="I7vUKQvbhWl4Jut2ryaTCA" cid="37465" wp="7969.59" catn="PCD router cutter with down chamfer 45^0, series FDV"/>
+  <product ean="FDV.30.031.25.00R" amount="0" aid="99SxeYQa99CyoqPlxBlLoA" cid="37465" wp="7969.59" catn="PCD router cutter with down chamfer 45^0, series FDV"/>
+  <product ean="FDV.41.040.20.0SR" amount="0" aid="qnc44pMVwoXC6L8sDjwXSQ" cid="37465" wp="12684.6" catn="PCD router cutter with down chamfer 45^0, series FDV"/>
+  <product ean="FDV.85.016.25.0SR" amount="1" aid="_RPvuzlIz-yHCblqSAzQfg" cid="37465" wp="11372.4" catn="PCD router cutter with down chamfer 45^0, series FDV"/>
+  <product ean="FDE.24.014.20.00R" amount="0" aid="OHmKF3W6GPrMjb-k5Toy-w" cid="37492" wp="5648.13" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDE.24.025.20.00R" amount="0" aid="afrvIzSK2QB9TC79lc54kQ" cid="37492" wp="9039.6" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDE.28.012.20.0SR" amount="0" aid="yDsmZ-PD7l0qsOY058aH8A" cid="37492" wp="7873.2" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDE.30.018.20.0SR" amount="0" aid="uN1r_RrIT9S2twrhkLLylA" cid="37492" wp="7727.4" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDE.33.025.20.0SR" amount="0" aid="xOfbSQmj1gzAJD_gV_uTQA" cid="37492" wp="8310.6" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDE.36.006.20.0SR" amount="0" aid="fRcbyO_4-OjlZ0KEbRaEDw" cid="37492" wp="8893.8" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDE.36.008.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_1075879')" cid="37492" wp="8893.8" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDE.56.021.20.0SR" amount="0" aid="T2ahWkvemp1VoZ-ooskZdQ" cid="37492" wp="12976.2" catn="PCD router cutter with double chamfer, series FDE"/>
+  <product ean="FDJ.24.013.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_355687')" cid="37474" wp="7435.8" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.25.018.20.0SR" amount="0" aid="XRLyCUfK1YO-phidRQEN9g" cid="37474" wp="8310.6" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.25.025.20.0SR" amount="0" aid="EMY2TX85bgKoNDdfF0WgPg" cid="37474" wp="8310.6" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.32.016.20.0SR" amount="0" aid="nUwEtmBT3EdBkDVe7xeNYA" cid="37474" wp="9331.2" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.32.030.12.0SL" amount="0" aid="DfvXEz4YWRZSKwllw0RnLg" cid="37474" wp="9622.8" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.33.006.20.1SR" amount="0" aid="ytBwI3U6-S3GcbNAYYJSEQ" cid="37474" wp="7290" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.40.004.20.0SR" amount="0" aid="uBkmCQVMBhLHqoQc_5846A" cid="37474" wp="7144.2" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.40.016.20.08R" amount="0" aid="PTYghznDzmfDb58NKEXMMw" cid="37474" wp="7523.28" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.40.016.25.08R" amount="0" aid="p52fW0IH0dRjxU7U0p9FdQ" cid="37474" wp="7523.28" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.40.018.16.0SR" amount="0" aid="wC4jDzx-NW_ebkisCWReww" cid="37474" wp="8123.895" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.41.039.16.0SR" amount="0" aid="lgAOH94g5kqR_EI71VoLnw" cid="37474" wp="13145.49" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.42.018.20.09R" amount="0" aid="eNLI0HUzZI_LA4_Lq3hU_A" cid="37474" wp="8016.165" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.42.018.25.09R" amount="0" aid="p3uOFvEn6jM2a7oRTwkQXA" cid="37474" wp="8016.165" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.44.020.20.10R" amount="0" aid="oYp4RvJ3V56LfGXZCafX_Q" cid="37474" wp="8459.235" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.44.020.25.10R" amount="0" aid="7Sva83zAMUe7hqCTct5d4g" cid="37474" wp="8459.235" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.48.024.20.12R" amount="0" aid="7FzYHWlYdvSVy6wkJi2zqw" cid="37474" wp="11518.2" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.48.024.25.12R" amount="0" aid="-m8_Fx4g5W8SMjPuuAKV-g" cid="37474" wp="9328.365" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.50.022.25.0SR" amount="0" aid="Zlk7dfA44CilFiNh-F8acA" cid="37474" wp="10885.59" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.50.061.20.SRL" amount="0" aid="-nspC4j3Q_P89JjD4P5rcg" cid="37474" wp="14142.6" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.59.031.20.0SR" amount="0" aid="ktxEaFh8BZa7OObJlmxpxw" cid="37474" wp="13996.8" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDJ.69.040.20.0SR" amount="0" aid="dqi7J8aXP8RbKcH6Vu-Mmw" cid="37474" wp="17058.6" catn="PCD router BULLNOSE cutter, series FDJ"/>
+  <product ean="FDQ.08.002.08.0MR" amount="0" aid="XoKSpQnla_Dacoet11TjRQ" cid="37483" wp="6269.4" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.18.005.25.0SR" amount="0" aid="7UzlG7YmO5BXKWiujESRGw" cid="37483" wp="6415.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.18.008.08.03R" amount="0" aid="r8Nmg24El2VyRxbGY_t0Qw" cid="37483" wp="6269.4" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.21.006.12.0SR" amount="0" aid="jGaG1j5qjv2Zv1T8t_0noA" cid="37483" wp="5977.8" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.22.007.10.BSL" amount="0" aid="_doPostBack('__Page','drukuj_1082752')" cid="37483" wp="7144.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.22.007.10.BSR" amount="0" aid="_doPostBack('__Page','drukuj_1082686')" cid="37483" wp="7144.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.23.012.12.0SR" amount="0" aid="WTgyXKg_1H3K_Vg0yMF_KQ" cid="37483" wp="6706.8" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.23.020.08.0BR" amount="0" aid="k5MtpxxhyoVFuLz4B5OP3g" cid="37483" wp="6415.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.25.012.12.BSR" amount="0" aid="hPa3ZJxTpjP-DBg64418MQ" cid="37483" wp="7290" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.28.008.08.0SR" amount="0" aid="2dwbAWqYM9slqw3Mm_u0Bg" cid="37483" wp="6852.6" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.28.023.20.02R" amount="0" aid="kDhBtk6yFt_VDViWowrEPw" cid="37483" wp="9739.44" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.28.023.25.02R" amount="0" aid="bgy16KBzoG4V08R-ezB_ZQ" cid="37483" wp="7686.495" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.30.023.20.03R" amount="0" aid="rGlUCfRLiyMySPQtrSehMA" cid="37483" wp="7969.59" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.30.023.25.03R" amount="0" aid="fYJPdHYUZmE8jedhG44Yyw" cid="37483" wp="7969.59" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.32.023.20.04R" amount="0" aid="_doPostBack('__Page','drukuj_581683')" cid="37483" wp="8602.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.32.023.25.04R" amount="0" aid="JRPO7n_9z_xhDSobBZSpYg" cid="37483" wp="8062.74" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.34.023.20.05R" amount="0" aid="OJYKr9POGdLiKNpw_tswkg" cid="37483" wp="7552.44" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.34.023.25.05R" amount="0" aid="CQH2bPTngnaLdEk-TeIKvQ" cid="37483" wp="8225.955" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.35.020.16.0SR" amount="0" aid="_3ivRliUYeWZckEbyXK2og" cid="37483" wp="6561" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.37.036.20.0SR" amount="0" aid="RDpBLSGLvr_OL0tpBUWMng" cid="37483" wp="8436.15" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.37.036.20.1SR" amount="0" aid="gv6vjRk3lF3h2ULWoXcGJg" cid="37483" wp="10363.545" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.37.076.20.1SR" amount="0" aid="OpU95Tw1F2uaR-rGpYxHgQ" cid="37483" wp="8602.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.38.023.20.08R" amount="0" aid="bzPBeedbDaysat-0yW6knw" cid="37483" wp="8459.235" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.38.023.25.08R" amount="0" aid="-0Ror_p_m7BbNGAk8X8PdQ" cid="37483" wp="8459.235" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.46.027.25.0SR" amount="0" aid="lj6dNXF5ivI-YUR5m7O8NQ" cid="37483" wp="12247.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.48.016.20.1SR" amount="0" aid="9d5BeOY5_VDhMAVtNB-OFg" cid="37483" wp="9039.6" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.52.023.20.15R" amount="0" aid="Y0_6KSkV6eIIUCV3AD2LqA" cid="37483" wp="10789.2" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.53.010.20.0SR" amount="0" aid="OoDAVoF6ACoFuqRQwoD3Sg" cid="37483" wp="9477" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.60.005.16.0SR" amount="0" aid="IXNUM-A_Z2WfdV_-Qmxnlg" cid="37483" wp="7435.8" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.62.027.20.0SR" amount="0" aid="Hkd7R1xnia6UWNoQhhVPSA" cid="37483" wp="12101.4" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDQ.76.038.16.0SR" amount="0" aid="uyi_1zhsNOD_7lMSBk5qOg" cid="37483" wp="16329.6" catn="PCD router OVOLO cutter, series FDQ"/>
+  <product ean="FDF.15.013.16.0SR" amount="0" aid="fNuEB79ceXPJ_7bd9RGbgA" cid="37501" wp="6998.4" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.15.015.16.0SR" amount="0" aid="5RNdFETQDk59uF0lbJMqtw" cid="37501" wp="7144.2" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.20.017.20.1SR" amount="0" aid="8RJM-hziTzdnMyyGX97yhQ" cid="37501" wp="11226.6" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.22.021.20.0SR" amount="0" aid="Tr4db94_oiFRrcHico5o1A" cid="37501" wp="8748" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.24.020.20.1SR" amount="0" aid="NFKdVzlq0_p2Cc6CYrJU9Q" cid="37501" wp="8456.4" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.25.012.16.0SR" amount="0" aid="tOAU6gcoSSdJYm05vuDtHQ" cid="37501" wp="7771.14" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.28.016.20.01R" amount="1" aid="oG0C6f3hiOw4QZUlGiObBw" cid="37501" wp="8019" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.28.020.20.0SR" amount="0" aid="HJAe0NFdQxsLEl7aDJtnFg" cid="37501" wp="9039.6" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.30.016.20.02R" amount="0" aid="LU9Uu_BTXYxdmKFoSvuBNQ" cid="37501" wp="8748" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.30.020.20.04R" amount="0" aid="y8WLV-00gq98RtpCT59laQ" cid="37501" wp="8164.8" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.30.020.20.0SR" amount="0" aid="DPCULYr3TbNwP1-L5_ulfA" cid="37501" wp="8456.4" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.30.022.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_164864')" cid="37501" wp="7499.79" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.32.016.20.1SR" amount="0" aid="VgMyJjH_22WRh8pQ4NSQNQ" cid="37501" wp="12247.2" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.38.020.20.0SR" amount="0" aid="e58LMlOQVJoa6x90y1ukOw" cid="37501" wp="9914.4" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.38.022.20.1SR" amount="0" aid="T5hqcEqNqPhR-CAL1a2LeA" cid="37501" wp="14871.6" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.46.020.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_161443')" cid="37501" wp="9914.4" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.50.016.20.0SR" amount="0" aid="i7V4KCI9M_LeUV412eNxCg" cid="37501" wp="9185.4" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.50.016.25.1SR" amount="0" aid="5S6AmscsIuJ3gWr6-dQ-sg" cid="37501" wp="11955.6" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.65.030.20.1SR" amount="0" aid="dQcpJoY9ckGqowCQqoHeVw" cid="37501" wp="10643.4" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDF.70.054.20.0SR" amount="0" aid="REqgOOv4c_Shzjzd4dhSaw" cid="37501" wp="15309" catn="PCD router cutter with double radius, series FDF"/>
+  <product ean="FDU.19.014.12.0SR" amount="0" aid="vnUYoRX9Hwl0J6wI3x7vyA" cid="37510" wp="5977.8" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.25.014.16.0SR" amount="0" aid="sWmtx6eRTqg9cmnkp8oh0w" cid="37510" wp="9185.4" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.30.013.20.0SR" amount="0" aid="f32at8YMWBGGVboHmL4K6g" cid="37510" wp="8893.8" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.30.014.16.0SR" amount="0" aid="U5iwV_NLu5-FhKqDic7UcQ" cid="37510" wp="8456.4" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.35.143.16.0SR" amount="0" aid="njoFj-oVl-KWNyt7C6M7XQ" cid="37510" wp="8893.8" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.38.015.20.0SR" amount="0" aid="R-IOFCHn2lL1ACuEPD1WzA" cid="37510" wp="9622.8" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.38.018.12.0SR" amount="0" aid="nbxjevfQYW2f-EflGfsplw" cid="37510" wp="9331.2" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.40.014.16.1SR" amount="0" aid="RHCQwuFBHlThK-0AsSe71g" cid="37510" wp="8748" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.40.015.20.2SR" amount="2" aid="05ZnFTyBXaNic7jfprv5HA" cid="37510" wp="8019" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.40.018.20.3SR" amount="0" aid="j5nciKduIc_EE3pl1-_J1g" cid="37510" wp="8893.8" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.40.019.20.0SR" amount="0" aid="AQTjP8TTKDpopkN1SyQLhg" cid="37510" wp="10351.8" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.40.030.20.0SR" amount="0" aid="qPB_J532_cO9UTtADRtQ_Q" cid="37510" wp="10497.6" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.40.030.20.1SR" amount="0" aid="_cNckjjCg5dlu9QHp9y-8w" cid="37510" wp="12101.4" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.47.022.16.0SR" amount="0" aid="AxucKcFfjSzRhRpnm_cwUA" cid="37510" wp="8852.895" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.48.014.20.0SR" amount="0" aid="_L3H3WRkwPwS4FI9sGA11A" cid="37510" wp="9477" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.50.015.20.1SR" amount="0" aid="X7PPXkr2nfvpzmMnUDcPRw" cid="37510" wp="11226.6" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.72.021.20.0SR" amount="0" aid="YjLzdzFsQTrMVij6IvLqmw" cid="37510" wp="11226.6" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.80.020.20.0SR" amount="0" aid="JfOLB3OewzxZNh6AqDgzAg" cid="37510" wp="14871.6" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDU.86.019.20.1SR" amount="0" aid="7gv5j7IgraQ8TWRpH4wUGQ" cid="37510" wp="17204.4" catn="PCD router FINGER PULL cutter, series FDU"/>
+  <product ean="FDA.08.005.16.0SR" amount="0" aid="99P2RfvKHkH61lDY4_nCAA" cid="43535" wp="4665.6" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.09.006.08.0SR" amount="0" aid="yvdLQEkxYSyA60QN2lmd8w" cid="43535" wp="5394.6" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.09.009.08.0SR" amount="0" aid="IvWhyUkhSF9mTzkH7rsjNQ" cid="43535" wp="5394.6" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.12.009.16.0SR" amount="0" aid="vgNyHY13mWXNj1WjT8MGuA" cid="43535" wp="5394.6" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.12.010.12.0SR" amount="0" aid="jZoqZQRrCNd438iFBQBbMw" cid="43535" wp="5394.6" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.12.012.08.1SR" amount="0" aid="bARCXxvMuMT68QQC1Vi-Kg" cid="43535" wp="5686.2" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.120.016.20.0SR" amount="0" aid="qLM_IJKjolqeLam313qbZA" cid="43535" wp="16475.4" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.15.010.16.0SR" amount="0" aid="MfoB13VGy6ogptsPrGY8Vw" cid="43535" wp="5977.8" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.16.022.16.0SR" amount="0" aid="oymE8WSx_06S8N15mxiARQ" cid="43535" wp="8019" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.16.025.16.0SR" amount="1" aid="4ZVhwPY1Q8juCjjcjeKHgA" cid="43535" wp="10206" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.24.006.16.0SR" amount="0" aid="ddk28lda57yuWMebjys3Dw" cid="43535" wp="5832" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.34.038.20.0SR" amount="0" aid="1t0LX6UTc1H_vG8FDzrGxA" cid="43535" wp="10643.4" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.52.010.16.0SR" amount="2" aid="ZJD4kEwMIhmxTPmBgLJxvQ" cid="43535" wp="9185.4" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.59.049.20.0SR" amount="0" aid="66uWc2Q1AUCXaGy9USbkpQ" cid="43535" wp="14142.6" catn="FDA do czasz i korytek"/>
+  <product ean="FDA.62.055.20.0SR" amount="0" aid="Nw9Id5cIoa9xyOcdzRyz9w" cid="43535" wp="15163.2" catn="FDA do czasz i korytek"/>
+  <product ean="FFR.12.007.12.0SR" amount="0" aid="FFoM79V8raux9vlGVp1hVw" cid="43535" wp="6123.6" catn="FDA do czasz i korytek"/>
+  <product ean="FDI.12.005.12.0SL" amount="0" aid="dmNpXSjKqBcqkwDMz22t6g" cid="38203" wp="5248.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.12.016.20.0SR" amount="0" aid="sDLQJ3oIjJQsSWcqkUxv0g" cid="38203" wp="8698.59" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.12.183.20.01R" amount="0" aid="kP6TA7LCaVngR4292OxakA" cid="38203" wp="6770.79" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.12.183.20.03R" amount="1" aid="Fhy_Amzsh9Rk1R75RkBpmw" cid="38203" wp="0" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.12.186.20.04R" amount="0" aid="lN7Ccfo8IdV47yCEdTjgew" cid="38203" wp="6820.605" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.13.007.08.0SR" amount="0" aid="xO9qsfsYdW6LUkhSfVuD1g" cid="38203" wp="4957.2" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.13.009.12.1DR" amount="0" aid="yHP3v9amae1Vucc69GPxjA" cid="38203" wp="7217.1" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.16.019.12.0SR" amount="0" aid="xGYfPB3_rDGsMG0ytJCqsQ" cid="38203" wp="6269.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.18.013.25.0SR" amount="0" aid="XvqSbbuL7QZKNAO4lMdLwA" cid="38203" wp="6759.45" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.007.12.0SR" amount="0" aid="YNYd19DuqQeQ8Zm93KVM0A" cid="38203" wp="6561" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.016.20.1SR" amount="0" aid="TsRXFU1kJhbOv1gHspTSIA" cid="38203" wp="7873.2" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.017.16.0SR" amount="0" aid="U83WuiQtns1K8VVWRN85Qw" cid="38203" wp="9185.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.018.20.0SR" amount="0" aid="gVGLSXPbbDhQmfQlUYxEDg" cid="38203" wp="8602.2" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.018.20.2SR" amount="1" aid="_eRhyA0OJ0EmjyFLOQYx6w" cid="38203" wp="8893.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.018.20.3SR" amount="0" aid="_eHVKlg-Tz6YkH4xJHgwZg" cid="38203" wp="8893.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.018.20.SR2" amount="0" aid="1686aQO4ilW2SsyvZmjVHw" cid="38203" wp="8748" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.018.20.TR2" amount="0" aid="RlSIboXpNUwJpAjXuS5fHA" cid="38203" wp="8748" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.019.20.0SR" amount="9" aid="tgd8P8BQ27VFAy7P-2mdxg" cid="38203" wp="6852.6" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.020.20.0SR" amount="0" aid="E4jKNqx9uTsrU15WkVI-cA" cid="38203" wp="8587.62" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.183.20.02R" amount="0" aid="zuuEzTnV-4rNKTp-OEMQ1g" cid="38203" wp="8019" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.20.186.20.05R" amount="0" aid="xSm8vqNZ7CIc8TDak48O4w" cid="38203" wp="8310.6" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.21.016.20.0SR" amount="0" aid="pKLmN1UZSkb4Hp424-NAgA" cid="38203" wp="8473.815" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.21.019.20.0SR" amount="0" aid="ryYDAhBDmYTLJXoxCbLleQ" cid="38203" wp="6916.59" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.21.019.20.1SR" amount="0" aid="k2TdMCxBtqlIluMZzFo92A" cid="38203" wp="8310.6" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.22.004.08.BSR" amount="0" aid="OMWh1cTubqZDPHpATrfhIg" cid="38203" wp="6852.6" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.22.012.12.0SR" amount="0" aid="YIKA5Ex5VBqluLAU5HrEJw" cid="38203" wp="5394.6" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.22.016.20.SR4" amount="0" aid="PppwHOt7tP8LJhHXbs2aeg" cid="38203" wp="7435.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.22.018.16.0SR" amount="0" aid="M_yNTVFs_5dbcti5Sl0kNg" cid="38203" wp="8164.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.22.019.20.0SR" amount="5" aid="g8KBlZJG0s7lNje-w-zDVg" cid="38203" wp="7290" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.22.021.16.0SR" amount="0" aid="FzKpX5WBNAr9DezjtewlSw" cid="38203" wp="9914.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.23.018.12.0SR" amount="1" aid="4lCcOr7YxDZX-gLX6AHNKA" cid="38203" wp="8645.94" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.23.024.20.1SR" amount="0" aid="VZH3Yr7GK1hMjOuyFjTwlA" cid="38203" wp="8893.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.24.005.08.BSR" amount="0" aid="YOn9gAOfCi9t3EQpXo_wLw" cid="38203" wp="7144.2" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.24.018.20.1SR" amount="0" aid="Fplf--XzS8GGp67w1GHMbw" cid="38203" wp="8456.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.24.020.16.0SR" amount="0" aid="cV3wb6fGgKRWokgysFMkXQ" cid="38203" wp="9914.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.25.016.20.1SR" amount="0" aid="NjyUCxRRH5ypMpdCkq0s_Q" cid="38203" wp="8334.09" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.25.019.20.1SR" amount="0" aid="tjbGRLMrzBChm895KW3Npg" cid="38203" wp="8893.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.016.20.0SR" amount="4" aid="LI8Il1_VwnwEzj3inEmI6A" cid="38203" wp="6998.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.016.20.1SR" amount="2" aid="dcvMLtaweuYGm_Kwd_6wrA" cid="38203" wp="9331.2" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.017.25.0SR" amount="0" aid="nfl_7pL0CS5CFf9rRzqAhg" cid="38203" wp="7546.77" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.018.16.0SR" amount="1" aid="xFzJEYQkzkCMVINHGLeBuw" cid="38203" wp="8456.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.018.20.03R" amount="0" aid="uyKxMykVQ5_O_ksR2DoUzg" cid="38203" wp="7605.09" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.018.20.2SR" amount="0" aid="pNcJJC9JH1BLxymmEAcxTg" cid="38203" wp="8456.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.019.20.04R" amount="0" aid="4PsRhTVkPdzb7wTvtQ_4PQ" cid="38203" wp="8456.4" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.019.20.0SR" amount="0" aid="btkha1m21fCxr_1NTtcbCw" cid="38203" wp="8019" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.020.25.0SR" amount="0" aid="Eq4HemZcnc9Y1T0TLZIKcw" cid="38203" wp="8030.745" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.025.20.2SR" amount="0" aid="cPdpbU9rfetB6DGH9-5smQ" cid="38203" wp="9622.8" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.026.20.0SR" amount="2" aid="39WLw9eIZLJXvnSxJr2xiQ" cid="38203" wp="8310.6" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.26.027.16.VSR" amount="0" aid="IdZpqd-CeZB7l_aabEiDrQ" cid="38203" wp="10051.29" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDI.27.023.20.0SR" amount="0" aid="iD5lIa-8wbBnROJ7joQqLQ" cid="38203" wp="9322.29" catn="PCD router cutter with up radius, series FDI"/>
+  <product ean="FDG.100.018.25.1SR" amount="0" aid="9WZ_bUCJjmkKgVWLBv49Eg" cid="38214" wp="11873.79" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.125.010.20.0SR" amount="0" aid="uI4j9iCh8mk3KCd6DFJPTw" cid="38214" wp="16621.2" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.41.014.12.0SR" amount="2" aid="XKt2tA_G8-VCIILRaDXS3Q" cid="38214" wp="6511.59" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.44.018.25.0SR" amount="2" aid="nTOGMbbtmt9XsMrPWOQ5xQ" cid="38214" wp="9374.94" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.54.022.25.0SR" amount="0" aid="_doPostBack('__Page','drukuj_491035')" cid="38214" wp="10206" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.58.016.20.0SR" amount="0" aid="2Z7HMhPesO6I10XfLfvX2w" cid="38214" wp="11080.8" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.58.025.20.01R" amount="0" aid="Rx0B332zpgz8PmpXvQKgNQ" cid="38214" wp="11369.565" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.60.019.25.0SR" amount="0" aid="iracXQ2WhOef1j-JKgKn0A" cid="38214" wp="10060.2" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.68.022.20.0SR" amount="0" aid="FQ2oq4chu1oOLQ0QkHYVXQ" cid="38214" wp="13539.15" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.70.021.20.02R" amount="0" aid="uwNdUGceS2m63UHdHXf4Xw" cid="38214" wp="12757.5" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.72.020.20.0SR" amount="0" aid="-37KL1jbWrqq1aWBfJwApA" cid="38214" wp="10310.895" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.74.021.25.0SR" amount="0" aid="TaCZyx8fwMp08S3G6twMwA" cid="38214" wp="11926.44" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.78.019.25.0SR" amount="0" aid="4T3c4R7zOklkLEbwERoy9w" cid="38214" wp="10780.29" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.80.007.20.03R" amount="0" aid="0-mHmnwjOoqoz00vz_rXTA" cid="38214" wp="9634.545" catn="PCD router cutter, series FDG"/>
+  <product ean="FDG.86.035.20.0SR" amount="0" aid="Mep8rQTKrSuC-Ca0xveJ4A" cid="38214" wp="14288.4" catn="PCD router cutter, series FDG"/>
+  <product ean="FDP.100.010.25.0SR" amount="0" aid="ELprSsUtLnTjqx_2Ybk-YA" cid="38223" wp="10401.21" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.12.015.12.0SR" amount="0" aid="rlguEhl8AERzBEaxmjyOSQ" cid="38223" wp="3936.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.120.006.20.0SR" amount="0" aid="gjCPRdVSU-b235WUf-LGKw" cid="38223" wp="6905.25" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.140.006.20.0SR" amount="0" aid="Nss_UIVvHsJbs1TxYfc-MA" cid="38223" wp="6905.25" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.20.010.12.0SR" amount="0" aid="gKDrcuxk7Ppn3bHplmtFkQ" cid="38223" wp="6415.2" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.20.015.16.0SR" amount="0" aid="vr0REEArAlbjDDN-RsWQNQ" cid="38223" wp="7873.2" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.20.015.20.1SR" amount="1" aid="BWOk9wJtFT0AYAWEYMcEXw" cid="38223" wp="7144.2" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.25.006.16.0SR" amount="0" aid="cOtblqeGgtxDczQKtoiL9g" cid="38223" wp="6269.4" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.25.006.20.0SR" amount="0" aid="G7GUJxoEOQZR28-9Dx0LtA" cid="38223" wp="6905.25" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.25.015.20.0SR" amount="2" aid="wTx69YQaOFWEF3DpkjvgRQ" cid="38223" wp="8310.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.25.015.20.1SR" amount="3" aid="g3RdATnWUWAojTRinqE_rQ" cid="38223" wp="8310.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.30.006.20.0SR" amount="0" aid="a6RUZrfpDVWmWKLk_Hmpsw" cid="38223" wp="8019" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.30.014.20.0SR" amount="0" aid="Yy8_Ujk_wbLROgvYg2Kuww" cid="38223" wp="8456.4" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.30.016.16.0SL" amount="0" aid="tKP0UulAHDaFAjMB3ar93w" cid="38223" wp="6561" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.30.025.16.0SL" amount="0" aid="4XKMEXKNnfYeqfkcIoOCQA" cid="38223" wp="9185.4" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.35.012.16.0SR" amount="0" aid="gDf56VZOxaHFvugMEOo39Q" cid="38223" wp="11372.4" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.35.014.20.0SR" amount="0" aid="uE44QSToStbVYG31QUjfFg" cid="38223" wp="8602.2" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.35.015.20.0SR" amount="0" aid="hFsOrTmQh4mQHjWhhu9nbw" cid="38223" wp="10351.8" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.40.010.20.0SR" amount="0" aid="Ka72jjtnMTt3NeWpkX_81A" cid="38223" wp="8748" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.40.013.20.0SR" amount="0" aid="c_qqsq9C1MaSWeNLVCqoNQ" cid="38223" wp="9197.145" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.40.014.20.0SR" amount="0" aid="aEakbIAOxetpa5SvAS-n1g" cid="38223" wp="8310.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.40.014.20.1SR" amount="0" aid="_doPostBack('__Page','drukuj_1081333')" cid="38223" wp="8748" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.40.018.20.0SR" amount="0" aid="a1JyEmkCWUXWdWgLzJ7Mig" cid="38223" wp="10235.16" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.45.013.20.0SR" amount="0" aid="urDmYoKpmaO2lFbnSZxxDw" cid="38223" wp="8123.895" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.50.012.20.0SR" amount="0" aid="TkRZNplEAzkQBVRvjPEu3A" cid="38223" wp="8164.8" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.50.014.20.0SR" amount="0" aid="bvTtMHUnYbfnu5pUNQMzbw" cid="38223" wp="12754.665" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.50.014.20.1SR" amount="0" aid="ZbgGhePMdx-6FrHzwOPEJA" cid="38223" wp="8456.4" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.50.014.25.0SR" amount="0" aid="itajLbPA-5XLDhrn9UWNew" cid="38223" wp="11226.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.50.016.16.0SR" amount="0" aid="tC9R3W0bJcQ_WYDNDV1wZQ" cid="38223" wp="11226.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.60.006.20.0SR" amount="0" aid="7fdEk_dGENr_-5hptqzLMw" cid="38223" wp="7946.1" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.60.014.20.0SR" amount="0" aid="-ISY_kB3NA58y9ecOkV4Sg" cid="38223" wp="10206" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.60.018.20.0SR" amount="0" aid="ZJCMUVpO3wD1Rqna20Y9Tg" cid="38223" wp="12279.195" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.60.018.20.1SR" amount="0" aid="_doPostBack('__Page','drukuj_469022')" cid="38223" wp="14142.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.75.022.20.0SR" amount="0" aid="-mstCPWKY9R6HIOpXyGZgw" cid="38223" wp="12754.665" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.76.015.25.0SR" amount="0" aid="PEELY5Yj9HleLMxG88B_Mg" cid="38223" wp="16329.6" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.80.006.20.0SR" amount="0" aid="ZRUQ1ZWcjfrsQ3YaAFAGoQ" cid="38223" wp="9914.4" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.80.008.16.0SR" amount="0" aid="dA00zdxn6a-j5iQJUu6Ikg" cid="38223" wp="8071.65" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.80.008.20.0SR" amount="0" aid="htEAPwUs9WP6-YlicLStHA" cid="38223" wp="7435.8" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.80.008.20.1SR" amount="0" aid="iTbD-Kkpw_P4vMDBM8hyeA" cid="38223" wp="7435.8" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDP.80.015.20.0SR" amount="0" aid="Ys-Kxu0JhcX8USXML4j-vw" cid="38223" wp="15454.8" catn="PCD spoilboard surfacing router cutters, series FDP"/>
+  <product ean="FDR.31.004.20.00R" amount="0" aid="UAacH3AMjBzz03KrosuzSg" cid="38232" wp="6665.895" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.35.011.20.0SR" amount="0" aid="LL51tIOWM-XdY9ejhwEhsw" cid="38232" wp="7144.2" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.35.014.20.0SR" amount="0" aid="wkbEHXgAUp7PCeXL-9A2mg" cid="38232" wp="9054.18" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.35.016.20.0SR" amount="0" aid="is4VnYA0m_8XGp1DK-7GIA" cid="38232" wp="10351.8" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.40.025.20.0SR" amount="0" aid="b_veTtj6zjEEGx6jRFGv_Q" cid="38232" wp="12101.4" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.50.003.20.00R" amount="0" aid="rf-2BeX7swkAACFZSaFmXQ" cid="38232" wp="5292.54" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.50.004.20.00R" amount="0" aid="KacM_FeYH2XwJVxR332k4Q" cid="38232" wp="5292.54" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.50.005.20.00R" amount="0" aid="mFEYg8TsKxAkD0wbACt4KQ" cid="38232" wp="5292.54" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.50.032.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_581189')" cid="38232" wp="7290" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.50.064.20.00R" amount="0" aid="qCDttwHbgnnIRvgeMtBUuw" cid="38232" wp="5540.4" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.60.006.20.00R" amount="0" aid="EjZm6k0V964ItYVN9LNqEA" cid="38232" wp="8686.845" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.80.006.20.0SR" amount="0" aid="3h_fPR-xgY7sMhcARcOd1Q" cid="38232" wp="11664" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDR.80.007.20.0SR" amount="0" aid="xjaFDSfMqCwmH0ZcVQx7DQ" cid="38232" wp="11664" catn="PCD slot and grooving router cutters, series FDR"/>
+  <product ean="FDH.07.006.08.0SR" amount="0" aid="3gc1NZ0SoiBKFQS_SWBhBw" cid="38250" wp="5832" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.08.003.10.0SR" amount="0" aid="8OOJqu4p42TsdmJdKU2tKg" cid="38250" wp="6269.4" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.08.004.08.2MR" amount="0" aid="LU-Ow-L9YJK2XjqkzQAuAQ" cid="38250" wp="5394.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.080.030.20.A0R" amount="0" aid="vAXexTdj0ykCovsJbTMXBw" cid="38250" wp="10296.315" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.100.030.20.A1R" amount="0" aid="WlivXC0PojE2onzMdS-lOQ" cid="38250" wp="15017.4" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.115.045.20.0SR" amount="0" aid="JEzWLgWYMMNUbZFoNRGafw" cid="38250" wp="15571.44" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.115.045.20.1SR" amount="0" aid="sDKoysym6MFp8pKgAxhz0g" cid="38250" wp="18225" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.12.006.12.0SR" amount="0" aid="jsGdy-kafaoBZfHAG_6iXA" cid="38250" wp="4665.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.13.006.20.0SR" amount="0" aid="Au4p2mitDpENP7gPTe2mtg" cid="38250" wp="4665.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.13.012.12.0SR" amount="0" aid="J_JC-KkrePw4PE_29LY_Yw" cid="38250" wp="5832" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.15.007.16.0SR" amount="0" aid="7lX6GXv_h0SVu_71rJDBaw" cid="38250" wp="5394.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.15.032.12.0SR" amount="0" aid="-EDw9d9CCRNOkbkDsVnW9Q" cid="38250" wp="9039.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.16.014.16.0SR" amount="3" aid="6JCYg1IZTZE2dOyv6cClag" cid="38250" wp="5832" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.19.016.12.0SR" amount="0" aid="gbn-pwWnKpzBGdqV_DkOeg" cid="38250" wp="6415.2" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.20.005.16.0SR" amount="0" aid="U1s5OUAP114y1_kCZ444lQ" cid="38250" wp="6123.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.20.030.20.0SR" amount="0" aid="iPVMmzRdH_oQNHpw5JTx-w" cid="38250" wp="6415.2" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.20.962.20.0SR" amount="0" aid="7-HEQtBq_0n75SnGpz2oWg" cid="38250" wp="4374" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.22.011.16.0SR" amount="1" aid="MDDry9DK3mzNCg3MX9fR1w" cid="38250" wp="4374" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.22.014.16.0SR" amount="0" aid="K8bOFGlMXrHVemMLP3mGsg" cid="38250" wp="6561" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.27.012.20.0SR" amount="0" aid="47Iw012ZCQJJByu5Lk_7Jw" cid="38250" wp="7581.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.27.013.20.1SR" amount="0" aid="_doPostBack('__Page','drukuj_580606')" cid="38250" wp="7435.8" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.28.022.20.0SR" amount="0" aid="eSnE2v0IqbA9HGvrw6PG8w" cid="38250" wp="8228.79" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.29.016.20.0SR" amount="0" aid="aPVYk2dxtTgr2aXdNbTnQQ" cid="38250" wp="8456.4" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.30.010.20.1SR" amount="7" aid="kXmDhd84y0S-0BOguvmZTw" cid="38250" wp="5977.8" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.30.015.20.0SR" amount="0" aid="q6WRSzGozsyph0jd1gZ_uw" cid="38250" wp="5365.44" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.30.015.20.3SR" amount="0" aid="FlNll-ZSrzinRibfijTSxQ" cid="38250" wp="6415.2" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.30.015.20.4SR" amount="0" aid="LjCKtJ32-4HTpxZLMtBI8g" cid="38250" wp="11372.4" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.30.962.20.0SR" amount="0" aid="JHdpQCrXy0h5_KEX_rHcBQ" cid="38250" wp="0" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.32.009.20.0SR" amount="0" aid="p_WUSFcOq4PG2JV9TThojg" cid="38250" wp="7435.8" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.33.012.20.0SR" amount="0" aid="kHGObHkuTWREcIB5AczC5w" cid="38250" wp="8019" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.33.015.20.0SR" amount="5" aid="Q3xe_rJxXwuWqjRFEBuHkA" cid="38250" wp="5977.8" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.35.010.16.0SR" amount="4" aid="dgCvOcQEGlruRruVZ-gCQA" cid="38250" wp="7581.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.35.036.20.0SR" amount="0" aid="eJ3iT4hnU04dxE8yOnvlKA" cid="38250" wp="11226.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.38.009.20.0SR" amount="4" aid="Mw9T64Z0OGwh0OziHitB5Q" cid="38250" wp="6415.2" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.38.021.20.1SR" amount="0" aid="jVEBuMjIOoSC8plnim-8cw" cid="38250" wp="9477" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.38.028.12.0SR" amount="0" aid="2plgC0QdsXc7NzBP0xn5ZQ" cid="38250" wp="9477" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.40.007.20.1SR" amount="0" aid="9UxFuiOE0HKrkMwee0g62w" cid="38250" wp="7581.6" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.40.016.16.0SL" amount="0" aid="prJS4NnFZgrMAC9XzLYNng" cid="38250" wp="7144.2" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.40.020.20.0SR" amount="0" aid="GC5WQE0O-awfsf857lvhwg" cid="38250" wp="8893.8" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.42.012.20.0SR" amount="1" aid="c0bqcu5YMNugLXNEUfO4Kg" cid="38250" wp="8748" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.44.020.16.0SR" amount="0" aid="-afIJ86_LUbnzLzA0v5RzA" cid="38250" wp="9547.065" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.44.020.16.1SR" amount="0" aid="AoH--JSJUhbmgG0cMIQ8Yw" cid="38250" wp="0" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.44.020.16.2SR" amount="0" aid="_y8yQg9DVueOwWr09qvbVw" cid="38250" wp="0" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.45.013.20.00R" amount="0" aid="lyDmvOOg-gjco4LJs14iqw" cid="38250" wp="5782.59" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.45.013.20.01R" amount="0" aid="Aj3qTqtAeOWHgHVg4_abAg" cid="38250" wp="7260.84" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.46.023.20.1SR" amount="0" aid="R6o1CSS9KGaW3FbhuuBMpg" cid="38250" wp="12538.8" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.48.011.20.0SR" amount="0" aid="ypBX5qg1-SGdfNYkAGXbGw" cid="38250" wp="9185.4" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.48.111.20.0SR" amount="0" aid="eVvmfMTdR5o_45L5iAGJzg" cid="38250" wp="7144.2" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.50.008.20.0SR" amount="1" aid="n2h9FVCmqvSx3UTTtSgkzg" cid="38250" wp="7290" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDH.50.025.20.0SR" amount="1" aid="_xkgFgIuEfhQ3O05VDAc6Q" cid="38250" wp="8019" catn="Profiled PCD router bit for chamfering, series FDH"/>
+  <product ean="FDQ.37.076.20.0SR" amount="0" aid="BoFnRNpGMehgxtel9RU6yg" cid="38259" wp="8602.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.20.005.20.1SR" amount="0" aid="DdoqPRGyT9I54ASFVfqlAQ" cid="38259" wp="4957.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.20.015.12.0SR" amount="0" aid="_doPostBack('__Page','drukuj_1064718')" cid="38259" wp="4957.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.21.007.20.1SR" amount="0" aid="OFyeBPlDgcPO1bFIyZmAXQ" cid="38259" wp="6415.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.22.014.20.0SR" amount="1" aid="SiZ4UwP9RtGMmo-TLVWRyA" cid="38259" wp="10206" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.23.026.25.2SR" amount="0" aid="PhJ82S6LSkzp4JyIdYba7g" cid="38259" wp="8748" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.24.005.10.0SR" amount="0" aid="Gxt9ofg57XDF1DF-nmTdcw" cid="38259" wp="7581.6" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.25.046.25.0SR" amount="1" aid="AwnKk6-Fqv880CoE7GR4BQ" cid="38259" wp="12247.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.26.006.12.0SR" amount="1" aid="cIdo6SzriB_WHfiJBo10jA" cid="38259" wp="6998.4" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.30.005.12.0SR" amount="0" aid="HFR3OCo4oa62jbZmb1a7eA" cid="38259" wp="7144.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.31.021.25.0SR" amount="1" aid="zWDrwvNbZckjqMaWMQVQlQ" cid="38259" wp="10415.79" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.32.007.20.0SR" amount="0" aid="dJeWAwirxBjZG588HMnQ_Q" cid="38259" wp="9039.6" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.34.008.20.2SR" amount="0" aid="3AUfbdfPnc4RkQEbje8MhQ" cid="38259" wp="8019" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.35.224.20.0SR" amount="0" aid="OSdkEn-Mt4UVEQVtMZqPSw" cid="38259" wp="0" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.36.037.20.0SR" amount="0" aid="PQ-a5GfyebcPThCn7FPKsg" cid="38259" wp="10789.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.37.022.25.0SR" amount="1" aid="TUOMRjvuaiiwE711K3F3nA" cid="38259" wp="6770.79" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.38.015.25.0SR" amount="0" aid="WFRk7_eWo6xAutSf0jUAEg" cid="38259" wp="7873.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.38.024.20.0SR" amount="0" aid="2N0gn_gz_HguzVNxgKE7dg" cid="38259" wp="11226.6" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.39.020.20.1SR" amount="0" aid="1iw0ZD8FUBAu1F5n9nzSpw" cid="38259" wp="10060.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.39.020.20.2SR" amount="1" aid="bQ9Lab8mtG5tM9V2rEVt1Q" cid="38259" wp="10351.8" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.40.006.20.0SR" amount="0" aid="F2O_FON6geJhz_3X6moVjQ" cid="38259" wp="8164.8" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.40.018.20.0SR" amount="0" aid="0LX7YapRG6a3iqnWPTyBIw" cid="38259" wp="8602.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.40.019.20.0SR" amount="0" aid="-80YKtJEHebjh9wnTW4RFw" cid="38259" wp="8071.65" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.42.008.20.0SR" amount="0" aid="IkBihgKiW2_bKnBUO8cAnw" cid="38259" wp="8748" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.44.008.20.0SR" amount="0" aid="ajk58bnlx-0QaNo1TdsMsg" cid="38259" wp="8019" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.46.007.20.0SR" amount="3" aid="M-pDiKdiwjE3nw_sPa3iGQ" cid="38259" wp="7435.8" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.46.945.20.0SR" amount="0" aid="XW8TOEJGZHdZHXULZjpjNQ" cid="38259" wp="0" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.52.024.20.0SR" amount="0" aid="MIWgZ26-SL7tdMkIsfLa1w" cid="38259" wp="11518.2" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.57.012.20.0SR" amount="0" aid="rf95U5y6GgyPXRwSNUvJ1Q" cid="38259" wp="9039.6" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.57.018.20.0SR" amount="0" aid="dWfyNHfPeYhpgz_1e4A5RA" cid="38259" wp="11226.6" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.57.019.20.1SR" amount="0" aid="l9JmSSR9Xn7I7cdbEYk-Mw" cid="38259" wp="12684.6" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.62.018.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_1046117')" cid="38259" wp="11226.6" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FFR.62.035.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_1072935')" cid="38259" wp="9622.8" catn="PCD complete set for decorating, series FFR.SET.A"/>
+  <product ean="FDH.20.009.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_580597')" cid="38277" wp="4823.145" catn="PCD complete set for decorating, series FFR.SET.B"/>
+  <product ean="FDH.30.009.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_580615')" cid="38277" wp="5931.225" catn="PCD complete set for decorating, series FFR.SET.B"/>
+  <product ean="FFR.35.022.20.0SR" amount="0" aid="_doPostBack('__Page','drukuj_581144')" cid="38277" wp="9374.94" catn="PCD complete set for decorating, series FFR.SET.B"/>
+  <product ean="FDH.22.011.16.0SR" amount="1" aid="xTjc6DRKFSKG9v1ZkLjLJg" cid="42840" wp="4374" catn="Diamond profile cutters"/>
+  <product ean="FDH.30.010.20.1SR" amount="7" aid="-DJM77Jrz_-7hP7lqGoSBA" cid="42840" wp="5977.8" catn="Diamond profile cutters"/>
+  <product ean="FDH.30.015.20.3SR" amount="0" aid="TQkGr0Cst_uE8qoum0gWPQ" cid="42840" wp="6415.2" catn="Diamond profile cutters"/>
+  <product ean="FDH.33.015.20.0SR" amount="5" aid="GI_2UEtQ2-jtwxaJB6ZZ8g" cid="42840" wp="5977.8" catn="Diamond profile cutters"/>
+  <product ean="FDH.38.009.20.0SR" amount="4" aid="YVZG_ML609Mx63X3Yf--4A" cid="42840" wp="6415.2" catn="Diamond profile cutters"/>
+  <product ean="FDH.50.008.20.0SR" amount="1" aid="y8hcRD3DP0ZSDTpIoeSKXw" cid="42840" wp="7290" catn="Diamond profile cutters"/>
+  <product ean="FDH.50.025.20.0SR" amount="1" aid="jvIpwgI2f9sJeoUr1pufvA" cid="42840" wp="8019" catn="Diamond profile cutters"/>
+  <product ean="FDI.20.019.20.0SR" amount="9" aid="nDmjgY7XUb8_Oot7xH_dJw" cid="42840" wp="6852.6" catn="Diamond profile cutters"/>
+  <product ean="FDI.21.019.20.1SR" amount="0" aid="cq3cV0Wv7_dk0_NthJc2bw" cid="42840" wp="8310.6" catn="Diamond profile cutters"/>
+  <product ean="FDI.22.019.20.0SR" amount="5" aid="o6LB3S-V8mCTcUU2-mdB6Q" cid="42840" wp="7290" catn="Diamond profile cutters"/>
+  <product ean="FDI.26.016.20.0SR" amount="4" aid="YVlGxnd7JXt_gaHrYTPE2Q" cid="42840" wp="6998.4" catn="Diamond profile cutters"/>
+  <product ean="FDI.28.019.25.0SR" amount="0" aid="fDoFw3UEWQo5SanFhBOz0w" cid="42840" wp="7144.2" catn="Diamond profile cutters"/>
+  <product ean="FDI.28.024.20.0SR" amount="0" aid="Qqe-8b4_fcd8xSNVkBQ_7A" cid="42840" wp="8019" catn="Diamond profile cutters"/>
+  <product ean="FDL.09.028.12.1DR" amount="0" aid="1JSYMqP7YXGto0cRWIi2Og" cid="42840" wp="10351.8" catn="Diamond profile cutters"/>
+  <product ean="FDP.80.008.20.1SR" amount="0" aid="W3WpZHetIcc--KW52FeJ0Q" cid="42840" wp="7435.8" catn="Diamond profile cutters"/>
+  <product ean="FDT.22.017.16.0SR" amount="10+" aid="CQZYU0cpqLAnemhtKq7pAw" cid="42840" wp="7435.8" catn="Diamond profile cutters"/>
+  <product ean="FDT.22.019.16.0SR" amount="0" aid="lQlfD7_MdG5dEic4bdA5iQ" cid="42840" wp="7727.4" catn="Diamond profile cutters"/>
+  <product ean="FDU.40.015.20.2SR" amount="2" aid="jqcB6-OSG7t0JQ2lP0dhgg" cid="42840" wp="8019" catn="Diamond profile cutters"/>
+  <product ean="FFR.25.019.20.1SR" amount="0" aid="k8fhcgvJMMc5EJ21rJAahQ" cid="42840" wp="5297.4" catn="Diamond profile cutters"/>
+  <product ean="FFR.46.007.20.0SR" amount="3" aid="XD3oebg3ygIO_zhRLvjUxQ" cid="42840" wp="7435.8" catn="Diamond profile cutters"/>
+  <product ean="FFR.54.016.20.0SR" amount="0" aid="hq7aAlk3jTGSzOKV8I38LA" cid="42840" wp="9622.8" catn="Diamond profile cutters"/>
+  <product ean="FFR.60.022.25.0SR" amount="0" aid="zjAr13W0w3Vo50pLSD9UhA" cid="42840" wp="13267.8" catn="Diamond profile cutters"/>
+</root_product>

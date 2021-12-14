@@ -150,9 +150,21 @@ function getItaInfo(string $artikul, string $cookieSearch, object $client, strin
 }
 
 
-$cookie = 'mistral=md5=5CF8AF96B465FC3C85E4A9B2718A203B; _ga=GA1.2.1362453477.1607516709; czater__first-referer=https://b2b-itatools.pl/Default.B2B.aspx; czater__63d2198880f9ca34993a3cc417bc1912fd5fb897=eae29a7bfd11b99d10de1c243836d880; ASP.NET_SessionId=0210mkeidqvj3xg5ka1ss3jh; _gid=GA1.2.589065378.1625689549; _gat=1';
+$cookie = 'mistral=md5=61250E72C58AAA6AE675A424AFB42D67; _ga=GA1.2.1910299678.1625828240; smvr=eyJ2aXNpdHMiOjMsInZpZXdzIjoyMSwidHMiOjE2MzM1ODgyODQ3MzYsIm51bWJlck9mUmVqZWN0aW9uQnV0dG9uQ2xpY2siOjAsImlzTmV3U2Vzc2lvbiI6ZmFsc2V9; smuuid=17be5bac9e4-2cd94eb94f4e-9942bc3f-7a637464-8f34a8ef-a1b1a0de73e7; smclient=6234972f-3221-4ed3-93d8-50ee2fc95330; ASP.NET_SessionId=tnem403bka3dbwdo4e2mzhfq; _gid=GA1.2.2095113585.1633541387; _smvs=NEXT; _gat=1';
 
+/*
+prepare rows to ITA -> DB
 
+update ita_products 
+set itaInfoStatus_id = 0 
+where product_id in (
+
+SELECT ip.product_id
+	FROM ita_products ip 
+WHERE ip.itaInfoStatus_id =3
+    and ip.status_id = 3
+    and ip.dt < '2021-10-06 00:00:00')
+	*/
 
 $db = new DataSource();
 $conn = $db->getConnection();
@@ -168,6 +180,7 @@ LIMIT 500";
 
 $result = $db->select($top10Rows);
 if (! empty($result)) {
+	$i = 1;
 	foreach ($result as $row) {	
 		$catalogIndex = $row['productnumber'];
 		$artikul = $row['artikul'];
@@ -205,13 +218,14 @@ if (! empty($result)) {
 				
 				// set ita status to ArtikulSuccess
 				updateItaInfoStatus($db, $row['id'], 3, $cnt, $price1d, $price2d, $webprice, $sellPrice, $errorMsg);
-				echo "$catalogIndex   Count: $cnt   discount price: $price1 EUR   price: $price2 EUR web price: $webprice CZK<br/>";
+				echo "$i   $catalogIndex   Count: $cnt   disc. price: $price1 EUR   price: $price2 EUR web price: $webprice CZK<br/>";
 			} else {
 				// set ita status to ArtikulFailed
 				updateItaInfoStatus($db, $row['id'], 2, $cnt, 0, 0, 0, 0, $errorMsg);
 				echo "$catalogIndex   ErrorMsg $errorMsg<br/>";
 			}
 			
+			$i++;
 			//echo "======= Finish $catalogIndex $artikul =======<br/>";
 		}
 	}
@@ -315,7 +329,7 @@ $(document).ready(function() {
 </head>
 
 <body>
-    <h2>Get ITA info. </h2>
+    <h2>ITA amount, prices -> DB. </h2>
 
     <div id="response"
         class="<?php if(!empty($type)) { echo $type . " display-block"; } ?>">

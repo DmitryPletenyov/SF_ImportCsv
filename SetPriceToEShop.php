@@ -18,10 +18,22 @@ FROM `products` as p
 	join ita_products as ip on ip.product_id = p.id
     join price_evaluation as pe on p.productnumber = pe.productnumber
 where ip.itaInfoStatus_id = 3 	
+/*
+and p.productnumber in('DSB.200020036.004',
+'DSB.200045036.004',
+'P28.460030072.00W',
+'P28.460075072.00W',
+'FS1.20.055.120.25L',
+'FS9.50.050.110.20R')
+  */
+  
+	and ip.webShopUpdated < '2021-12-13 00:00:00'
+	
     /*and ip.webprice > 0*/
     /*and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null) */
-	and pe.category_id = 134	
+	/*and pe.category_id = 134*/	
 	
+	limit 500
 	";
 	
 if (isset($_POST["db_eshop"])) {
@@ -65,7 +77,7 @@ where ip.itaInfoStatus_id = 3
 		$i = 1;
 		foreach ($result as $row) {
 			echo "$i   :   ".$row['productnumber']."   :   ";
-			updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $row['productId'], $row['AmountNew'], $row['webPriceNew'], $row['sellPriceNew'], $row['productnumber'], true ); /* hidden product*/
+			updateSingleProduct($token, $jsonResponse, $apiServer, $apiKey, $row['productId'], $row['AmountNew'], $row['webPriceNew'], $row['sellPriceNew'], $row['productnumber'], false ); /* hidden product*/
 			setWebShopUpdated($db, $row['Id']);
 			echo "</br>";
 			$i++;
@@ -80,16 +92,26 @@ where ip.itaInfoStatus_id = 3
 	$sqlSelect = "SELECT (ip.availability * 1) AS amount, ROUND(ip.webprice, 2) as webprice, ROUND(ip.sellprice, 2) as sellprice, p.id, p.productId, p.productnumber, p.name, p.picture, p.description
 FROM `products` as p 
 	join ita_products as ip on ip.product_id = p.id
-where ip.itaInfoStatus_id = 3 and ip.webprice > 0";
+where ip.itaInfoStatus_id = 3 
+/* and ip.webprice > 0 */
+";
 	$result = $db->select($sqlSelect);
     if (! empty($result)) {
+		/*
 		$xml = '<root_product pictureUrlStarts="https://www.stopkovefrezy.cz/fotky101456/fotos/">';
+		*/
+		$xml = '<root_product>';
 		
 		foreach ($result as $row) {
+			/*
 			$xml .= '<product productnumber="'.$row['productnumber'].'" amount="'.$row['amount'].'" webPrice="'.$row['webprice'].
 			'" sellPrice="'.$row['sellprice'].'" pic="'.$row['picture'].'" productId="'.$row['productId'].'">'.
 			'<name>'.$row['name'].'</name>'.
 			'<description><![CDATA['.$row['description'].']]></description>'.
+			'</product>';
+			*/
+			// amount only
+			$xml .= '<product productnumber="'.$row['productnumber'].'" amount="'.$row['amount'].'" >'.
 			'</product>';
 		}
 			

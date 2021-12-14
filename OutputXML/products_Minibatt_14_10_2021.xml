@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<root_product>
+  <product productnumber="MB-FR80" amount="0"/>
+  <product productnumber="MB-FS80B" amount="10+"/>
+  <product productnumber="MB-FS80T" amount="10+"/>
+  <product productnumber="MB-FI80" amount="0"/>
+  <product productnumber="MB-PWDIST" amount="8"/>
+  <product productnumber="MB-ADP-1-USB" amount="10+"/>
+  <product productnumber="MB-FLY" amount="10+"/>
+  <product productnumber="MB-ICHAR" amount="0"/>
+  <product productnumber="MB-MODULAR" amount="10+"/>
+  <product productnumber="MB-PAD" amount="5"/>
+  <product productnumber="MB-PADBW" amount="10+"/>
+  <product productnumber="MB-PWAIRW" amount="10+"/>
+  <product productnumber="MB-PWCUP" amount="10+"/>
+  <product productnumber="MB-STUP" amount="2"/>
+  <product productnumber="MB-USLIM-B" amount="10+"/>
+  <product productnumber="MB-PHBOX" amount="10+"/>
+  <product productnumber="MB-PWDRIVE" amount="4"/>
+  <product productnumber="MB-PWTABLE" amount="0"/>
+  <product productnumber="MB-PGOO" amount="7"/>
+</root_product>
