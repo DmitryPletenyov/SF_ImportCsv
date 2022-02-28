@@ -6,6 +6,7 @@ include "help-functions.php";
 require_once 'DataSource.php';
 $db = new DataSource();
 $conn = $db->getConnection();
+set_time_limit(0);
 
 function setWebShopUpdated (object $db, int $productId) {	
 	$sql = "UPDATE `ita_products` SET webShopUpdated = now() WHERE product_id = $productId"; 
@@ -17,52 +18,19 @@ $sqlSelect = "SELECT p.amountInStock as AmountOld, (ip.availability * 1) AS Amou
 FROM `products` as p 
 	join ita_products as ip on ip.product_id = p.id
     join price_evaluation as pe on p.productnumber = pe.productnumber
-where ip.itaInfoStatus_id = 3 	
-/*
-and p.productnumber in('DSB.200020036.004',
-'DSB.200045036.004',
-'P28.460030072.00W',
-'P28.460075072.00W',
-'FS1.20.055.120.25L',
-'FS9.50.050.110.20R')
-  */
-  
-	and ip.webShopUpdated < '2021-12-13 00:00:00'
+where ip.itaInfoStatus_id = 3 	  
+	and ip.webShopUpdated < '2022-02-15 00:00:00'
 	
     /*and ip.webprice > 0*/
     /*and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null) */
 	/*and pe.category_id = 134*/	
 	
-	limit 500
+	limit 1000
 	";
 	
 if (isset($_POST["db_eshop"])) {
 
-	/*
-	('193.160.11XTR', 		
-'193.120.11XTR', 		
-'195.120.11XTR', 		
-'195.121.11XTR', 		
-'195.161.11XTR', 		
-'195.160.11XTR', 		
-'195.165.11XTR', 		
-'195.200.11XTR', 		
-'195.201.11XTR', 		
-'195.164.11XTR', 		
-'DTM.12.019.12.1DRN', 	
-'195.100.11XTR') 
 
-	'DTE.10.022.12.0DL' - failed
-	
-	$sqlSelect = "SELECT p.amountInStock as AmountOld, (ip.availability * 1) AS AmountNew, p.price as PriceOld, ip.webprice as PriceNew, p.id, p.productId, p.productnumber 
-FROM `products` as p 
-	join ita_products as ip on ip.product_id = p.id
-where ip.itaInfoStatus_id = 3 
-	and (p.amountInStock = (ip.availability * 1) or ABS(ip.webprice - p.price) < 1)
-    and ip.webprice > 0
-    and (ip.webShopUpdated < p.dt or ip.webShopUpdated is null) 
-	LIMIT 2";
-	*/
 	$result = $db->select($sqlSelect);
     if (! empty($result)) {
 		$all = createCurlConnection();
@@ -70,9 +38,6 @@ where ip.itaInfoStatus_id = 3
 		$jsonResponse = $all[1];
 		$apiServer = $all[2];
 		$apiKey = $all[3];
-		/*$curl = curl_init();*/
-		
-		/*var_dump($all);*/
 		
 		$i = 1;
 		foreach ($result as $row) {
@@ -82,11 +47,7 @@ where ip.itaInfoStatus_id = 3
 			echo "</br>";
 			$i++;
 			//echo $row['productnumber']." ".$row['productId']." ".$row['AmountNew']." ".$row['PriceNew']." </br>"; 
-			
-
 		}
-		
-		//curl_close($curl);
 	}	
 } else if (isset($_POST["ita_db_xml"])) {
 	$sqlSelect = "SELECT (ip.availability * 1) AS amount, ROUND(ip.webprice, 2) as webprice, ROUND(ip.sellprice, 2) as sellprice, p.id, p.productId, p.productnumber, p.name, p.picture, p.description

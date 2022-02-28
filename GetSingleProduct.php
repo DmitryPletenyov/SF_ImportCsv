@@ -9,7 +9,11 @@ use Phppot\DataSource;
 
 require_once 'DataSource.php';
 
+// https is ok
 $client = HttpClient::create();
+
+//  https is not ok
+//$client = HttpClient::create(['verify_peer' => false, 'verify_host' => false]);
 
 function executeGet(string $url, string $cookie, object $client) {
 	$response = $client->request('GET',     $url,
@@ -154,6 +158,7 @@ $cookie = 'mistral=md5=61250E72C58AAA6AE675A424AFB42D67; _ga=GA1.2.1910299678.16
 
 /*
 prepare rows to ITA -> DB
+template SQL 
 
 update ita_products 
 set itaInfoStatus_id = 0 
@@ -168,15 +173,17 @@ WHERE ip.itaInfoStatus_id =3
 
 $db = new DataSource();
 $conn = $db->getConnection();
+set_time_limit(0);
 
 $top10Rows = 
 "Select p.id, p.productnumber, ip.status_id, ip.itaInfoStatus_id, ip.artikul 
 from products p
 	LEFT JOIN ita_products ip ON p.id = ip.product_id
 WHERE ip.status_id = 3 AND ip.itaInfoStatus_id  = 0
+/* AND ip.dt from last run date till today*/  
 	/*AND (ip.dt > '2021-05-14 14:36:40' and ip.dt < '2021-05-14 15:49:01' )*/
 ORDER BY id 
-LIMIT 500";
+LIMIT 1000";
 
 $result = $db->select($top10Rows);
 if (! empty($result)) {
